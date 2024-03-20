@@ -1,0 +1,2016 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://iec.ch/TC57/2007/profile#"
+     xml:base="http://iec.ch/TC57/2007/profile"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:msg="http://langdale.com.au/2005/Message#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:uml="http://langdale.com.au/2005/UML#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://iec.ch/TC57/2007/profile">
+        <rdfs:label>Profile</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f0e -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f0e">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Seconds"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f11 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f11">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f14 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f14">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f1a -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f1a">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Seconds"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f1d -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f1d">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f20 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f20">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f2b -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f2b">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f2e -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f2e">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f31 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f31">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f3c -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f3c">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f47 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f47">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f52 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f52">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Voltage"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f55 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f55">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Voltage"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f68 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f68">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f6b -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f6b">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f96 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f96">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Seconds"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f9c -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f9c">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f9f -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7f9f">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fa2 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fa2">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#CurrentFlow"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fa9 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fa9">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fac -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fac">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fb3 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fb3">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fb6 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fb6">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fc9 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fc9">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Voltage"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fcc -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fcc">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fd3 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fd3">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fd6 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fd6">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fd9 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fd9">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fe8 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fe8">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#ApparentPower"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7feb -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7feb">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7ff2 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7ff2">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7ff5 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7ff5">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7ff8 -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7ff8">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- _:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fff -->
+
+    <rdfs:Datatype rdf:about="_:genid-nodeid-Xd2X52a0c460Xa3X18e5b74edf0Xa3X-7fff">
+        <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2007/profile#Frequency"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ApparentPower -->
+
+    <rdfs:Datatype rdf:about="http://iec.ch/TC57/2007/profile#ApparentPower"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#CurrentFlow -->
+
+    <rdfs:Datatype rdf:about="http://iec.ch/TC57/2007/profile#CurrentFlow"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Frequency -->
+
+    <rdfs:Datatype rdf:about="http://iec.ch/TC57/2007/profile#Frequency"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Seconds -->
+
+    <rdfs:Datatype rdf:about="http://iec.ch/TC57/2007/profile#Seconds"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Voltage -->
+
+    <rdfs:Datatype rdf:about="http://iec.ch/TC57/2007/profile#Voltage"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error1 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error1"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error10 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error10"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error11 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error11"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error12 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error12"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error13 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error13"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error14 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error14"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error15 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error15"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error16 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error16"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error17 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error17"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error18 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error18"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error19 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error19"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error2 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error20 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error20"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error21 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error21"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error22 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error22"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error23 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error23"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error24 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error24"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error25 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error25"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error26 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error26"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error27 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error27"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error28 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error28"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error29 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error29"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error3 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error3"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error30 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error30"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error31 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error31"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error32 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error32"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error33 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error33"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error34 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error34"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error4 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error4"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error5 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error6 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error6"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error7 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error7"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error8 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error8"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error9 -->
+
+    <rdfs:Datatype rdf:about="http://org.semanticweb.owlapi/error#Error9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Bay.Substation -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Bay.Substation"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Bay.VoltageLevel -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Bay.VoltageLevel"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ConductingEquipment.BaseVoltage -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#ConductingEquipment.BaseVoltage"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ConnectivityNode.ConnectivityNodeContainer -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNode.ConnectivityNodeContainer"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer.ConnectivityNodes -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer.ConnectivityNodes"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Equipment.EquipmentContainer -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Equipment.EquipmentContainer"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#EquipmentContainer.Equipments -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#EquipmentContainer.Equipments"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#PSRType.PowerSystemResources -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#PSRType.PowerSystemResources"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#PowerSystemResource.PSRType -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#PowerSystemResource.PSRType"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#SubGeographicalRegion.Region -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#SubGeographicalRegion.Region"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Substation.Region -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Substation.Region"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Terminal.ConductingEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Terminal.ConductingEquipment"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Terminal.ConnectivityNode -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Terminal.ConnectivityNode"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Terminal.phases -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#Terminal.phases"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#VoltageLevel.BaseVoltage -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel.BaseVoltage"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#VoltageLevel.Substation -->
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel.Substation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ACDCTerminal.connected -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#ACDCTerminal.connected"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ACDCTerminal.sequenceNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#ACDCTerminal.sequenceNumber"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#BaseFrequency.frequency -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#BaseFrequency.frequency"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#BasePower.basePower -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#BasePower.basePower"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#BaseVoltage.nominalVoltage -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#BaseVoltage.nominalVoltage"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Bay.bayEnergyMeasFlag -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Bay.bayEnergyMeasFlag"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Bay.bayPowerMeasFlag -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Bay.bayPowerMeasFlag"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Breaker.inTransitTime -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Breaker.inTransitTime"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Equipment.aggregate -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Equipment.aggregate"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Equipment.inService -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Equipment.inService"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Equipment.networkAnalysisEnabled -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Equipment.networkAnalysisEnabled"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Equipment.normallyInService -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Equipment.normallyInService"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#IdentifiedObject.aliasName -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#IdentifiedObject.aliasName"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#IdentifiedObject.description -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#IdentifiedObject.description"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#IdentifiedObject.mRID -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#IdentifiedObject.mRID"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#IdentifiedObject.name -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#IdentifiedObject.name"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.locked -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.locked"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.normalOpen -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.normalOpen"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.open -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.open"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.ratedCurrent -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.ratedCurrent"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.retained -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.retained"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.switchOnCount -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.switchOnCount"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch.switchOnDate -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#Switch.switchOnDate"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.controlEnabled -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.controlEnabled"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.highStep -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.highStep"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.initialDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.initialDelay"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.lowStep -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.lowStep"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.ltcFlag -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.ltcFlag"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.neutralStep -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.neutralStep"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.normalStep -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.normalStep"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.step -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.step"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger.subsequentDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#TapChanger.subsequentDelay"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#VoltageLevel.highVoltageLimit -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel.highVoltageLimit"/>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#VoltageLevel.lowVoltageLimit -->
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel.lowVoltageLimit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ACDCTerminal -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#ACDCTerminal">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ACDCTerminal"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ACDCTerminal.connected"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ACDCTerminal.sequenceNumber"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ACDCTerminal.connected"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ACDCTerminal.sequenceNumber"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#BaseFrequency -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#BaseFrequency">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#BaseFrequency"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#BaseFrequency.frequency"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#BaseFrequency.frequency"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#BasePower -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#BasePower">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#BasePower"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#BasePower.basePower"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#BasePower.basePower"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#BaseVoltage -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#BaseVoltage">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#BaseVoltage"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#BaseVoltage.nominalVoltage"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#BaseVoltage.nominalVoltage"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Bay -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#Bay">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Bay"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.Substation"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Substation"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.VoltageLevel"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.Substation"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.VoltageLevel"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.bayEnergyMeasFlag"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error12"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.bayPowerMeasFlag"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error13"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.bayEnergyMeasFlag"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Bay.bayPowerMeasFlag"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Breaker -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#Breaker">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Breaker"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ProtectedSwitch"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Breaker.inTransitTime"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error31"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Breaker.inTransitTime"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ConductingEquipment -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#ConductingEquipment">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConductingEquipment"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Equipment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ConductingEquipment.BaseVoltage"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#BaseVoltage"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ConductingEquipment.BaseVoltage"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ConnectivityNode -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNode">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNode"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNode.ConnectivityNodeContainer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNode.ConnectivityNodeContainer"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer.ConnectivityNodes"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNode"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer.ConnectivityNodes"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Equipment -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#Equipment">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Equipment"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.EquipmentContainer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.EquipmentContainer"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.aggregate"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error29"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.inService"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error27"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.networkAnalysisEnabled"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.normallyInService"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error30"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.aggregate"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.inService"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.networkAnalysisEnabled"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Equipment.normallyInService"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#EquipmentContainer -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#EquipmentContainer">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer.Equipments"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Equipment"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer.Equipments"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#GeographicalRegion -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#GeographicalRegion">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#GeographicalRegion"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#IdentifiedObject -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#IdentifiedObject">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.aliasName"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.description"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.mRID"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.name"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.aliasName"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.description"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.mRID"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject.name"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#PSRType -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#PSRType">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PSRType"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#PSRType.PowerSystemResources"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#PSRType.PowerSystemResources"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#PhaseCode -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#PhaseCode">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PhaseCode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#PowerSystemResource -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#PowerSystemResource">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource.PSRType"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PSRType"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource.PSRType"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#ProtectedSwitch -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#ProtectedSwitch">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ProtectedSwitch"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Switch"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#SubGeographicalRegion -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#SubGeographicalRegion">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#SubGeographicalRegion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#SubGeographicalRegion.Region"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#GeographicalRegion"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#SubGeographicalRegion.Region"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Substation -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#Substation">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Substation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Substation.Region"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#SubGeographicalRegion"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Substation.Region"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Switch -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#Switch">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConductingEquipment"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Switch"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.locked"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.normalOpen"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.open"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.ratedCurrent"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.retained"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.switchOnCount"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.switchOnDate"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.locked"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.normalOpen"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.open"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.ratedCurrent"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.retained"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.switchOnCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Switch.switchOnDate"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#TapChanger -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#TapChanger">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.controlEnabled"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error25"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.highStep"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error26"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.initialDelay"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error24"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.lowStep"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.ltcFlag"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.neutralStep"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.normalStep"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.step"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.subsequentDelay"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error20"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.controlEnabled"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.highStep"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.initialDelay"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.lowStep"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.ltcFlag"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.neutralStep"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.normalStep"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.step"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#TapChanger.subsequentDelay"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#Terminal -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#Terminal">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ACDCTerminal"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Terminal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Terminal.ConductingEquipment"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConductingEquipment"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Terminal.ConnectivityNode"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNode"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Terminal.phases"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PhaseCode"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Terminal.ConductingEquipment"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Terminal.ConnectivityNode"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#Terminal.phases"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iec.ch/TC57/2007/profile#VoltageLevel -->
+
+    <owl:Class rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.BaseVoltage"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#BaseVoltage"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.Substation"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Substation"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.BaseVoltage"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.Substation"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.highVoltageLimit"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error33"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.lowVoltageLimit"/>
+                <owl:allValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error34"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.highVoltageLimit"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel.lowVoltageLimit"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:Description>
+        <rdfs:label>Region</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>connected</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>frequency</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>Region</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>ratedCurrent</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>switchOnDate</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>sequenceNumber</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>ConductingEquipment</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>retained</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>normalOpen</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>Equipments</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>ConnectivityNodes</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>phases</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>ConnectivityNode</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>PowerSystemResources</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>BaseVoltage</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>nominalVoltage</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>subsequentDelay</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>switchOnCount</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>normalStep</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>ConnectivityNodeContainer</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>inTransitTime</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>highStep</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>inService</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>lowStep</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>networkAnalysisEnabled</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>locked</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>EquipmentContainer</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>open</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>initialDelay</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>aggregate</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>neutralStep</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>step</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>basePower</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>PSRType</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>ltcFlag</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>VoltageLevel</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>controlEnabled</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>normallyInService</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>aliasName</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>bayPowerMeasFlag</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>mRID</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>bayEnergyMeasFlag</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>BaseVoltage</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>Substation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>Substation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>highVoltageLimit</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>name</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>lowVoltageLimit</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#BaseVoltage"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#BaseVoltage"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConductingEquipment"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConductingEquipment"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNode"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNode"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#ConnectivityNodeContainer"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Equipment"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Equipment"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#EquipmentContainer"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#GeographicalRegion"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#GeographicalRegion"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PSRType"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PSRType"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PhaseCode"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PhaseCode"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#SubGeographicalRegion"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#SubGeographicalRegion"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Substation"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#Substation"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#VoltageLevel"/>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2007/profile#VoltageLevel"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
