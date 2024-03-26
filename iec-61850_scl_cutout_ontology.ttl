@@ -1,0 +1,298 @@
+@prefix : <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#/> .
+
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#NeutralPoint
+:NeutralPoint rdf:type owl:ObjectProperty ;
+              rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTransformerWinding> ;
+              rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Bay
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Bay> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> ,
+                                                                                              <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltageLevel> ;
+                                                                                  rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tBay> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##ConductingEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##ConductingEquipment> rdf:type owl:ObjectProperty ;
+                                                                                                  rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tBay> ,
+                                                                                                              <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction> ,
+                                                                                                              <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubFunction> ;
+                                                                                                  rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConductingEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##ConnectivityNode
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##ConnectivityNode> rdf:type owl:ObjectProperty ;
+                                                                                               rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tBay> ,
+                                                                                                           <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> ;
+                                                                                               rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConnectivityNode> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Function
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Function> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tBay> ,
+                                                                                                   <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubstation> ,
+                                                                                                   <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltageLevel> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##GeneralEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##GeneralEquipment> rdf:type owl:ObjectProperty ;
+                                                                                               rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipmentContainer> ,
+                                                                                                           <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction> ,
+                                                                                                           <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubFunction> ;
+                                                                                               rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tGeneralEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##LNode
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##LNode> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tlNodeContainer> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tLNode> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##SubEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##SubEquipment> rdf:type owl:ObjectProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tAbstractConductingEquipment> ,
+                                                                                                       <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerTransformer> ,
+                                                                                                       <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTapChanger> ;
+                                                                                           rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##SubFunction
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##SubFunction> rdf:type owl:ObjectProperty ;
+                                                                                          rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction> ;
+                                                                                          rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubFunction> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Terminal
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Terminal> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tAbstractConductingEquipment> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Voltage
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##Voltage> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltageLevel> ;
+                                                                                      rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltage> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##VoltageLevel
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##VoltageLevel> rdf:type owl:ObjectProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubstation> ,
+                                                                                                       <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> ;
+                                                                                           rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltageLevel> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##substation
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##substation> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> ;
+                                                                                         rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubstation> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##conductingEquipmentType
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##conductingEquipmentType> rdf:type owl:DatatypeProperty ;
+                                                                                                      rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConductingEquipment> ;
+                                                                                                      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##desc
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##desc> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tNaming> ,
+                                                                                               <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tUnNaming> ,
+                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##name> ;
+                                                                                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onDataRange xsd:string
+                                                                                               ] ;
+                                                                                   rdfs:range xsd:normalizedString .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##generalEquipmentEnum
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##generalEquipmentEnum> rdf:type owl:DatatypeProperty ;
+                                                                                                   rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tGeneralEquipment> ;
+                                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##name
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##name> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tNaming> ,
+                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##name> ;
+                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onDataRange xsd:string
+                                                                                               ] ;
+                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##neutralPoint
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##neutralPoint> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> ;
+                                                                                           rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##optionalName
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##optionalName> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> ;
+                                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##phase
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##phase> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubEquipment> ;
+                                                                                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##transformerType
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##transformerType> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerTransformer> ,
+                                                                                                          <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTransformerWinding> ;
+                                                                                              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##type
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##type> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction> ,
+                                                                                               <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubFunction> ;
+                                                                                   rdfs:range xsd:normalizedString .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##value
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##value> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltage> ;
+                                                                                    rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##virtual
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##virtual> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipment> ,
+                                                                                                  <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubEquipment> ,
+                                                                                                  <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTapChanger> ;
+                                                                                      rdfs:range xsd:boolean .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tAbstractConductingEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tAbstractConductingEquipment> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tBay
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tBay> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipmentContainer> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConductingEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConductingEquipment> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tAbstractConductingEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConnectivityNode
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tConnectivityNode> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tlNodeContainer> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipment> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerSystemResource> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipmentContainer
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipmentContainer> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerSystemResource> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tFunction> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tGeneralEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tGeneralEquipment> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tLNode
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tLNode> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tUnNaming> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tNaming
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tNaming> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerSystemResource
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerSystemResource> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tlNodeContainer> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerTransformer
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerTransformer> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubEquipment
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubEquipment> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerSystemResource> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubFunction
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubFunction> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubstation
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tSubstation> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipmentContainer> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTapChanger
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTapChanger> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tPowerSystemResource> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTerminal> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tUnNaming> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTransformerWinding
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tTransformerWinding> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tAbstractConductingEquipment> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tUnNaming
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tUnNaming> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltage
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltage> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltageLevel
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tVoltageLevel> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tEquipmentContainer> .
+
+
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tlNodeContainer
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tlNodeContainer> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850##tNaming> .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
