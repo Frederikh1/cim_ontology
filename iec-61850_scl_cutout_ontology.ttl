@@ -13,7 +13,7 @@
 #################################################################
 
 ###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850NeutralPoint
-<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850NeutralPoint> rdf:type owl:ObjectProperty ;
+<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#NeutralPoint> rdf:type owl:ObjectProperty ;
                                                                                          rdfs:domain :tTransformerWinding ;
                                                                                          rdfs:range :tTerminal .
 
