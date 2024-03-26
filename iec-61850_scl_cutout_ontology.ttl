@@ -12,12 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850NeutralPoint
-<http://www.semanticweb.org/information-management/mapping-cutout/iec-61850NeutralPoint> rdf:type owl:ObjectProperty ;
-                                                                                         rdfs:domain :tTransformerWinding ;
-                                                                                         rdfs:range :tTerminal .
-
-
 ###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#Bay
 :Bay rdf:type owl:ObjectProperty ;
      rdfs:domain :tTerminal ,
