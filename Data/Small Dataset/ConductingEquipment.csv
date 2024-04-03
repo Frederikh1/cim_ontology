@@ -1,11 +1,11 @@
 ﻿mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,BaseVoltageId
-"cff02c57-33dd-43f9-8d80-adfb8d339f0d,Muxo,""Oth fx right femur, subs for opn fx type 3A/B/C w nonunion"",""Goldman Sachs Group, Inc. (The)"",false,false,true,false,2d435ee5-0443-431a-8554-d9a6f14cd89b"
-"e6009cd7-aeb9-4a12-aefd-4d577803eba9,Devbug,Other conduction disorders,""Planet Payment, Inc."",false,true,false,true,36607a1a-2a19-481a-812d-466593218f54"
-"807cefe0-6370-4380-bba5-39a2980fdaaf,Youspan,""Oth intracranial injury w/o loss of consciousness, sequela"",""Sajan, Inc."",false,true,false,false,c338dea3-bdc1-4e74-bd5b-3a83f484ed17"
-"6c0e4f0d-e1dd-46ea-98e4-4eae7542b516,Layo,""Other hypertrophic osteoarthropathy, left shoulder"",""SuperCom, Ltd."",false,true,true,false,ad85fe1f-780f-4913-8fb7-987e5184353b"
-"22fa429b-cbda-4c43-a218-fc72e4e10c85,Wikizz,""Unsp fracture of left lower leg, init for opn fx type I/2"",""Cross Country Healthcare, Inc."",true,true,false,true,ba698987-0331-4595-871a-36d137282ff5"
-"941d4b88-d7d2-424a-88ae-5bb5bc777289,Flashset,Drown due to falling or jumping from crushed water-skis,""CBIZ, Inc."",true,false,false,true,39d043fd-b9e5-4f10-9351-85064d798fea"
-"3b50ad0d-1b23-49f3-a103-7ea166ab17fa,Bluezoom,""Mech compl of ventricular intracranial shunt, sequela"",""Sun Bancorp, Inc."",false,true,true,false,3558dbcb-101d-4a10-a226-93a496c154c5"
-"3fa033b9-f254-43f6-9e16-8891f5607e28,Skaboo,""Inj unsp blood vessel at hip and thigh level, left leg, subs"",8x8 Inc,false,false,true,false,707bb2be-0ce7-4bcb-ba12-e91d3ef8e102"
+cff02c57-33dd-43f9-8d80-adfb8d339f0d,Muxo,"Oth fx right femur, subs for opn fx type 3A/B/C w nonunion","Goldman Sachs Group, Inc. (The)",false,false,true,false,2d435ee5-0443-431a-8554-d9a6f14cd89b
+e6009cd7-aeb9-4a12-aefd-4d577803eba9,Devbug,Other conduction disorders,"Planet Payment, Inc.",false,true,false,true,36607a1a-2a19-481a-812d-466593218f54
+807cefe0-6370-4380-bba5-39a2980fdaaf,Youspan,"Oth intracranial injury w/o loss of consciousness, sequela","Sajan, Inc.",false,true,false,false,c338dea3-bdc1-4e74-bd5b-3a83f484ed17
+6c0e4f0d-e1dd-46ea-98e4-4eae7542b516,Layo,"Other hypertrophic osteoarthropathy, left shoulder","SuperCom, Ltd.",false,true,true,false,ad85fe1f-780f-4913-8fb7-987e5184353b
+22fa429b-cbda-4c43-a218-fc72e4e10c85,Wikizz,"Unsp fracture of left lower leg, init for opn fx type I/2","Cross Country Healthcare, Inc.",true,true,false,true,ba698987-0331-4595-871a-36d137282ff5
+941d4b88-d7d2-424a-88ae-5bb5bc777289,Flashset,Drown due to falling or jumping from crushed water-skis,"CBIZ, Inc.",true,false,false,true,39d043fd-b9e5-4f10-9351-85064d798fea
+3b50ad0d-1b23-49f3-a103-7ea166ab17fa,Bluezoom,"Mech compl of ventricular intracranial shunt, sequela","Sun Bancorp, Inc.",false,true,true,false,3558dbcb-101d-4a10-a226-93a496c154c5
+3fa033b9-f254-43f6-9e16-8891f5607e28,Skaboo,"Inj unsp blood vessel at hip and thigh level, left leg, subs",8x8 Inc,false,false,true,false,707bb2be-0ce7-4bcb-ba12-e91d3ef8e102
 738c179e-e603-4d03-bcc7-3c13dd416811,Jabbersphere,Intcran inj w loss of consciousness of unsp duration,Luna Innovations Incorporated,true,true,true,false,c17f0b24-6cc4-4799-9914-dea339cf73c4
-"6c3ca8c9-87f5-4d19-bb25-a4cc0ee79dd5,Meembee,Nondisplaced fracture of neck of left radius,""Wolverine World Wide, Inc."",false,false,false,true,6637515f-ca4d-41bd-bd3d-0d32f81b0d95"
+6c3ca8c9-87f5-4d19-bb25-a4cc0ee79dd5,Meembee,Nondisplaced fracture of neck of left radius,"Wolverine World Wide, Inc.",false,false,false,true,6637515f-ca4d-41bd-bd3d-0d32f81b0d95
