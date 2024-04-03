@@ -1,0 +1,11 @@
+Literal,value,description
+ABCN,225,Phases A B C and N.
+ABC,224,Phases A B and C.
+ABN,193,Phases A B and neutral.
+ACN,41,Phases A C and neutral.
+BCN,97,Phases B C and neutral.
+AB,132,Phases A and B.
+AC,96,Phases A and C.
+BC,66,Phases B and C.
+AN,129,Phases A and neutral.
+BN,65,Phases B and neutral.
