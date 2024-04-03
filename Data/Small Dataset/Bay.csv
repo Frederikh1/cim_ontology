@@ -1,11 +1,11 @@
 mRID,aliasName,description,name,bayEnergyMeasFlag,bayPowerMeasFlag,VoltageLevelId,SubstationId
 2f52e307-06b8-4cd4-81dc-753662d94d2f,Photobug,Unspecified injury of left Achilles tendon,Iron Mountain Incorporated,true,true,7c52dadb-f0d8-478f-bab9-e1d353c7fe86,93579d3f-84ce-47b8-8c9d-9aea02a0d346
-c1660f09-e42e-4861-8c54-7c28d05c87a7,Fivespan,""Traumatic rupture of left ulnar collateral ligament, init"",Portland General Electric Company,false,true,53a53ab4-f12a-4346-86fb-a54a0eb2e0f1,2f8eeb64-2654-4324-ad47-b2b16d0519ca
-006b02db-9734-4d0e-a71b-0742df38138c,Jaxspan,""Superficial foreign body of other part of head, subs encntr"",Noah Holdings Ltd.,true,false,f123951f-d58b-4009-b2f6-cdedc2cee5a1,f4826d31-18e6-4f47-994a-c9eeccb8962e
-7fd4414e-9c36-4b1f-9a5b-55b28a694ca2,Eadel,""Partial traumatic transmetcrpl amp of right hand, init"",""Maiden Holdings, Ltd."",true,true,9bb4efcd-1b30-4647-8cfb-1f79b17b74f8,5380a02a-53dc-463a-8d7b-3318572799cd
-7fe41265-4586-4b4d-8232-d9acdf2405f3,Dablist,Unspecified injury of blood vessel of right thumb,""McCormick & Company, Incorporated"",false,true,6cc620b9-ef8e-44af-b4f2-63e4e725079e,27de724a-8956-4b08-ae7e-dff6de1d69c4
-aeafd548-e0cc-4750-a573-fe4be4e493a9,Browsezoom,""Nondisp fx of glenoid cav of scapula, r shoulder, sequela"",Nortech Systems Incorporated,true,false,7326f49b-0037-44f0-af36-bcdaf431f657,26798e3c-162a-4b1c-8f95-a9b8ea6936d0
-7e8af3d3-5843-4499-9a96-3290b0a80bad,Yata,""Dislocation of distal interphaln joint of r mid finger, subs"",VWR Corporation,true,false,c07f2cde-3365-49ea-a75f-5793b334fcb1,68f8c314-8c7e-42da-b5a3-50e2b36b1f28
-c9f4048b-3c27-4f1c-afc1-3b45121ceb17,Chatterbridge,""Burn of first degree of unspecified wrist, sequela"",""General American Investors, Inc."",true,false,c7672f31-4a44-48b7-9a54-58040a1aa361,d4cfcf38-0481-434e-a9e7-6f17b80b838b
-a0cb8234-2e60-4408-9640-1ec57cdce5b0,Jaxworks,Contact with electric knife,""Wellesley Bancorp, Inc."",true,false,336ca4cc-b200-465e-967b-79facaac4dd3,4175d9f9-602d-4c8c-846b-56cf04fb6510
+c1660f09-e42e-4861-8c54-7c28d05c87a7,Fivespan,"Traumatic rupture of left ulnar collateral ligament, init",Portland General Electric Company,false,true,53a53ab4-f12a-4346-86fb-a54a0eb2e0f1,2f8eeb64-2654-4324-ad47-b2b16d0519ca
+006b02db-9734-4d0e-a71b-0742df38138c,Jaxspan,"Superficial foreign body of other part of head, subs encntr",Noah Holdings Ltd.,true,false,f123951f-d58b-4009-b2f6-cdedc2cee5a1,f4826d31-18e6-4f47-994a-c9eeccb8962e
+7fd4414e-9c36-4b1f-9a5b-55b28a694ca2,Eadel,"Partial traumatic transmetcrpl amp of right hand, init","Maiden Holdings, Ltd.",true,true,9bb4efcd-1b30-4647-8cfb-1f79b17b74f8,5380a02a-53dc-463a-8d7b-3318572799cd
+7fe41265-4586-4b4d-8232-d9acdf2405f3,Dablist,Unspecified injury of blood vessel of right thumb,"McCormick & Company, Incorporated",false,true,6cc620b9-ef8e-44af-b4f2-63e4e725079e,27de724a-8956-4b08-ae7e-dff6de1d69c4
+aeafd548-e0cc-4750-a573-fe4be4e493a9,Browsezoom,"Nondisp fx of glenoid cav of scapula, r shoulder, sequela",Nortech Systems Incorporated,true,false,7326f49b-0037-44f0-af36-bcdaf431f657,26798e3c-162a-4b1c-8f95-a9b8ea6936d0
+7e8af3d3-5843-4499-9a96-3290b0a80bad,Yata,"Dislocation of distal interphaln joint of r mid finger, subs",VWR Corporation,true,false,c07f2cde-3365-49ea-a75f-5793b334fcb1,68f8c314-8c7e-42da-b5a3-50e2b36b1f28
+c9f4048b-3c27-4f1c-afc1-3b45121ceb17,Chatterbridge,"Burn of first degree of unspecified wrist, sequela","General American Investors, Inc.",true,false,c7672f31-4a44-48b7-9a54-58040a1aa361,d4cfcf38-0481-434e-a9e7-6f17b80b838b
+a0cb8234-2e60-4408-9640-1ec57cdce5b0,Jaxworks,Contact with electric knife,"Wellesley Bancorp, Inc.",true,false,336ca4cc-b200-465e-967b-79facaac4dd3,4175d9f9-602d-4c8c-846b-56cf04fb6510
 fa5cc135-c911-4fe8-a665-b639af8a1d7a,Linkbuzz,Hallux rigidus,Education Realty Trust Inc.,false,true,40e63540-9c2a-4af3-8dd4-9e242d08a8cc,cd991d3b-a6ce-4343-94eb-ac2beee7bb89
