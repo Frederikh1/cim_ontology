@@ -1,4 +1,4 @@
-mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,BaseVoltageId
+﻿mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,BaseVoltageId
 "cff02c57-33dd-43f9-8d80-adfb8d339f0d,Muxo,""Oth fx right femur, subs for opn fx type 3A/B/C w nonunion"",""Goldman Sachs Group, Inc. (The)"",false,false,true,false,2d435ee5-0443-431a-8554-d9a6f14cd89b"
 "e6009cd7-aeb9-4a12-aefd-4d577803eba9,Devbug,Other conduction disorders,""Planet Payment, Inc."",false,true,false,true,36607a1a-2a19-481a-812d-466593218f54"
 "807cefe0-6370-4380-bba5-39a2980fdaaf,Youspan,""Oth intracranial injury w/o loss of consciousness, sequela"",""Sajan, Inc."",false,true,false,false,c338dea3-bdc1-4e74-bd5b-3a83f484ed17"
