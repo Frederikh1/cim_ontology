@@ -1,0 +1,11 @@
+mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,normalOpen,retained,open,locked,switchOnCount,switchOnDate,inTransitTime
+d9b7ef17-9f75-4498-a2a5-e447676676e3,Blogspan,Chronic serous otitis media,"Iteris, Inc.",true,false,true,false,true,true,true,false,54,11/24/2023,89
+d9c9296e-4d8d-4d2c-a91b-8a37d5554c0e,Fivebridge,"Acute serous otitis media, recurrent, right ear","Super Micro Computer, Inc.",true,false,true,false,true,true,true,true,15,3/12/2024,17
+81690ea7-292c-4286-9b54-c47a4c90b79e,Jetpulse,"Disp fx of proximal phalanx of left great toe, sequela",ProQR Therapeutics N.V.,true,false,false,false,false,false,false,false,68,10/15/2023,35
+cb94defc-6688-433a-8144-555614f04e10,Divavu,Oth cardiovasc disorders originating in the perinatal period,"Kinder Morgan, Inc.",true,true,false,true,true,false,true,false,7,9/17/2023,1
+b25c3dff-dd44-4d8a-a6f1-1ef11d64ba59,Tavu,"Sltr-haris Type IV physl fx low end r tibia, 7thK",VALE S.A.,true,false,true,false,false,false,false,false,32,2/11/2024,54
+a285c687-086d-4b30-9381-7ab12cf4787a,Voolith,Sprain of ankle,Vornado Realty Trust,true,false,false,true,false,false,true,true,60,4/3/2023,74
+f9c84304-fc38-4c07-9849-358bd612e8a9,Plajo,"Wedge comprsn fx third thor vertebra, init for opn fx","Home Federal Bancorp, Inc. of Louisiana",false,false,true,true,false,false,true,true,58,2/16/2024,84
+553ff29b-956f-461d-9ff8-01d5705bb7a5,Jayo,"Fracture of ramus of mandible, unspecified side, 7thB",Harmony Merger Corp.,false,false,false,true,true,true,true,true,94,2/10/2024,7
+cf6267d4-dccc-4a6e-b35f-dc5b25da829a,Bluezoom,"Other bursitis, not elsewhere classified, left hip",Ingersoll-Rand plc (Ireland),true,true,true,true,false,false,false,false,7,6/24/2023,59
+c051b38b-db83-4f89-a3d9-d8743b6cf9e7,Jatri,Complete rotatr-cuff tear/ruptr not specified as traumatic,PacWest Bancorp,true,false,false,true,true,true,false,false,21,12/30/2023,7
