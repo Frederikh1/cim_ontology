@@ -1,0 +1,11 @@
+desc,name
+"Bay area for circuit breakers and transformers, Main Circuit",Main Circuit
+"Bay area for circuit breakers and transformers, Auxiliary Circuit",Auxiliary Circuit
+"Bay area for circuit breakers and transformers, Control Circuit",Control Circuit
+"Bay area for circuit breakers and transformers, Power Circuit",Power Circuit
+"Bay area for circuit breakers and transformers, Metering Circuit",Metering Circuit
+"Bay area for circuit breakers and transformers, Protection Circuit",Protection Circuit
+"Bay area for circuit breakers and transformers, Isolation Circuit",Isolation Circuit
+"Bay area for circuit breakers and transformers, Transfer Circuit",Transfer Circuit
+"Bay area for circuit breakers and transformers, Distribution Circuit",Distribution Circuit
+"Bay area for circuit breakers and transformers, Grounding Circuit",Grounding Circuit

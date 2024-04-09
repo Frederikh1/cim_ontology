@@ -1,0 +1,11 @@
+desc,name
+Voltage level at 110kV,VL110kV
+Voltage level at 220kV,VL220kV
+Voltage level at 330kV,VL330kV
+Voltage level at 400kV,VL400kV
+Voltage level at 500kV,VL500kV
+Voltage level at 600kV,VL600kV
+Voltage level at 700kV,VL700kV
+Voltage level at 800kV,VL800kV
+Voltage level at 900kV,VL900kV
+Voltage level at 1000kV,VL1000kV
