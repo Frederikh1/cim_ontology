@@ -1,4 +1,4 @@
-desc,name, virtual
+desc, name, phase, virtual
 "Sub-component of major equipment, SE Transformer",SE Transformer, ACN,FALSE
 "Sub-component of major equipment, SE Breaker",SE Breaker, ABN,TRUE
 "Sub-component of major equipment, SE Switchgear",SE Switchgear, ABC,FALSE
