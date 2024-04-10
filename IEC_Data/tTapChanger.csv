@@ -1,11 +1,11 @@
-desc,name
-"Load tap changer for fine voltage adjustments, TC1 High Load",TC1 High Load
-"Load tap changer for fine voltage adjustments, TC2 Medium Load",TC2 Medium Load
-"Load tap changer for fine voltage adjustments, TC3 Low Load",TC3 Low Load
-"Load tap changer for fine voltage adjustments, TC4 Variable Load",TC4 Variable Load
-"Load tap changer for fine voltage adjustments, TC5 Peak Load",TC5 Peak Load
-"Load tap changer for fine voltage adjustments, TC6 Off-Peak",TC6 Off-Peak
-"Load tap changer for fine voltage adjustments, TC7 Emergency",TC7 Emergency
-"Load tap changer for fine voltage adjustments, TC8 Backup",TC8 Backup
-"Load tap changer for fine voltage adjustments, TC9 Auxiliary",TC9 Auxiliary
-"Load tap changer for fine voltage adjustments, TC10 Special",TC10 Special
+desc,name, tTransformerWindingId
+"Load tap changer for fine voltage adjustments, TC1 High Load",TC1 High Load, TW Primary
+"Load tap changer for fine voltage adjustments, TC2 Medium Load",TC2 Medium Load, TW Secondary
+"Load tap changer for fine voltage adjustments, TC3 Low Load",TC3 Low Load, TW Tertiary
+"Load tap changer for fine voltage adjustments, TC4 Variable Load",TC4 Variable Load, TW Quaternary
+"Load tap changer for fine voltage adjustments, TC5 Peak Load",TC5 Peak Load, TW Quinary
+"Load tap changer for fine voltage adjustments, TC6 Off-Peak",TC6 Off-Peak, TW Senary
+"Load tap changer for fine voltage adjustments, TC7 Emergency",TC7 Emergency, TW Septenary
+"Load tap changer for fine voltage adjustments, TC8 Backup",TC8 Backup, TW Octonary
+"Load tap changer for fine voltage adjustments, TC9 Auxiliary",TC9 Auxiliary, TW Nonary
+"Load tap changer for fine voltage adjustments, TC10 Special",TC10 Special, TW Decenary
