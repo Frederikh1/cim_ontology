@@ -1,11 +1,11 @@
 desc,name,virtual,transformerType
-"Step-down transformer for regional distribution, PT High Capacity",PT High Capacity,0,Type 2
-"Step-down transformer for regional distribution, PT Medium Capacity",PT Medium Capacity,1,Type 1
-"Step-down transformer for regional distribution, PT Low Capacity",PT Low Capacity,0,Type 2
-"Step-down transformer for regional distribution, PT Utility",PT Utility,1,Type 1
-"Step-down transformer for regional distribution, PT Industrial",PT Industrial,0,Type 2
-"Step-down transformer for regional distribution, PT Commercial",PT Commercial,1,Type 1
-"Step-down transformer for regional distribution, PT Residential",PT Residential,0,Type 2
-"Step-down transformer for regional distribution, PT Special Purpose",PT Special Purpose,1,Type 1
-"Step-down transformer for regional distribution, PT General Purpose",PT General Purpose,0,Type 2
-"Step-down transformer for regional distribution, PT Emergency",PT Emergency,1,Type 1
+"Step-down transformer for regional distribution, PT High Capacity",PT High Capacity,false,Type 2
+"Step-down transformer for regional distribution, PT Medium Capacity",PT Medium Capacity,true,Type true
+"Step-down transformer for regional distribution, PT Low Capacity",PT Low Capacity,false,Type 2
+"Step-down transformer for regional distribution, PT Utility",PT Utility,true,Type true
+"Step-down transformer for regional distribution, PT Industrial",PT Industrial,false,Type 2
+"Step-down transformer for regional distribution, PT Commercial",PT Commercial,true,Type true
+"Step-down transformer for regional distribution, PT Residential",PT Residential,false,Type 2
+"Step-down transformer for regional distribution, PT Special Purpose",PT Special Purpose,true,Type true
+"Step-down transformer for regional distribution, PT General Purpose",PT General Purpose,false,Type 2
+"Step-down transformer for regional distribution, PT Emergency",PT Emergency,true,Type true
