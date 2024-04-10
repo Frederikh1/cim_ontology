@@ -1,11 +1,11 @@
 desc,name, virtual, transformerType
-"""Winding part of transformer for voltage conversion, TW Primary"",TW Primary, FALSE, Type 2"
-"""Winding part of transformer for voltage conversion, TW Secondary"",TW Secondary, TRUE, Type 1"
-"""Winding part of transformer for voltage conversion, TW Tertiary"",TW Tertiary, FALSE, Type 2"
-"""Winding part of transformer for voltage conversion, TW Quaternary"",TW Quaternary, TRUE, Type 1"
-"""Winding part of transformer for voltage conversion, TW Quinary"",TW Quinary, FALSE, Type 2"
-"""Winding part of transformer for voltage conversion, TW Senary"",TW Senary, TRUE, Type 1"
-"""Winding part of transformer for voltage conversion, TW Septenary"",TW Septenary, FALSE, Type 2"
-"""Winding part of transformer for voltage conversion, TW Octonary"",TW Octonary, TRUE, Type 1"
-"""Winding part of transformer for voltage conversion, TW Nonary"",TW Nonary, FALSE, Type 2"
-"""Winding part of transformer for voltage conversion, TW Decenary"",TW Decenary, TRUE, Type 1"
+"Winding part of transformer for voltage conversion, TW Primary",TW Primary, FALSE, Type 2
+"Winding part of transformer for voltage conversion, TW Secondary",TW Secondary, TRUE, Type 1
+"Winding part of transformer for voltage conversion, TW Tertiary",TW Tertiary, FALSE, Type 2
+"Winding part of transformer for voltage conversion, TW Quaternary",TW Quaternary, TRUE, Type 1
+"Winding part of transformer for voltage conversion, TW Quinary",TW Quinary, FALSE, Type 2
+"Winding part of transformer for voltage conversion, TW Senary",TW Senary, TRUE, Type 1
+"Winding part of transformer for voltage conversion, TW Septenary",TW Septenary, FALSE, Type 2
+"Winding part of transformer for voltage conversion, TW Octonary",TW Octonary, TRUE, Type 1
+"Winding part of transformer for voltage conversion, TW Nonary",TW Nonary, FALSE, Type 2
+"Winding part of transformer for voltage conversion, TW Decenary",TW Decenary, TRUE, Type 1
