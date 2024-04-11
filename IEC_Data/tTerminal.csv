@@ -1,11 +1,11 @@
 neutralPoint,optionalName
-FALSE,  Terminal A 
-TRUE,  Terminal B 
-FALSE,  Terminal C 
-TRUE,  Terminal D 
-FALSE,  Terminal E 
-TRUE,  Terminal F 
-FALSE,  Terminal G 
-TRUE,  Terminal H 
-FALSE,  Terminal I 
-TRUE,  Terminal J 
+FALSE,Terminal A 
+TRUE,Terminal B 
+FALSE,Terminal C 
+TRUE,Terminal D 
+FALSE,Terminal E 
+TRUE,Terminal F 
+FALSE,Terminal G 
+TRUE,Terminal H 
+FALSE,Terminal I 
+TRUE,Terminal J 
