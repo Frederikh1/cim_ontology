@@ -1,4 +1,4 @@
-mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,normalOpen,retained,open,locked,switchOnCount,switchOnDate
+mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,normalOpen,retained,open,locked,switchOnCount,switchOnDate,breakingCapacity
 07ce9dcd-11d7-4dcd-8a53-e05c07a61379,Twitterworks,"Oth disp fx of lower end of right humerus, init for clos fx",Vista Outdoor Inc.,false,true,false,true,true,false,true,false,20,5/19/2023
 06b00626-a14d-4e6c-9dfb-de6179db2e6b,Zoomcast,"Nondisp fx of dist phalanx of finger, subs for fx w nonunion",BLDRS Emerging Markets 50 ADR Index Fund,false,false,false,true,false,false,true,true,39,5/11/2023
 74325abb-9b1a-4aa1-be2e-779d81e6c920,Quinu,"Poisoning by antiviral drugs, undetermined, sequela",VictoryShares Emerging Market Volatility Wtd ETF,true,true,true,false,false,true,false,true,47,6/19/2023
