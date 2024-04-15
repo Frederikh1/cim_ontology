@@ -1,11 +1,11 @@
-desc,name,tVoltageId,tSubstationId
-"Voltage level at 110kV","Åsbyen 110kV",VL110kV,Åsbyen
-"Voltage level at 220kV","Røvand 220kV",VL220kV,Røvand
-"Voltage level at 330kV","Grænmark 330kV",VL330kV,Grænmark
-"Voltage level at 400kV","Økernby 400kV",VL400kV,Økernby
-"Voltage level at 500kV","Pænebjerg 500kV",VL500kV,Pænebjerg
-"Voltage level at 600kV","Åkelund 600kV",VL600kV,Åkelund
-"Voltage level at 700kV","Sølvstrøm 700kV",VL700kV,Sølvstrøm
-"Voltage level at 800kV","Væstmark 800kV",VL800kV,Væstmark
-"Voltage level at 900kV","Solvænge 900kV",VL900kV,Solvænge
-"Voltage level at 1000kV","Klærvand 1000kV",VL1000kV,Klærvand
+desc,name,tVoltageId
+"Voltage level at 110kV","Åsbyen 110kV",VL110kV
+"Voltage level at 220kV","Røvand 220kV",VL220kV
+"Voltage level at 330kV","Grænmark 330kV",VL330kV
+"Voltage level at 400kV","Økernby 400kV",VL400kV
+"Voltage level at 500kV","Pænebjerg 500kV",VL500kV
+"Voltage level at 600kV","Åkelund 600kV",VL600kV
+"Voltage level at 700kV","Sølvstrøm 700kV",VL700kV
+"Voltage level at 800kV","Væstmark 800kV",VL800kV
+"Voltage level at 900kV","Solvænge 900kV",VL900kV
+"Voltage level at 1000kV","Klærvand 1000kV",VL1000kV
