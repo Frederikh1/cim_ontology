@@ -1,4 +1,4 @@
-@prefix cim: <http://iec.ch/TC57/CIM-generic#> .
+@prefix : <http://iec.ch/TC57/CIM-generic#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix msg: <http://langdale.com.au/2005/Message#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
