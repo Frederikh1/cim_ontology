@@ -1,11 +1,11 @@
 desc,name,tTransformerWindingId,tSubEquipmentId
-"Load tap changer for fine voltage adjustments, TC1 High Load",TC1 High Load,TW Primary,SE Transformer
-"Load tap changer for fine voltage adjustments, TC2 Medium Load",TC2 Medium Load,TW Secondary,SE Breaker
-"Load tap changer for fine voltage adjustments, TC3 Low Load",TC3 Low Load,TW Tertiary,SE Switchgear
-"Load tap changer for fine voltage adjustments, TC4 Variable Load",TC4 Variable Load,TW Quaternary,SE Relay
-"Load tap changer for fine voltage adjustments, TC5 Peak Load",TC5 Peak Load,TW Quinary,SE Meter
-"Load tap changer for fine voltage adjustments, TC6 Off-Peak",TC6 Off-Peak,TW Senary,SE Controller
-"Load tap changer for fine voltage adjustments, TC7 Emergency",TC7 Emergency,TW Septenary,SE Capacitor
-"Load tap changer for fine voltage adjustments, TC8 Backup",TC8 Backup,TW Octonary,SE Regulator
-"Load tap changer for fine voltage adjustments, TC9 Auxiliary",TC9 Auxiliary,TW Nonary,SE Inverter
-"Load tap changer for fine voltage adjustments, TC10 Special",TC10 Special,TW Decenary,SE Converter
+"Load tap changer for fine voltage adjustments, TC1 High Load","TC1 High Load","TW Primary","SE Transformer"
+"Load tap changer for fine voltage adjustments, TC2 Medium Load","TC2 Medium Load","TW Secondary","SE Breaker"
+"Load tap changer for fine voltage adjustments, TC3 Low Load","TC3 Low Load","TW Tertiary","SE Switchgear"
+"Load tap changer for fine voltage adjustments, TC4 Variable Load","TC4 Variable Load","TW Quaternary","SE Relay"
+"Load tap changer for fine voltage adjustments, TC5 Peak Load","TC5 Peak Load","TW Quinary","SE Meter"
+"Load tap changer for fine voltage adjustments, TC6 Off-Peak","TC6 Off-Peak","TW Senary","SE Controller"
+"Load tap changer for fine voltage adjustments, TC7 Emergency","TC7 Emergency","TW Septenary","SE Capacitor"
+"Load tap changer for fine voltage adjustments, TC8 Backup","TC8 Backup","TW Octonary","SE Regulator"
+"Load tap changer for fine voltage adjustments, TC9 Auxiliary","TC9 Auxiliary","TW Nonary","SE Inverter"
+"Load tap changer for fine voltage adjustments, TC10 Special","TC10 Special","TW Decenary","SE Converter"
