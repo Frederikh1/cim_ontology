@@ -1,12 +1,12 @@
-desc,name
-Main control and relay facility for regional grid Åsbyen,Åsbyen
-Main control and relay facility for regional grid Røvand,Røvand
-Main control and relay facility for regional grid Grænmark,Grænmark
-Main control and relay facility for regional grid Økernby,Økernby
-Main control and relay facility for regional grid Pænebjerg,Pænebjerg
-Main control and relay facility for regional grid Åkelund,Åkelund
-Main control and relay facility for regional grid Sølvstrøm,Sølvstrøm
-Main control and relay facility for regional grid Væstmark,Væstmark
-Main control and relay facility for regional grid Solvænge,Solvænge
-Main control and relay facility for regional grid Klærvand,Klærvand
+desc,name,tVoltageLevelId
+Main control and relay facility for regional grid Åsbyen,Åsbyen,"Åsbyen 110kV"
+Main control and relay facility for regional grid Røvand,Røvand,"Røvand 220kV"
+Main control and relay facility for regional grid Grænmark,Grænmark,"Grænmark 330kV"
+Main control and relay facility for regional grid Økernby,Økernby,"Økernby 400kV"
+Main control and relay facility for regional grid Pænebjerg,Pænebjerg,"Pænebjerg 500kV"
+Main control and relay facility for regional grid Åkelund,Åkelund,"Åkelund 600kV"
+Main control and relay facility for regional grid Sølvstrøm,Sølvstrøm,"Sølvstrøm 700kV"
+Main control and relay facility for regional grid Væstmark,Væstmark,"Væstmark 800kV"
+Main control and relay facility for regional grid Solvænge,Solvænge,"Solvænge 900kV"
+Main control and relay facility for regional grid Klærvand,Klærvand,"Klærvand 1000kV"
 
