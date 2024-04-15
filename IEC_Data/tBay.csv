@@ -1,11 +1,11 @@
-desc,name,tVoltageLevelId
-"Bay area for circuit breakers and transformers, Main Circuit",Main Circuit,"VL110kV"
-"Bay area for circuit breakers and transformers, Auxiliary Circuit",Auxiliary Circuit,"VL220kV"
-"Bay area for circuit breakers and transformers, Control Circuit",Control Circuit,"VL330kV"
-"Bay area for circuit breakers and transformers, Power Circuit",Power Circuit,"VL400kV"
-"Bay area for circuit breakers and transformers, Metering Circuit",Metering Circuit,VL500kV
-"Bay area for circuit breakers and transformers, Protection Circuit",Protection Circuit,VL600kV
-"Bay area for circuit breakers and transformers, Isolation Circuit",Isolation Circuit,VL700kV
-"Bay area for circuit breakers and transformers, Transfer Circuit",Transfer Circuit,VL800kV
-"Bay area for circuit breakers and transformers, Distribution Circuit",Distribution Circuit,VL900kV
-"Bay area for circuit breakers and transformers, Grounding Circuit",Grounding Circuit,VL1000kV
+desc,name,tVoltageLevelId,tConductingEquipmentId
+"Bay area for circuit breakers and transformers, Main Circuit",Main Circuit,"VL110kV","CE Cable"
+"Bay area for circuit breakers and transformers, Auxiliary Circuit",Auxiliary Circuit,"VL220kV","CE Line"
+"Bay area for circuit breakers and transformers, Control Circuit",Control Circuit,"VL330kV","CE Busbar"
+"Bay area for circuit breakers and transformers, Power Circuit",Power Circuit,"VL400kV","CE Switch"
+"Bay area for circuit breakers and transformers, Metering Circuit",Metering Circuit,VL500kV,"CE Connector"
+"Bay area for circuit breakers and transformers, Protection Circuit",Protection Circuit,VL600kV,"CE Disconnector"
+"Bay area for circuit breakers and transformers, Isolation Circuit",Isolation Circuit,VL700kV,"CE Jumper"
+"Bay area for circuit breakers and transformers, Transfer Circuit",Transfer Circuit,VL800kV,"CE Insulator"
+"Bay area for circuit breakers and transformers, Distribution Circuit",Distribution Circuit,VL900kV,"CE Arrestor"
+"Bay area for circuit breakers and transformers, Grounding Circuit",Grounding Circuit,VL1000kV,"CE Grounding Rod"
