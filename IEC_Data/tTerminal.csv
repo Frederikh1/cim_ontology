@@ -1,5 +1,5 @@
 neutralPoint,optionalName,tSubstationId,tVoltageLevelId,tBayId
-FALSE,"Terminal A",Åsbyen,"Åsbyen 110kV","Main Circuit",
+FALSE,"Terminal A",Åsbyen,"Åsbyen 110kV","Main Circuit"
 TRUE,"Terminal B",Røvand,"Røvand 220kV","Auxiliary Circuit"
 FALSE,"Terminal C",Grænmark,"Grænmark 330kV","Control Circuit"
 TRUE,"Terminal D",Økernby,"Økernby 400kV","Power Circuit"
