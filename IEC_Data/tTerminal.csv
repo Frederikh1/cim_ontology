@@ -1,11 +1,11 @@
 neutralPoint,optionalName,tSubstationId
-FALSE,Terminal A,Åsbyen
-TRUE,Terminal B,Røvand
-FALSE,Terminal C,Grænmark
-TRUE,Terminal D,Økernby
-FALSE,Terminal E,Pænebjerg
-TRUE,Terminal F,Åkelund
-FALSE,Terminal G,Sølvstrøm
-TRUE,Terminal H,Væstmark
-FALSE,Terminal I,Solvænge
-TRUE,Terminal J,Klærvand
+FALSE,"Terminal A",Åsbyen
+TRUE,"Terminal B",Røvand
+FALSE,"Terminal C",Grænmark
+TRUE,"Terminal D",Økernby
+FALSE,"Terminal E",Pænebjerg
+TRUE,"Terminal F",Åkelund
+FALSE,"Terminal G",Sølvstrøm
+TRUE,"Terminal H",Væstmark
+FALSE,"Terminal I",Solvænge
+TRUE,"Terminal J",Klærvand
