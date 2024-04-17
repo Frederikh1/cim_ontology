@@ -14,7 +14,7 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/fhaag/ontologies/2024/2/untitled-ontology-41/BaseVoltage.tVoltage
+###  http://www.semanticweb.org/information_management/ontobridge#BaseVoltage.tVoltage
 :BaseVoltage.tVoltage rdf:type owl:ObjectProperty ,
                                owl:SymmetricProperty ;
                       rdfs:domain <http://iec.ch/TC57/CIM-generic#BaseVoltage> ;
