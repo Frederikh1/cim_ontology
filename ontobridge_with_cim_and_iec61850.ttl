@@ -14,45 +14,69 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/information_management/ontobridge#a856e457_76bc_4be5_80f0_ef6e9e7f22b1
-:a856e457_76bc_4be5_80f0_ef6e9e7f22b1 rdf:type owl:ObjectProperty ,
-                                               owl:SymmetricProperty ;
-                                      rdfs:domain <http://iec.ch/TC57/CIM-generic#BaseVoltage> ;
-                                      rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tVoltage> ;
-                                      rdfs:label "SameAs" .
+###  http://www.semanticweb.org/fhaag/ontologies/2024/2/untitled-ontology-41/BaseVoltage.tVoltage
+:BaseVoltage.tVoltage rdf:type owl:ObjectProperty ,
+                               owl:SymmetricProperty ;
+                      rdfs:domain <http://iec.ch/TC57/CIM-generic#BaseVoltage> ;
+                      rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tVoltage> ;
+                      rdfs:label "SameAs" .
 
 
-###  http://www.semanticweb.org/information_management/ontobridge#369b0a92_5bb2_44d6_9451_e7947ee7d21d
-<http://www.semanticweb.org/information_management/ontobridge#369b0a92_5bb2_44d6_9451_e7947ee7d21d> rdf:type owl:ObjectProperty ,
-                                                                                                             owl:SymmetricProperty ;
-                                                                                                    rdfs:domain <http://iec.ch/TC57/CIM-generic#VoltageLevel> ;
-                                                                                                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tVoltageLevel> ;
-                                                                                                    rdfs:label "SameAs" .
+###  http://www.semanticweb.org/information_management/ontobridge#Bay.tBay
+:Bay.tBay rdf:type owl:ObjectProperty ,
+                   owl:SymmetricProperty ;
+          rdfs:domain <http://iec.ch/TC57/CIM-generic#Bay> ;
+          rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tBay> ;
+          rdfs:label "SameAs" .
 
 
-###  http://www.semanticweb.org/information_management/ontobridge#471f449d_0c0d_4d82_91fb_94668ff52b81
-<http://www.semanticweb.org/information_management/ontobridge#471f449d_0c0d_4d82_91fb_94668ff52b81> rdf:type owl:ObjectProperty ,
-                                                                                                             owl:SymmetricProperty ;
-                                                                                                    rdfs:domain <http://iec.ch/TC57/CIM-generic#Bay> ;
-                                                                                                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tBay> ;
-                                                                                                    rdfs:label "SameAs" .
+###  http://www.semanticweb.org/information_management/ontobridge#Substation.tSubstation
+:Substation.tSubstation rdf:type owl:ObjectProperty ,
+                                 owl:SymmetricProperty ;
+                        rdfs:domain <http://iec.ch/TC57/CIM-generic#Substation> ;
+                        rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tSubstation> ;
+                        rdfs:comment "Mapping between substation in iec61850 and cim" ;
+                        rdfs:label "SameAs" .
 
 
-###  http://www.semanticweb.org/information_management/ontobridge#7e25f877_afe9_4d50_951f_dbb74bef3586
-<http://www.semanticweb.org/information_management/ontobridge#7e25f877_afe9_4d50_951f_dbb74bef3586> rdf:type owl:ObjectProperty ,
-                                                                                                             owl:SymmetricProperty ;
-                                                                                                    rdfs:domain <http://iec.ch/TC57/CIM-generic#Terminal> ;
-                                                                                                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tTerminal> ;
-                                                                                                    rdfs:label "SameAs" .
+###  http://www.semanticweb.org/information_management/ontobridge#Terminal.tTerminal
+:Terminal.tTerminal rdf:type owl:ObjectProperty ,
+                             owl:SymmetricProperty ;
+                    rdfs:domain <http://iec.ch/TC57/CIM-generic#Terminal> ;
+                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tTerminal> ;
+                    rdfs:label "SameAs" .
 
 
-###  http://www.semanticweb.org/information_management/ontobridge#81b869d7_01b4_4f62_81a1_57348a1a7344
-<http://www.semanticweb.org/information_management/ontobridge#81b869d7_01b4_4f62_81a1_57348a1a7344> rdf:type owl:ObjectProperty ,
-                                                                                                             owl:SymmetricProperty ;
-                                                                                                    rdfs:domain <http://iec.ch/TC57/CIM-generic#Substation> ;
-                                                                                                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tSubstation> ;
-                                                                                                    rdfs:comment "Mapping between substation in iec61850 and cim" ;
-                                                                                                    rdfs:label "SameAs" .
+###  http://www.semanticweb.org/information_management/ontobridge#VoltageLevel.tVoltageLevel
+:VoltageLevel.tVoltageLevel rdf:type owl:ObjectProperty ,
+                                     owl:SymmetricProperty ;
+                            rdfs:domain <http://iec.ch/TC57/CIM-generic#VoltageLevel> ;
+                            rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tVoltageLevel> ;
+                            rdfs:label "SameAs" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://iec.ch/TC57/CIM-generic#BaseVoltage
+<http://iec.ch/TC57/CIM-generic#BaseVoltage> rdf:type owl:Class .
+
+
+###  http://iec.ch/TC57/CIM-generic#Bay
+<http://iec.ch/TC57/CIM-generic#Bay> rdf:type owl:Class .
+
+
+###  http://iec.ch/TC57/CIM-generic#Substation
+<http://iec.ch/TC57/CIM-generic#Substation> rdf:type owl:Class .
+
+
+###  http://iec.ch/TC57/CIM-generic#Terminal
+<http://iec.ch/TC57/CIM-generic#Terminal> rdf:type owl:Class .
+
+
+###  http://iec.ch/TC57/CIM-generic#VoltageLevel
+<http://iec.ch/TC57/CIM-generic#VoltageLevel> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
