@@ -1,0 +1,11 @@
+desc,name,virtual,transformerType,tPowerTransformerId,tTerminalId
+"Winding part of transformer for voltage conversion, TW Primary",TW Primary,FALSE,Type 2,PT High Capacity,"Terminal A"
+"Winding part of transformer for voltage conversion, TW Secondary",TW Secondary,TRUE,Type 1,PT Medium Capacity,"Terminal B"
+"Winding part of transformer for voltage conversion, TW Tertiary",TW Tertiary,FALSE,Type 2,PT Low Capacity,"Terminal C"
+"Winding part of transformer for voltage conversion, TW Quaternary",TW Quaternary,TRUE,Type 1,PT Utility,"Terminal D"
+"Winding part of transformer for voltage conversion, TW Quinary",TW Quinary,FALSE,Type 2,PT Industrial,"Terminal E"
+"Winding part of transformer for voltage conversion, TW Senary",TW Senary,TRUE,Type 1,PT Commercial,"Terminal F"
+"Winding part of transformer for voltage conversion, TW Septenary",TW Septenary,FALSE,Type 2,PT Residential,"Terminal G"
+"Winding part of transformer for voltage conversion, TW Octonary",TW Octonary,TRUE,Type 1,PT Special Purpose,"Terminal H"
+"Winding part of transformer for voltage conversion, TW Nonary",TW Nonary,FALSE,Type 2,PT General Purpose,"Terminal I"
+"Winding part of transformer for voltage conversion, TW Decenary",TW Decenary,TRUE,Type 1,PT Emergency,"Terminal J"

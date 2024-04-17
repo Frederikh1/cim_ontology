@@ -1,0 +1,11 @@
+desc,name,tVoltageId,tBayId
+"Voltage level at 110kV","Åsbyen 110kV","VL110kV","Main Circuit"
+"Voltage level at 220kV","Røvand 220kV","VL220kV","Auxiliary Circuit"
+"Voltage level at 330kV","Grænmark 330kV","VL330kV","Control Circuit"
+"Voltage level at 400kV","Økernby 400kV","VL400kV","Power Circuit"
+"Voltage level at 500kV","Pænebjerg 500kV","VL500kV","Metering Circuit"
+"Voltage level at 600kV","Åkelund 600kV","VL600kV","Protection Circuit"
+"Voltage level at 700kV","Sølvstrøm 700kV","VL700kV","Isolation Circuit"
+"Voltage level at 800kV","Væstmark 800kV","VL800kV","Transfer Circuit"
+"Voltage level at 900kV","Solvænge 900kV","VL900kV","Distribution Circuit"
+"Voltage level at 1000kV","Klærvand 1000kV","VL1000kV","Grounding Circuit"

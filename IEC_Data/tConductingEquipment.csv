@@ -1,0 +1,11 @@
+desc,name,virtual,conductingEquipmentType,tBayId
+"Conductive path for electricity, CE Cable","CE Cable",FALSE,"Type 2","Main Circuit"
+"Conductive path for electricity, CE Line","CE Line",TRUE,"Type 3","Auxiliary Circuit"
+"Conductive path for electricity, CE Busbar","CE Busbar",FALSE,"Type 1","Control Circuit"
+"Conductive path for electricity, CE Switch","CE Switch",TRUE,"Type 2","Power Circuit"
+"Conductive path for electricity, CE Connector","CE Connector",FALSE,"Type 3","Metering Circuit"
+"Conductive path for electricity, CE Disconnector","CE Disconnector",TRUE,"Type 1","Protection Circuit"
+"Conductive path for electricity, CE Jumper","CE Jumper",FALSE,"Type 2","Isolation Circuit"
+"Conductive path for electricity, CE Insulator","CE Insulator",TRUE,"Type 3","Transfer Circuit"
+"Conductive path for electricity, CE Arrestor","CE Arrestor",FALSE,"Type 1","Distribution Circuit"
+"Conductive path for electricity, CE Grounding Rod","CE Grounding Rod",TRUE,"Type 2","Grounding Circuit"
