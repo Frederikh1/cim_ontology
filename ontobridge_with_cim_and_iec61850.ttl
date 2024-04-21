@@ -39,14 +39,6 @@
                         rdfs:label "SameAs" .
 
 
-###  http://www.semanticweb.org/information_management/ontobridge#Terminal.tTerminal
-:Terminal.tTerminal rdf:type owl:ObjectProperty ,
-                             owl:SymmetricProperty ;
-                    rdfs:domain <http://iec.ch/TC57/CIM-generic#Terminal> ;
-                    rdfs:range <http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#tTerminal> ;
-                    rdfs:label "SameAs" .
-
-
 ###  http://www.semanticweb.org/information_management/ontobridge#VoltageLevel.tVoltageLevel
 :VoltageLevel.tVoltageLevel rdf:type owl:ObjectProperty ,
                                      owl:SymmetricProperty ;
