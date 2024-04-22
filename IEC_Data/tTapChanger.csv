@@ -2,5 +2,5 @@ desc,name,tTransformerWindingId,tSubEquipmentId
 "Bruges til at ændre spændingen på transformatorer ved at justere viklingernes","Højspændingsomskifter","TW Primary","SE Transformer"
 "Enhed for finjustering af outputspænding på en krafttransformator.","Spændingsregulator","TW Secondary","SE Breaker"
 "Benyttes i elektriske systemer til at skifte viklingstilkoblinger og håndtere belastningsvariationer.","Belastningsomskifter","TW Tertiary","SE Switchgear"
-"Aktiverer kontrol af spændingsniveauer ved at skifte tappe på en transformator.","SpaendingsSkifteAnordning","TW Quaternary","SE Relay"
+"Aktiverer kontrol af spændingsniveauer ved at skifte tappe på en transformator.","SpændingsSkifteAnordning","TW Quaternary","SE Relay"
 "Benyttes til at justere transformerens spændingsoutput for at tilpasse elnettet.","JusterbarSpændingsomskifter","TW Quinary","SE Meter"
