@@ -1,6 +1,6 @@
 desc,name,virtual,transformerType,tPowerTransformerId,tTerminalId
-"Hovedtransformator til distribution af elektricitet i østlige Århus.",TransformatorØstVærk,FALSE,Type 2,PT High Capacity,"Terminal A"
-"Enhed til forbedring af spændingskvalitet i Sønderborgs netværk.",KabelNetværkSønderborg,TRUE,Type 1,PT Medium Capacity,"Terminal B"
-"Transformatorvikling for forsyning og regulering i Næstved området.",EnergiForsyningNæstved,FALSE,Type 2,PT Low Capacity,"Terminal C"
-"Vest Ålborgs energiomformer til håndtering af overbelastningsstrøm.",VestkraftNetÅlborg,TRUE,Type 1,PT Utility,"Terminal D"
-"Frederikshavn transformator for optimering af energitransmission.",StrømOmformerFrederikshavn,FALSE,Type 2,PT Industrial,"Terminal E"
+"Hovedtransformator til distribution af elektricitet i østlige Åsbyen.",TransformatorØstVærk,FALSE,Type 2,PT High Capacity,"Terminal A"
+"Enhed til forbedring af spændingskvalitet i Røvands netværk.",KabelNetværkRøvand,TRUE,Type 1,PT Medium Capacity,"Terminal B"
+"Transformatorvikling for forsyning og regulering i Grænmark området.",EnergiForsyningGrænmark,FALSE,Type 2,PT Low Capacity,"Terminal C"
+"Vest Økernbys energiomformer til håndtering af overbelastningsstrøm.",VestkraftNetØkernby,TRUE,Type 1,PT Utility,"Terminal D"
+"Pænebjerg transformator for optimering af energitransmission.",StrømOmformerPænebjerg,FALSE,Type 2,PT Industrial,"Terminal E"
