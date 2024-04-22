@@ -1,11 +1,6 @@
 mRID,aliasName,description,name,nominalVoltage
-2d435ee5-0443-431a-8554-d9a6f14cd89b,Photobug,"Oth fx right femur, subs for opn fx type 3A/B/C w nonunion","Neurotrope, Inc.",220 V
-36607a1a-2a19-481a-812d-466593218f54,Zoombeat,"Radial collateral ligament sprain of unsp elbow, subs encntr","Affiliated Managers Group, Inc.",22 V
-c338dea3-bdc1-4e74-bd5b-3a83f484ed17,Skinder,Postproc seroma of a circ sys org fol other circ sys proc,Cone Midstream Partners LP,220 V
-ad85fe1f-780f-4913-8fb7-987e5184353b,Layo,"Reiter's disease, right hand","Kinder Morgan, Inc.",400 V
-ba698987-0331-4595-871a-36d137282ff5,Buzzdog,"Displaced unsp fx left great toe, subs for fx w routn heal",Sphere 3D Corp.,22 V
-39d043fd-b9e5-4f10-9351-85064d798fea,Eire,"Frostbite w tissue necrosis of left knee and lower leg, subs",Lonestar Resources US Inc.,400 V
-3558dbcb-101d-4a10-a226-93a496c154c5,Oozz,Tetany,"Soleno Therapeutics, Inc.",11 V
-707bb2be-0ce7-4bcb-ba12-e91d3ef8e102,Aimbu,"Urethral syndrome, unspecified",PowerShares DWA SmallCap Momentum Portfolio,110 V
-c17f0b24-6cc4-4799-9914-dea339cf73c4,Skaboo,"Breakdown of prosthetic orbit of right eye, subs",Kayne Anderson Acquisition Corp.,33 V
-6637515f-ca4d-41bd-bd3d-0d32f81b0d95,Yodo,Sequelae of vitamin C deficiency,Pioneer Municipal High Income Trust,22 V
+2d435ee5-0443-431a-8554-d9a6f14cd89b,Photobug,"Oth fx right femur, subs for opn fx type 3A/B/C w nonunion","Neurotrope, Inc.","220 V"
+36607a1a-2a19-481a-812d-466593218f54,Zoombeat,"Radial collateral ligament sprain of unsp elbow, subs encntr","Affiliated Managers Group, Inc.","22 V"
+c338dea3-bdc1-4e74-bd5b-3a83f484ed17,Skinder,Postproc seroma of a circ sys org fol other circ sys proc,Cone Midstream Partners LP,"400 V"
+ad85fe1f-780f-4913-8fb7-987e5184353b,Layo,"Reiter's disease, right hand","Kinder Morgan, Inc.","11 V"
+ba698987-0331-4595-871a-36d137282ff5,Buzzdog,"Displaced unsp fx left great toe, subs for fx w routn heal",Sphere 3D Corp.,"33 V"
