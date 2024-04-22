@@ -1,11 +1,6 @@
 desc,name,phase,virtual
-"Sub-component of major equipment, SE Transformer","SE Transformer",ACN,FALSE
-"Sub-component of major equipment, SE Breaker","SE Breaker",ABN,TRUE
-"Sub-component of major equipment, SE Switchgear","SE Switchgear",ABC,FALSE
-"Sub-component of major equipment, SE Relay","SE Relay",ABCN,TRUE
-"Sub-component of major equipment, SE Meter","SE Meter",BN,FALSE
-"Sub-component of major equipment, SE Controller","SE Controller",AN,TRUE
-"Sub-component of major equipment, SE Capacitor","SE Capacitor",BC,FALSE
-"Sub-component of major equipment, SE Regulator","SE Regulator",AC,TRUE
-"Sub-component of major equipment, SE Inverter","SE Inverter",AB,FALSE
-"Sub-component of major equipment, SE Converter","SE Converter",BCN,TRUE
+"Enhed til måling af strømstyrke i højspændingsnetværk.","Strømsensor Øst",ACN,FALSE
+"Enhed til omformning af spændingsniveauer i distributionsnettet.","Spændingsomformer",ABN,TRUE
+"Enhed til detektion af jordfejl i elektriske installationer.","Jordfejlrelæ",ABC,FALSE
+"Sikringsudstyr til beskyttelse mod overstrøm i kredsløb.","Overstrømsbeskyttelse",ABCN,TRUE
+"Enhed til overvågning af temperatur i transformerstationer.","Temperaturmåler Central",BN,FALSE
