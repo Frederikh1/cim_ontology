@@ -1,11 +1,6 @@
 desc,name,virtual,generalEquipmentEnum
-"Miscellaneous operational equipment, GE Sensor",GE Sensor,FALSE,Enum 2
-"Miscellaneous operational equipment, GE Actuator",GE Actuator,TRUE,Enum 3
-"Miscellaneous operational equipment, GE Detector",GE Detector,FALSE,Enum 4
-"Miscellaneous operational equipment, GE Indicator",GE Indicator,TRUE,Enum 1
-"Miscellaneous operational equipment, GE Transducer",GE Transducer,FALSE,Enum 2
-"Miscellaneous operational equipment, GE Recorder",GE Recorder,TRUE,Enum 3
-"Miscellaneous operational equipment, GE Analyzer",GE Analyzer,FALSE,Enum 4
-"Miscellaneous operational equipment, GE Monitor",GE Monitor,TRUE,Enum 1
-"Miscellaneous operational equipment, GE Controller",GE Controller,FALSE,Enum 2
-"Miscellaneous operational equipment, GE Switch",GE Switch,TRUE,Enum 3
+"Enhed der leverer elektrisk strøm til andre enheder.",Hovedstrømforsyning,FALSE,Enum 2
+"Anlæg til opvarmning af bygninger ved at overføre varme fra luften eller jorden.",Jordvarmepumpe,TRUE,Enum 3
+"Elektrisk apparat til opbevaring af fødevarer ved lave temperaturer.",Fødevarekøler,FALSE,Enum 4
+"Enhed til transformation af elektrisk energi mellem to spændingsniveauer.",Spændingsomformer,TRUE,Enum 1
+"Enhed der omdanner mekanisk energi til elektrisk energi.",Strømgenerator,FALSE,Enum 2
