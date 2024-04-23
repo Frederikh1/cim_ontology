@@ -1,6 +1,6 @@
 mRID,aliasName,description,name
-83958586-7e1b-4e97-aff1-fbe84da805d5,RegionMidtjylland,"Geografisk region der dækker midterste del af Jylland med fokus på energidistribution og infrastruktur.","MidtjyllandEnergiRegion"
-fbb78fdd-aea0-4456-97d2-1e527264d498,RegionHovedstaden,"Region Hovedstaden, arbejder for en bæredygtig omstilling af energisystemet på tværs af kommunegrænser og sektorer.","HovedstadenEnergi"
-8dc6ac58-15f1-44fb-b35b-d6bef77710b1,RegionSyddanmark,"Region i Syddanmark karakteriseret ved store energinettet og fornybar ressourcer.","SyddanskEnergiNetværk"
-b0151717-0b97-46a8-88e4-98863a3b5abd,RegionNordjylland,"Energistyringszone i det nordlige Jylland, håndterer både produktion og forbrug","NordjyllandsKraftOmråde"
-a5254f18-1705-489f-b5ef-6f6d92ebe42f,RegionSjælland,"Region Sjælland kendt for sin intensive energiproduktion og -distribution.","SjællandsElTerritorium"
+83958586-7e1b-4e97-aff1-fbe84da805d5,RegionMidtjylland,"Geografisk region der daekker midterste del af Jylland med fokus paa energidistribution og infrastruktur.","MidtjyllandEnergiRegion"
+fbb78fdd-aea0-4456-97d2-1e527264d498,RegionHovedstaden,"Region Hovedstaden, arbejder for en baeredygtig omstilling af energisystemet paa tvaers af kommunegraenser og sektorer.","HovedstadenEnergi"
+8dc6ac58-15f1-44fb-b35b-d6bef77710b1,RegionSyddanmark,"Region i Syddanmark karakteriseret ved store energinettet og fornybar ressourcer.","SyddanskEnergiNetvaerk"
+b0151717-0b97-46a8-88e4-98863a3b5abd,RegionNordjylland,"Energistyringszone i det nordlige Jylland, haandterer baade produktion og forbrug","NordjyllandsKraftOmraade"
+a5254f18-1705-489f-b5ef-6f6d92ebe42f,RegionSjaelland,"Region Sjaelland kendt for sin intensive energiproduktion og -distribution.","SjaellandsElTerritorium"
