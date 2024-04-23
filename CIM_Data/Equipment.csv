@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,PSRTypeId
-38d349b8-4826-4736-861f-9ee4ac6de412,Stroemforsyning,"Enhed der leverer elektrisk strom til andre enheder.","Hovedstroemforsyning",true,true,true,false,5d5019ed-08a3-42b8-88c2-d41c85f96278
-e58856a2-9fa8-4f12-b6b3-53a753d65978,Varmepumpe,"Anlaeg til opvarmning af bygninger ved at overfoere varme fra luften eller jorden.","Jordvarmepumpe",false,false,true,true,ca90d42d-75b7-4b4d-9c6b-9db980cdc117
-4a19045d-b29f-4f5c-9974-3061b6343326,Koeleskab,"Elektrisk apparat til opbevaring af foedevarer ved lave temperaturer.","Foedevarekoeler",false,false,false,true,a46459f8-f6f3-42e2-a998-e83875ea8557
-73431f71-e76e-465f-890c-6555a649146c,Transformator,"Enhed til transformation af elektrisk energi mellem to spaendingsniveauer.",Spaendingsomformer,true,false,false,false,866a097e-544e-4b0d-a127-664c04b7b7cb
+38d349b8-4826-4736-861f-9ee4ac6de412,Stroemforsyning,"Enhed der leverer elektrisk strøm til andre enheder.","Hovedstroemforsyning",true,true,true,false,5d5019ed-08a3-42b8-88c2-d41c85f96278
+e58856a2-9fa8-4f12-b6b3-53a753d65978,Varmepumpe,"Anlæg til opvarmning af bygninger ved at overføre varme fra luften eller jorden.","Jordvarmepumpe",false,false,true,true,ca90d42d-75b7-4b4d-9c6b-9db980cdc117
+4a19045d-b29f-4f5c-9974-3061b6343326,Koeleskab,"Elektrisk apparat til opbevaring af fødevarer ved lave temperaturer.","Foedevarekoeler",false,false,false,true,a46459f8-f6f3-42e2-a998-e83875ea8557
+73431f71-e76e-465f-890c-6555a649146c,Transformator,"Enhed til transformation af elektrisk energi mellem to spændingsniveauer.",Spaendingsomformer,true,false,false,false,866a097e-544e-4b0d-a127-664c04b7b7cb
 cd44749a-76ef-4d55-b74d-5c2adab6c173,Generator,"Enhed der omdanner mekanisk energi til elektrisk energi.","Stroemgenerator",false,true,true,false,1fea4f1f-d00e-4a0f-89f4-e2388588d431
