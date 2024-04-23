@@ -1,6 +1,6 @@
 desc,name,tVoltageLevelId,tConductingEquipmentId
-"Primær bås til distribution af strøm i hovedsektoren.","Hoveddistributionsbås","VL110kV","CE Cable"
-"Bås dedikeret til hovedtransformatorer.","Transformatorbås","VL220kV","CE Line"
-"Indeholder kapacitorbanker til reaktiv effektkontrol.","Kapacitorbås","VL330kV","CE Busbar"
-"Bås for lagring og distribution af energi.","Energilagringsbås","VL400kV","CE Switch"
-"Bås til styring af solenergi.","Solenergibås","VL500kV","CE Connector"
+"Primær bås til distribution af strøm i hovedsektoren.","Hoveddistributionsbås","VL110kV","StrømførendeUdstyr1"
+"Bås dedikeret til hovedtransformatorer.","Transformatorbås","VL220kV","KabelLinjeØst"
+"Indeholder kapacitorbanker til reaktiv effektkontrol.","Kapacitorbås","VL330kV","TransformatorStationSyd"
+"Bås for lagring og distribution af energi.","Energilagringsbås","VL400kV","GeneratorVind"
+"Bås til styring af solenergi.","Solenergibås","VL500kV","OverfladeJordledning"
