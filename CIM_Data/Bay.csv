@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,bayEnergyMeasFlag,bayPowerMeasFlag,VoltageLevelId,SubstationId
-2f52e307-06b8-4cd4-81dc-753662d94d2f,HDB-01,"Primaer baes for strømdistribution i hovedområdet.",Hoveddistributionsbaes,true,true,7c52dadb-f0d8-478f-bab9-e1d353c7fe86,93579d3f-84ce-47b8-8c9d-9aea02a0d346
-c1660f09-e42e-4861-8c54-7c28d05c87a7,TRB-02,"Baes for hovedtransformatorer.",Transformatorbaes,false,true,53a53ab4-f12a-4346-86fb-a54a0eb2e0f1,2f8eeb64-2654-4324-ad47-b2b16d0519ca
-006b02db-9734-4d0e-a71b-0742df38138c,KPB-03,"Rum for kapacitorbanker til regulering af reaktiv effekt.",Kapacitorbaes,true,false,f123951f-d58b-4009-b2f6-cdedc2cee5a1,f4826d31-18e6-4f47-994a-c9eeccb8962e
-7fd4414e-9c36-4b1f-9a5b-55b28a694ca2,ELB-04,"Baes til energilagring og distribution.","Energilagringsbaes",true,true,9bb4efcd-1b30-4647-8cfb-1f79b17b74f8,5380a02a-53dc-463a-8d7b-3318572799cd
-7fe41265-4586-4b4d-8232-d9acdf2405f3,SEB-05,"Baes til solenergihåndtering.","Solenergibaes",false,true,6cc620b9-ef8e-44af-b4f2-63e4e725079e,27de724a-8956-4b08-ae7e-dff6de1d69c4
+2f52e307-06b8-4cd4-81dc-753662d94d2f,HDB-01,"Primaer baas til distribution af stroem i hovedsektoren.",Hoveddistributionsbaas,true,true,7c52dadb-f0d8-478f-bab9-e1d353c7fe86,93579d3f-84ce-47b8-8c9d-9aea02a0d346
+c1660f09-e42e-4861-8c54-7c28d05c87a7,TRB-02,"Baas dedikeret til hovedtransformatorer.",Transformatorbaas,false,true,53a53ab4-f12a-4346-86fb-a54a0eb2e0f1,2f8eeb64-2654-4324-ad47-b2b16d0519ca
+006b02db-9734-4d0e-a71b-0742df38138c,KPB-03,"Indeholder kapacitorbanker til reaktiv effektkontrol.",Kapacitorbaas,true,false,f123951f-d58b-4009-b2f6-cdedc2cee5a1,f4826d31-18e6-4f47-994a-c9eeccb8962e
+7fd4414e-9c36-4b1f-9a5b-55b28a694ca2,ELB-04,"Baas for lagring og distribution af energi.","Energilagringsbaas",true,true,9bb4efcd-1b30-4647-8cfb-1f79b17b74f8,5380a02a-53dc-463a-8d7b-3318572799cd
+7fe41265-4586-4b4d-8232-d9acdf2405f3,SEB-05,"Baas til styring af solenergi.","Solenergibaas",false,true,6cc620b9-ef8e-44af-b4f2-63e4e725079e,27de724a-8956-4b08-ae7e-dff6de1d69c4
