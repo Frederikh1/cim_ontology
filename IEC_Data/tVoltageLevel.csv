@@ -1,6 +1,6 @@
 desc,name,tVoltageId,tBayId
-"Spændingsniveau ved 110kV","Åsbyen 110kV","VL110kV","Main Circuit"
-"Spændingsniveau ved 220kV","Røvand 220kV","VL220kV","Auxiliary Circuit"
-"Spændingsniveau ved 330kV","Grænmark 330kV","VL330kV","Control Circuit"
-"Spændingsniveau ved 400kV","Økernby 400kV","VL400kV","Power Circuit"
-"Spændingsniveau ved 500kV","Pænebjerg 500kV","VL500kV","Metering Circuit"
+"Spændingsniveau ved 0.22kV","Åsbyen 0.22kV","0.22kV","Hoveddistributionsbås"
+"Spændingsniveau ved 0.022kV","Røvand 0.022kV","0.022kV","Transformatorbås"
+"Spændingsniveau ved 0.4kV","Grænmark 0.4kV","0.4kV","Kapacitorbås"
+"Spændingsniveau ved 0.011kV","Økernby 0.011kV","0.011kV","Energilagringsbås"
+"Spændingsniveau ved 0.033kV","Pænebjerg 0.033kV","0.033kV","Solenergibås"
