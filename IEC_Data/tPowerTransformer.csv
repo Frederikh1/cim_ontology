@@ -1,6 +1,6 @@
 desc,name,virtual,transformerType,tSubEquipmentId
-"Enhed til omformning af højspænding til lavspænding eller omvendt.","Højspændingsomformer",false,"Type 2","SE Transformer"
-"Transformer der distribuerer elektricitet til forbrugsområder.","Netværkstransformator",true,"Type 1","SE Breaker"
-"Apparat til justering af faser i trefasede systemer.","Fasejusteringstransformator",false,"Type 2","SE Switchgear"
-"Transformer type, der bruger en jernkerne for at øge magnetisk effektivitet.","Jernkerneomformer",true,"Type 1","SE Relay"
-"Transformer designet til at give elektrisk isolation mellem spændingsniveauer.","Sikkerhedsomformer",false,"Type 2","SE Meter"
+"Enhed til omformning af højspænding til lavspænding eller omvendt.","Højspændingsomformer",false,"Type 2","Strømsensor Øst"
+"Transformer der distribuerer elektricitet til forbrugsområder.","Netværkstransformator",true,"Type 1","Spændingsomformer"
+"Apparat til justering af faser i trefasede systemer.","Fasejusteringstransformator",false,"Type 2","Jordfejlrelæ"
+"Transformer type, der bruger en jernkerne for at øge magnetisk effektivitet.","Jernkerneomformer",true,"Type 1","Overstrømsbeskyttelse"
+"Transformer designet til at give elektrisk isolation mellem spændingsniveauer.","Sikkerhedsomformer",false,"Type 2","Temperaturmåler Central"
