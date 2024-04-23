@@ -1,6 +1,6 @@
 desc,name,tVoltageLevelId
-"Hovedstyrings- og relæanlæg til regionalnet, Åsbyen",Åsbyen,"Åsbyen 110kV"
-"Hovedstyrings- og relæanlæg til regionalnet, Røvand",Røvand,"Røvand 220kV"
-"Hovedstyrings- og relæanlæg til regionalnet, Grænmark",Grænmark,"Grænmark 330kV"
-"Hovedstyrings- og relæanlæg til regionalnet, Økernby",Økernby,"Økernby 400kV"
-"Hovedstyrings- og relæanlæg til regionalnet, Pænebjerg",Pænebjerg,"Pænebjerg 500kV"
+"Hovedstyrings- og relæanlæg til regionalnet, Åsbyen",Åsbyen,"Åsbyen 0.22kV"
+"Hovedstyrings- og relæanlæg til regionalnet, Røvand",Røvand,"Røvand 0.022kV"
+"Hovedstyrings- og relæanlæg til regionalnet, Grænmark",Grænmark,"Grænmark 0.4kV"
+"Hovedstyrings- og relæanlæg til regionalnet, Økernby",Økernby,"Økernby 0.011kV"
+"Hovedstyrings- og relæanlæg til regionalnet, Pænebjerg",Pænebjerg,"Pænebjerg 0.033kV"
