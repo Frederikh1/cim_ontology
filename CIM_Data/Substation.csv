@@ -1,12 +1,6 @@
 mRID,aliasName,description,name,subGeographicalRegionId
-93579d3f-84ce-47b8-8c9d-9aea02a0d346,Yabox,Injury of left iliac vein,Aasbyen,187786fa-995a-43c0-a8db-0a5b436b4df8
-2f8eeb64-2654-4324-ad47-b2b16d0519ca,Nlounge,Other chest pain,Roevand,4f8eb34f-2436-4075-a9af-57589314f1a0
-f4826d31-18e6-4f47-994a-c9eeccb8962e,Demizz,Encounter for screening for other viral diseases,Graenmark,913d4233-0c03-46b6-acce-a054c7426748
-5380a02a-53dc-463a-8d7b-3318572799cd,Youspan,"Aqueous misdirection, left eye",Oekernby,8c683525-6895-45eb-9ab9-97915774e270
-27de724a-8956-4b08-ae7e-dff6de1d69c4,Kwimbee,"Toxic effect of chlorofluorocarbons, assault",Pænebjerg,5404bff9-bc8c-45e7-bfb8-1b3b9d1e8803
-26798e3c-162a-4b1c-8f95-a9b8ea6936d0,Gabtype,"Quadruplet pregnancy, unsp num plcnta & amnio sacs",akelund,1006141b-e85b-42b2-867d-f761c1ac0527
-68f8c314-8c7e-42da-b5a3-50e2b36b1f28,Youfeed,"Toxic effect of halogenated insecticides, self-harm, subs",Sølvstroem,8a2299df-dc9e-4a83-a01b-e01f4d03499e
-d4cfcf38-0481-434e-a9e7-6f17b80b838b,Lazz,Disorders of diaphragm,Vaestmark,03edbe9e-4cf7-4830-aae8-84df2a58e51c
-4175d9f9-602d-4c8c-846b-56cf04fb6510,Thoughtbridge,"Dislocation of MCP joint of unsp finger, sequela",Solvænge,d1d2f10c-cb8e-4d91-8f92-00e3d1f71a7d
-cd991d3b-a6ce-4343-94eb-ac2beee7bb89,Kazu,Other fatigue,Klærvand,499f2586-f36c-4172-be09-00050bc67857
-
+93579d3f-84ce-47b8-8c9d-9aea02a0d346,regionalnetAarhus,"Hovedstyrings- og relaeanlaeg til regionalnet, Aarhus",Aarhus,187786fa-995a-43c0-a8db-0a5b436b4df8
+2f8eeb64-2654-4324-ad47-b2b16d0519ca,regionalnetKoebenhavn,"Hovedstyrings- og relæanlæg til regionalnet, Koebenhavn",Koebenhavn,4f8eb34f-2436-4075-a9af-57589314f1a0
+f4826d31-18e6-4f47-994a-c9eeccb8962e,regionalnetAeroeskoebing,"Hovedstyrings- og relæanlæg til regionalnet, Aeroeskoebing",Aeroeskoebing,913d4233-0c03-46b6-acce-a054c7426748
+5380a02a-53dc-463a-8d7b-3318572799cd,regionalnetAalborg,"Hovedstyrings- og relæanlæg til regionalnet, Aalborg",Aalborg,8c683525-6895-45eb-9ab9-97915774e270
+27de724a-8956-4b08-ae7e-dff6de1d69c4,regionalnetSoroe,"Hovedstyrings- og relæanlæg til regionalnet, Soroe",Soroe,5404bff9-bc8c-45e7-bfb8-1b3b9d1e8803
