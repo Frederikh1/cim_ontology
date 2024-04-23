@@ -1,6 +1,6 @@
 desc,name,tTransformerWindingId,tSubEquipmentId
-"Bruges til at ændre spændingen på transformatorer ved at justere viklingernes","Højspændingsomskifter","TransformatorØstVærk","Strømsensor Øst"
-"Enhed for finjustering af outputspænding på en krafttransformator.","Spændingsregulator","KabelNetværkRøvand","Spændingsomformer"
-"Benyttes i elektriske systemer til at skifte viklingstilkoblinger og håndtere belastningsvariationer.","Belastningsomskifter","EnergiForsyningGrænmark","Jordfejlrelæ"
-"Aktiverer kontrol af spændingsniveauer ved at skifte tappe på en transformator.","SpændingsSkifteAnordning","VestkraftNetØkernby","Overstrømsbeskyttelse"
-"Benyttes til at justere transformerens spændingsoutput for at tilpasse elnettet.","JusterbarSpændingsomskifter","StrømOmformerPænebjerg","Temperaturmåler Central"
+"Bruges til at ændre spændingen på transformatorer ved at justere viklingernes","Højspændingsomskifter","TransformatorÅrhus","Strømsensor Øst"
+"Enhed for finjustering af outputspænding på en krafttransformator.","Spændingsregulator","KabelNetværkKøbenhavn","Spændingsomformer"
+"Benyttes i elektriske systemer til at skifte viklingstilkoblinger og håndtere belastningsvariationer.","Belastningsomskifter","EnergiForsyningÆrøskøbing","Jordfejlrelæ"
+"Aktiverer kontrol af spændingsniveauer ved at skifte tappe på en transformator.","SpændingsSkifteAnordning","VestkraftNetÅlborg","Overstrømsbeskyttelse"
+"Benyttes til at justere transformerens spændingsoutput for at tilpasse elnettet.","JusterbarSpændingsomskifter","StrømOmformerSorø","Temperaturmåler Central"
