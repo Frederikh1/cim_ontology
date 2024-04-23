@@ -1,11 +1,6 @@
 mRID,aliasName,description,name,baseFrequency
-52eeb9b8-015a-4535-ba56-1a6906f10289,Centizu,"Underdosing of other systemic antibiotics, initial encounter",M B T Financial Corp,50
-fc1be7cb-6ee4-4f75-8ec8-c9224754b96b,Linklinks,"Drug/chem diab with prolif diab rtnop without mclr edema, bi","Douglas Emmett, Inc.",60
-e4b048ff-ad58-4c78-a788-df80c44296be,Eabox,Drowning and submersion due to oth accident to fishing boat,Nektar Therapeutics,50
-4336fae1-c8a7-421c-a96e-92789947870d,Chatterpoint,"Other cyst of bone, right hand","Manhattan Bridge Capital, Inc",60
-f0943b45-4623-421f-9511-40bd322280f9,Zoomzone,"Adverse effect of nonsteroidal anti-inflammatory drugs, init",Nymox Pharmaceutical Corporation,60
-6d45d75f-d492-4328-aa3c-703d10568fe7,Fadeo,Toxic effects of corrosive alkalis and alk-like substances,PPL Corporation,50
-48795c86-3db8-4307-a3ed-b4460d4d8aba,Yodel,Malignant neoplasm of colon,Northwest Pipe Company,50
-52c18a87-87be-4a03-9ac2-9ce398175741,Riffpedia,"Explosn of mine place dur war op but expld aft, milt, subs",Textron Inc.,60
-fb124da4-69d4-442f-a86c-4b3e392c7770,Agimba,"Corrosion of second degree of unsp toe(s) (nail), init","Moneygram International, Inc.",60
-f2def203-864d-43d3-886f-fa58fe856bd1,Yozio,"Nondisp fx of ant column of l acetab, subs for fx w nonunion",IZEA Inc.,60
+52eeb9b8-015a-4535-ba56-1a6906f10289,FrekvensKontrolAarhus,"Regulerer den basale netfrekvens for stroemforsyning i Aarhus.","Aarhus BasisFrekvens",50
+fc1be7cb-6ee4-4f75-8ec8-c9224754b96b,GrundlaeggendeFrekvensOestjylland,"Ansvarlig for opretholdelse af 50 Hz i elnettet over Oestjylland.","Oestjylland FrekvensRegulering",60
+e4b048ff-ad58-4c78-a788-df80c44296be,NetFrekvensStyringAalborg,"Sikrer stabilitet og frekvensbalancer i Aalborgs elektriske system.","Aalborg FrekvensNet",50
+4336fae1-c8a7-421c-a96e-92789947870d,BasisFrekvensVedligeholdOdense,"Vigtig komponent i frekvensstyring og drift i Odense.","Odense FrekvensVedligehold",60
+f0943b45-4623-421f-9511-40bd322280f9,ReguleringAfFrekvensKoebenhavn,"Overvaager og justerer netfrekvensen i Koebenhavns metropolomraade.","Koebenhavn FrekvensKontrol",60
