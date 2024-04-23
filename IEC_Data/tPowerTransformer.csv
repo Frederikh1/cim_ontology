@@ -1,6 +1,6 @@
 desc,name,virtual,transformerType,tSubEquipmentId
-"Enhed til omformning af højspænding til lavspænding eller omvendt.","Højspændingsomformer",false,"Type 2","Strømsensor Øst"
-"Transformer der distribuerer elektricitet til forbrugsområder.","Netværkstransformator",true,"Type 1","Spændingsomformer"
+"Enhed til omformning af højspænding til lavspænding eller omvendt.","Højspændingsomformer",false,"Type 2","Spændingsomformer"
+"Transformer der distribuerer elektricitet til forbrugsområder.","Netværkstransformator",true,"Type 1","Strømsensor Øst"
 "Apparat til justering af faser i trefasede systemer.","Fasejusteringstransformator",false,"Type 2","Jordfejlrelæ"
-"Transformer type, der bruger en jernkerne for at øge magnetisk effektivitet.","Jernkerneomformer",true,"Type 1","Overstrømsbeskyttelse"
-"Transformer designet til at give elektrisk isolation mellem spændingsniveauer.","Sikkerhedsomformer",false,"Type 2","Temperaturmåler Central"
+"Transformer type, der bruger en jernkerne for at øge magnetisk effektivitet.","Jernkerneomformer",true,"Type 1","Temperaturmåler Central"
+"Transformer designet til at give elektrisk isolation mellem spændingsniveauer.","Sikkerhedsomformer",false,"Type 2","Overstrømsbeskyttelse"
