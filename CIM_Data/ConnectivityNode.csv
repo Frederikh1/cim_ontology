@@ -1,11 +1,6 @@
 mRID,aliasName,description,name
-85ebcbe2-4a20-460e-9444-50a927ff2e15,Realcube,"Lead-induced chronic gout, left hand",Bank of America Corporation
-6ba97b97-9cd1-4bb9-9d56-e55a21a5efb9,Skimia,"Open bite, left thigh, sequela",Liberty Media Corporation
-5ecb1915-26c8-4ac9-b31e-42633735187f,Omba,"Laceration w fb of l rng fngr w damage to nail, sequela",Hersha Hospitality Trust
-fb745b0a-b23e-4b4a-8fa8-1663ddf2073d,Zoovu,"Lacerat unsp blood vessel at ank/ft level, unsp leg, init",Sears Holdings Corporation
-5157793f-686b-419c-91e9-6f651bda62d5,Bluejam,"Leakage of other urinary catheter, sequela",Nektar Therapist
-edf39175-4983-4773-9cf5-7632acc317dc,Mybuzz,Frostbite with tissue necrosis of unspecified finger(s),"M I Acquisitions, Inc."
-2428261e-61b9-4b1a-a759-a9ebfe0cb464,Leenti,"Poisoning by tetracyclines, undetermined, subs encntr","Genesis Energy, L.P."
-85199686-5ddd-4251-bafa-85b09b850013,Aimbu,"Lacerat unsp blood vess at hip and thi lev, right leg, sqla",Luxfer Holdings PLC
-66a2d8af-3478-4d82-af33-ffef5653fb8e,Twimbo,"Open bite of unsp external genital organs, male, sequela",Hooker Furniture Corporation
-e291329c-3557-4bac-8000-c9e36f22b81d,Dazzlesphere,"Oth intartic fx low end l rad, subs for clos fx w routn heal",The Advisory Board Company
+85ebcbe2-4a20-460e-9444-50a927ff2e15,"ÅsbyenEnergiNet","Nodalpunkt for distribution af elektricitet i det centrale Åsbyen.","ÅsbyenVestElKobling"
+6ba97b97-9cd1-4bb9-9d56-e55a21a5efb9,"RøvandStrømPunkt","Interface for overvågning og regulering af energistrømme i Røvand.","RøvandEnergiSamling"
+5ecb1915-26c8-4ac9-b31e-42633735187f,"GrænmarkKraftÅ","Kraftoverførselspunkt beliggende i Grænmark, styrer lokalnettet.","GrænmarkEnergiØ"
+fb745b0a-b23e-4b4a-8fa8-1663ddf2073d,ØkernbysElNet,"Kritisk forbindelsespunkt for eldistribution i Økernby.","ØkernbyElForbindelse"
+5157793f-686b-419c-91e9-6f651bda62d5,PænebjergCentralNet,"Centralt elnetværks knude i Pænebjerg, håndterer alle større linjer.","PænebjergNetværksHub"
