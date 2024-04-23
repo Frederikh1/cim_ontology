@@ -1,6 +1,6 @@
 desc,name,virtual,conductingEquipmentType,tBayId
-"Dette er en hovedafbryder der kontrollerer hovedstrømforsyningen til en bygning.","StrømførendeUdstyr1",FALSE,"Type 2","Main Circuit"
-"Kabel der forbinder den østlige del af nettet med transformerstationen.","KabelLinjeØst",TRUE,"Type 3","Auxiliary Circuit"
-"En transformatorstation som forsyner sydlige områder med elektricitet.","TransformatorStationSyd",FALSE,"Type 1","Control Circuit"
-"Vindturbine generator placeret i havparken ved Jyllands kyst.","GeneratorVind",TRUE,"Type 2","Power Circuit"
-"Jordledning der bruges til at forbinde overfladeanlæg til jord.","OverfladeJordledning",FALSE,"Type 3","Metering Circuit"
+"Dette er en hovedafbryder der kontrollerer hovedstrømforsyningen til en bygning.","StrømførendeUdstyr1",FALSE,"Type 2","Hoveddistributionsbås"
+"Kabel der forbinder den østlige del af nettet med transformerstationen.","KabelLinjeØst",TRUE,"Type 3","Transformatorbås"
+"En transformatorstation som forsyner sydlige områder med elektricitet.","TransformatorStationSyd",FALSE,"Type 1","Kapacitorbås"
+"Vindturbine generator placeret i havparken ved Jyllands kyst.","GeneratorVind",TRUE,"Type 2","Energilagringsbås"
+"Jordledning der bruges til at forbinde overfladeanlæg til jord.","OverfladeJordledning",FALSE,"Type 3","Solenergibås"
