@@ -1,6 +1,6 @@
 desc,name,virtual,transformerType,tPowerTransformerId,tTerminalId
-"Hovedtransformator til distribution af elektricitet i østlige Åsbyen.",TransformatorØstVærk,FALSE,Type 2,Højspændingsomformer,"FrekvensReguleringÅsbyen"
-"Enhed til forbedring af spændingskvalitet i Røvands netværk.",KabelNetværkRøvand,TRUE,Type 1,Netværkstransformator,"NetovervågningRøvand"
-"Transformatorvikling for forsyning og regulering i Grænmark området.",EnergiForsyningGrænmark,FALSE,Type 2,Fasejusteringstransformator,"StrømkontrolGrænmark"
-"Vest Økernbys energiomformer til håndtering af overbelastningsstrøm.",VestkraftNetØkernby,TRUE,Type 1,Jernkerneomformer,"KølingSystemØkernby"
-"Pænebjerg transformator for optimering af energitransmission.",StrømOmformerPænebjerg,FALSE,Type 2,Sikkerhedsomformer,"EnergistrømPænebjerg"
+"Hovedtransformator til distribution af elektricitet i østlige Århus.",TransformatorÅrhus,FALSE,Type 2,Højspændingsomformer,"FrekvensReguleringÅrhus"
+"Enhed til forbedring af spændingskvalitet i Københavns netværk.",KabelNetværkKøbenhavn,TRUE,Type 1,Netværkstransformator,"NetovervågningKøbenhavn"
+"Transformatorvikling for forsyning og regulering i Ærøskøbing området.",EnergiForsyningÆrøskøbing,FALSE,Type 2,Fasejusteringstransformator,"StrømkontrolÆrøskøbing"
+"Vest Ålborgs energiomformer til håndtering af overbelastningsstrøm.",VestkraftNetÅlborg,TRUE,Type 1,Jernkerneomformer,"KølingSystemÅlborg"
+"Sorø transformator for optimering af energitransmission.",StrømOmformerSorø,FALSE,Type 2,Sikkerhedsomformer,"EnergistrømSorø"
