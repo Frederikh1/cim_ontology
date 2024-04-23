@@ -1,6 +1,6 @@
-desc,name,tVoltageLevelId,tConductingEquipmentId
-"Primær bås til distribution af strøm i hovedsektoren.","Hoveddistributionsbås","Åsbyen 0.22kV","StrømførendeUdstyr1"
-"Bås dedikeret til hovedtransformatorer.","Transformatorbås","Røvand 0.022kV","KabelLinjeØst"
-"Indeholder kapacitorbanker til reaktiv effektkontrol.","Kapacitorbås","Grænmark 0.4kV","TransformatorStationSyd"
-"Bås for lagring og distribution af energi.","Energilagringsbås","Økernby 0.011kV","GeneratorVind"
-"Bås til styring af solenergi.","Solenergibås","Pænebjerg 0.033kV","OverfladeJordledning"
+desc,name,tConductingEquipmentId
+"Primær bås til distribution af strøm i hovedsektoren.","Hoveddistributionsbås","StrømførendeUdstyr1"
+"Bås dedikeret til hovedtransformatorer.","Transformatorbås","KabelLinjeØst"
+"Indeholder kapacitorbanker til reaktiv effektkontrol.","Kapacitorbås","TransformatorStationSyd"
+"Bås for lagring og distribution af energi.","Energilagringsbås","GeneratorVind"
+"Bås til styring af solenergi.","Solenergibås","OverfladeJordledning"
