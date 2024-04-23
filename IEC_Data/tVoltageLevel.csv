@@ -1,6 +1,6 @@
 desc,name,tVoltageId,tBayId
-"Spændingsniveau ved 0.22kV","Åsbyen 0.22kV","0.22kV","Hoveddistributionsbås"
-"Spændingsniveau ved 0.022kV","Røvand 0.022kV","0.022kV","Transformatorbås"
-"Spændingsniveau ved 0.4kV","Grænmark 0.4kV","0.4kV","Kapacitorbås"
-"Spændingsniveau ved 0.011kV","Økernby 0.011kV","0.011kV","Energilagringsbås"
-"Spændingsniveau ved 0.033kV","Pænebjerg 0.033kV","0.033kV","Solenergibås"
+"Spændingsniveau ved 0.22kV","Århus 0.22kV","0.22kV","Hoveddistributionsbås"
+"Spændingsniveau ved 0.022kV","København 0.022kV","0.022kV","Transformatorbås"
+"Spændingsniveau ved 0.4kV","Ærøskøbing 0.4kV","0.4kV","Kapacitorbås"
+"Spændingsniveau ved 0.011kV","Ålborg 0.011kV","0.011kV","Energilagringsbås"
+"Spændingsniveau ved 0.033kV","Sorø 0.033kV","0.033kV","Solenergibås"
