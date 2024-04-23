@@ -1,6 +1,6 @@
 literal,value,description
-ACN,41,Phases A C and neutral.
-ABN,193,Phases A B and neutral.
-ABC,224,Phases A B and C.
-ABCN,225,Phases A B C and N.
-BN,65,Phases B and neutral.
+"ACN","41","Phases A C and neutral."
+"ABN","193","Phases A B and neutral."
+"ABC","224","Phases A B and C."
+"ABCN","225","Phases A B C and N."
+"BN","65","Phases B and neutral."
