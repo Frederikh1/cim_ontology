@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,baseFrequency
-52eeb9b8-015a-4535-ba56-1a6906f10289,FrekvensKontrolAasbyen,"Regulerer den basale netfrekvens for stroemforsyning i Aasbyen.","Aasbyen BasisFrekvens",50
-fc1be7cb-6ee4-4f75-8ec8-c9224754b96b,GrundlaeggendeFrekvensRoevand,"Ansvarlig for opretholdelse af 50 Hz i elnettet over Roevand.","Roevand FrekvensRegulering",60
-e4b048ff-ad58-4c78-a788-df80c44296be,NetFrekvensStyringGraenmark,"Sikrer stabilitet og frekvensbalancer i Graenmarks elektriske system.","Graenmark FrekvensNet",50
-4336fae1-c8a7-421c-a96e-92789947870d,BasisFrekvensVedligeholdOekernby,"Vigtig komponent i frekvensstyring og drift i Oekernby.","Oekernby FrekvensVedligehold",60
-f0943b45-4623-421f-9511-40bd322280f9,ReguleringAfFrekvensPaenebjerg,"Overvaager og justerer netfrekvensen i Paenebjergs metropolomraade.","Paenebjerg FrekvensKontrol",60
+52eeb9b8-015a-4535-ba56-1a6906f10289,FrekvensKontrolAarhus,"Regulerer den basale netfrekvens for stroemforsyning i Aarhus.","Aarhus BasisFrekvens",50
+fc1be7cb-6ee4-4f75-8ec8-c9224754b96b,GrundlaeggendeFrekvensKoebenhavn,"Ansvarlig for opretholdelse af 50 Hz i elnettet over Koebenhavn.","Koebenhavn FrekvensRegulering",60
+e4b048ff-ad58-4c78-a788-df80c44296be,NetFrekvensStyringAeroeskoebing,"Sikrer stabilitet og frekvensbalancer i Aeroeskoebings elektriske system.","Aeroeskoebing FrekvensNet",50
+4336fae1-c8a7-421c-a96e-92789947870d,BasisFrekvensVedligeholdAalborg,"Vigtig komponent i frekvensstyring og drift i Aalborg.","Aalborg FrekvensVedligehold",60
+f0943b45-4623-421f-9511-40bd322280f9,ReguleringAfFrekvensSoroe,"Overvaager og justerer netfrekvensen i Soroes metropolomraade.","Soroe FrekvensKontrol",60
