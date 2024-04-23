@@ -1,11 +1,6 @@
 mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,normalOpen,retained,open,locked,switchOnCount,switchOnDate
-6006a712-a788-4813-885d-1f80e16d3a6e,Thoughtstorm,"Disp fx of base of fifth MC bone. left hand, init for opn fx",BOK Financial Corporation,true,true,true,false,true,false,false,false,35,9/14/2023
-b0d5f830-347d-4cf1-b05d-fded7d4d9561,Gigashots,"Other sprain of right middle finger, initial encounter",Electrum Special Acquisition Corporation,false,false,true,true,true,false,false,true,73,7/14/2023
-9aca54a9-d112-4e4f-b20e-ca82d1e54633,Babblestorm,"Burn of first degree of head, face, and neck, unsp site",Kingtone Wirelessinfo Solution Holding Ltd,true,true,false,true,true,true,true,true,17,1/19/2024
-ccd863f9-2db9-4059-9337-b5be77a62a2a,Divape,"Unsp injury of left innominate or subclavian vein, subs",Hilton Grand Vacations Inc.,false,false,false,false,true,true,true,false,76,1/15/2024
-b3405fcf-9b3d-44c0-b84a-e6759b08a402,Oba,"Maternal care for cervical incompetence, second trimester",Progenics Pharmaceuticals Inc.,true,false,false,false,true,true,true,false,87,6/23/2023
-cd48491e-c457-4b38-8e8c-c63e3a6a8426,Youfeed,Encounter for insertion of intrauterine contraceptive device,First Trust RiverFront Dynamic Europe ETF,false,true,false,true,true,true,false,true,6,12/25/2023
-af817499-6386-4775-8964-093b34dabdb3,Eazzy,"Oth physeal fx upper end of l femur, subs for fx w malunion","Akebia Therapeutics, Inc.",false,false,true,false,false,true,false,true,26,1/10/2024
-032f899a-d588-48ea-968d-435cb23edd0c,Yozio,"Contusion of unspecified ear, sequela","Colony NorthStar, Inc.",false,false,true,true,true,false,false,true,4,1/3/2024
-82b36161-13e2-4aa8-928a-5cb6bdd029ec,Demimbu,"Nondisp segmental fracture of shaft of right tibia, sequela","WellCare Health Plans, Inc.",true,true,true,true,false,true,false,true,50,1/17/2024
-b5db2488-b6ec-42ca-9b10-de2a6a19c52a,Gevee,"Oth types of non-Hodgkin lymphoma, lymph nodes mult site","Inventure Foods, Inc.",false,false,false,false,true,true,false,false,47,9/18/2023
+6006a712-a788-4813-885d-1f80e16d3a6e,"AarhusCentrumSwitch","Hovedafbryder placeret i Aarhus' centrum, designet til hurtig isolation af netvaerkssegmenter ved fejl.","CentralAarhusAfbryder",true,true,true,false,true,false,false,false,35,9/14/2023
+b0d5f830-347d-4cf1-b05d-fded7d4d9561,"KoebenhavnNordSwitch","Switch i nordlige Koebenhavn, kontrollerer energifloeden til industrikvarterer og boligomraader.","NordKoebenhavnSwitch",false,false,true,true,true,false,false,true,73,7/14/2023
+9aca54a9-d112-4e4f-b20e-ca82d1e54633,"AeroeSydEnergiSwitch","Switch anlaeg i Aeroeskoebing Syd, optimeret til styring af fornybar energi som vind og sol.","AeroeSolVindSwitch",true,true,false,true,true,true,true,true,17,1/19/2024
+ccd863f9-2db9-4059-9337-b5be77a62a2a,"NordAalborgHovedSwitch","Primaer switch i NordAalborg, afgoerende for distributionsnetvaerkets stabilitet og sikkerhed.","AalborgNordNetSwitch",false,false,false,false,true,true,true,false,76,1/15/2024
+b3405fcf-9b3d-44c0-b84a-e6759b08a402,"SoroeVestKraftSwitch","Kraftafbryder placeret i Soroe Vest, essentiel for energiintegration fra landbrugsbaserede kilder.","SoroeLandbrugSwitch",true,false,false,false,true,true,true,false,87,6/23/2023
