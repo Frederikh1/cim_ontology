@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,aggregate,inService,networkAnalysisEnabled,normallyInService,normalOpen,retained,open,locked,switchOnCount,switchOnDate,inTransitTime
-d9b7ef17-9f75-4498-a2a5-e447676676e3,KredslaebeAasbyen,"Anordning til afbrydelse og tilslutning af belastninger i Aasbyen's elnet.","AasbyenHovedBryder",true,false,true,false,true,true,true,false,54,11/24/2023,89
-d9c9296e-4d8d-4d2c-a91b-8a37d5554c0e,HovedBryderRoevand,"Udstyr der kontrollerer elektrisk stroem til Roevand bydelskvarter.","RoevandKredslaeber",true,false,true,false,true,true,true,true,15,3/12/2024,17
-81690ea7-292c-4286-9b54-c47a4c90b79e,SikringsPanelGraenmark,"Komponent til sikring og styring af elsystemet i Graenmark industriomraade.","GraenmarkSikringsPanel",true,false,false,false,false,false,false,false,68,10/15/2023,35
-cb94defc-6688-433a-8144-555614f04e10,EnergiSkiftOekernby,"Enhed for hoejspaendingsafbrydelse i Oekernby energisektor.","OekernbyEnergiBryder",true,true,false,true,true,false,true,false,7,9/17/2023,1
-b25c3dff-dd44-4d8a-a6f1-1ef11d64ba59,BrydeStationPaenebjerg,"Bryderenhed installeret for at haandtere overbelastninger i Paenebjerg omraadet.","PaenebjergStroemAfbryder",true,false,true,false,false,false,false,false,32,2/11/2024,54
+d9b7ef17-9f75-4498-a2a5-e447676676e3,KredslaebeAarhus,"Anordning til afbrydelse og tilslutning af belastninger i Aarhus's elnet.","AarhusHovedBryder",true,false,true,false,true,true,true,false,54,11/24/2023,89
+d9c9296e-4d8d-4d2c-a91b-8a37d5554c0e,HovedBryderKoebenhavn,"Udstyr der kontrollerer elektrisk stroem til Koebenhavn bydelskvarter.","KoebenhavnKredslaeber",true,false,true,false,true,true,true,true,15,3/12/2024,17
+81690ea7-292c-4286-9b54-c47a4c90b79e,SikringsPanelAeroeskoebing,"Komponent til sikring og styring af elsystemet i Aeroeskoebing industriomraade.","AeroeskoebingSikringsPanel",true,false,false,false,false,false,false,false,68,10/15/2023,35
+cb94defc-6688-433a-8144-555614f04e10,EnergiSkiftAalborg,"Enhed for hoejspaendingsafbrydelse i Aalborg energisektor.","AalborgEnergiBryder",true,true,false,true,true,false,true,false,7,9/17/2023,1
+b25c3dff-dd44-4d8a-a6f1-1ef11d64ba59,BrydeStationSoroe,"Bryderenhed installeret for at haandtere overbelastninger i Soroe omraadet.","SoroeStroemAfbryder",true,false,true,false,false,false,false,false,32,2/11/2024,54
