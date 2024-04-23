@@ -1,6 +1,6 @@
 mRID,aliasName,description,name
-85ebcbe2-4a20-460e-9444-50a927ff2e15,"ÅsbyenEnergiNet","Nodalpunkt for distribution af elektricitet i det centrale Åsbyen.","ÅsbyenVestElKobling"
-6ba97b97-9cd1-4bb9-9d56-e55a21a5efb9,"RøvandStrømPunkt","Interface for overvågning og regulering af energistrømme i Røvand.","RøvandEnergiSamling"
-5ecb1915-26c8-4ac9-b31e-42633735187f,"GrænmarkKraftÅ","Kraftoverførselspunkt beliggende i Grænmark, styrer lokalnettet.","GrænmarkEnergiØ"
-fb745b0a-b23e-4b4a-8fa8-1663ddf2073d,ØkernbysElNet,"Kritisk forbindelsespunkt for eldistribution i Økernby.","ØkernbyElForbindelse"
-5157793f-686b-419c-91e9-6f651bda62d5,PænebjergCentralNet,"Centralt elnetværks knude i Pænebjerg, håndterer alle større linjer.","PænebjergNetværksHub"
+85ebcbe2-4a20-460e-9444-50a927ff2e15,"AasbyenEnergiNet","Nodalpunkt for distribution af elektricitet i det centrale Aasbyen.","AasbyenVestElKobling"
+6ba97b97-9cd1-4bb9-9d56-e55a21a5efb9,"RoevandStroemPunkt","Interface for overvAagning og regulering af energistroemme i Roevand.","RoevandEnergiSamling"
+5ecb1915-26c8-4ac9-b31e-42633735187f,"GraenmarkKraftAa","Kraftoverfoerselspunkt beliggende i Graenmark, styrer lokalnettet.","GraenmarkEnergioe"
+fb745b0a-b23e-4b4a-8fa8-1663ddf2073d,oekernbysElNet,"Kritisk forbindelsespunkt for eldistribution i oekernby.","oekernbyElForbindelse"
+5157793f-686b-419c-91e9-6f651bda62d5,PaenebjergCentralNet,"Centralt elnetvaerks knude i Paenebjerg, hAandterer alle stoerre linjer.","PaenebjergNetvaerksHub"
