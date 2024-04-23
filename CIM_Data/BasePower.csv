@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,basePower
-f93bd245-987f-484d-8e19-9ed54a399be6,GrundlaeggendeKraftAasbyen,"Sikrer den grundlaeggende effektbehov for energisystemet i Aasbyen.","Aasbyen GrundKraft",100
-3c9d8252-dd47-42d7-9b4e-72dd0ab9e413,EnergiKapacitetRoevand,"Definerer kapacitetsgrænserne for energiforsyning i Roevand.","Roevand EnergiKapacitet",500
-c5a77b50-a406-4c50-a3d6-68d897577f7c,StroemGrundlagGraenmark,"Grundlag for beregning af maksimalt strømoutput i Graenmark.","Graenmark BasisStroem",1000
-44f6433e-25fa-48f3-b1bd-c7569e9c6714,PrimaeerKraftOekernby,"Vedligeholder og styrer den primære kraftudnyttelse i Oekernby.","Oekernby PrimaeerKraft",200
-e786b50c-c02e-4a64-b3a6-f5a84eed7e2f,BasisEnergiPaenebjerg,"Kontrollerer basisenerginiveauerne i Paenebjergs infrastruktur.","Paenebjerg BasisEnergi",1000
+f93bd245-987f-484d-8e19-9ed54a399be6,GrundlaeggendeKraftAarhus,"Sikrer den grundlaeggende effektbehov for energisystemet i Aarhus.","Aarhus GrundKraft",100
+3c9d8252-dd47-42d7-9b4e-72dd0ab9e413,EnergiKapacitetKoebenhavn,"Definerer kapacitetsgrænserne for energiforsyning i Koebenhavn.","Koebenhavn EnergiKapacitet",500
+c5a77b50-a406-4c50-a3d6-68d897577f7c,StroemGrundlagAeroeskoebing,"Grundlag for beregning af maksimalt strømoutput i Aeroeskoebing.","Aeroeskoebing BasisStroem",1000
+44f6433e-25fa-48f3-b1bd-c7569e9c6714,PrimaeerKraftAalborg,"Vedligeholder og styrer den primære kraftudnyttelse i Aalborg.","Aalborg PrimaeerKraft",200
+e786b50c-c02e-4a64-b3a6-f5a84eed7e2f,BasisEnergiSoroe,"Kontrollerer basisenerginiveauerne i Soroes infrastruktur.","Soroe BasisEnergi",1000
