@@ -1,11 +1,6 @@
 mRID,aliasName,description,name
-5d5019ed-08a3-42b8-88c2-d41c85f96278,Jatri,"Disp fx of posterior wall of left acetabulum, init","Alliqua BioMedical, Inc."
-ca90d42d-75b7-4b4d-9c6b-9db980cdc117,Wordpedia,Partial loss of teeth due to other specified cause,U.S. Energy Corp.
-a46459f8-f6f3-42e2-a998-e83875ea8557,Mynte,Prsnl history of malig neoplm of unsp female genital organ,"Neustar, Inc."
-866a097e-544e-4b0d-a127-664c04b7b7cb,Npath,Failed school examinations,CPFL Energia S.A.
-1fea4f1f-d00e-4a0f-89f4-e2388588d431,Roombo,Laceration w/o fb of l little finger w/o damage to nail,E.W. Scripps Company (The)
-a7a746fd-0c0b-4ba5-a46c-f77574473cf5,Linktype,"Cutaneous abscess of head [any part, except face]",Capital One Financial Corporation
-808a5f71-f6c0-4f7b-bee7-178e4d318b84,Blogspan,"Primary open-angle glaucoma, right eye, mild stage",GP Investments Acquisition Corp.
-7b807f47-459c-4f72-bd51-c5862815ef07,Lazzy,Calculus of urinary tract in diseases classified elsewhere,"TRI Pointe Group, Inc."
-6e6cf51c-5c2a-4819-96d8-1cec87e1a27c,Miboo,"Displ spiral fx shaft of l femur, init for opn fx type I/2","PFSweb, Inc."
-0f3c0ad8-441b-440c-a7cc-68f4d75e62ed,Geba,"Maternal care for excess fetal growth, first trimester, oth","ModusLink Global Solutions, Inc"
+5d5019ed-08a3-42b8-88c2-d41c85f96278,VindTurbineKlasse,"Klassificering af vindturbine baseret på effektivitet og design tilpasset danske vindforhold.","DanVindTurbinType"
+ca90d42d-75b7-4b4d-9c6b-9db980cdc117,SolcelleAnlægType,"Typeinddeling af solcelleanlæg til brug i forskellige miljøer inden for Danmark.","SolarDanmarkKlasse"
+a46459f8-f6f3-42e2-a998-e83875ea8557,VandkraftModel,"Model for vandkraftværker, optimeret til små og mellemstore floder i Danmark.","AquaEnergiModel"
+866a097e-544e-4b0d-a127-664c04b7b7cb,BiomasseEnergiSystem,"Systemtype for biomassebaseret energiproduktion, anvendelig i landbrugsområder.","BioKraftSystemType"
+1fea4f1f-d00e-4a0f-89f4-e2388588d431,TermiskGeneratorØ,"Kategori af termiske generatorer til stor-skala energiproduktion, inklusive kulkraft og gas.","TermoGeneratorKapacitet"
