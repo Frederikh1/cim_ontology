@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,nominalVoltage
-2d435ee5-0443-431a-8554-d9a6f14cd89b,SpaendingsniveauAasbyen,"Spaendingsniveau ved 220V","Aasbyen 220V","220 V"
-36607a1a-2a19-481a-812d-466593218f54,SpaendingsniveauRoevand,"Spaendingsniveau ved 22V","Roevand 22V","22 V"
-c338dea3-bdc1-4e74-bd5b-3a83f484ed17,SpaendingsniveauGraenmark,"Spaendingsniveau ved 400V","Graenmark 400V","400 V"
-ad85fe1f-780f-4913-8fb7-987e5184353b,SpaendingsniveauOekernby,"Spaendingsniveau ved 11V","Oekernby 11V","11 V"
-ba698987-0331-4595-871a-36d137282ff5,SpaendingsniveauPaenebjerg,"Spaendingsniveau ved 33V","Paenebjerg 33V","33 V"
+2d435ee5-0443-431a-8554-d9a6f14cd89b,SpaendingsniveauAarhus,"Spaendingsniveau ved 220V","Aarhus 220V","220 V"
+36607a1a-2a19-481a-812d-466593218f54,SpaendingsniveauKoebenhavn,"Spaendingsniveau ved 22V","Koebenhavn 22V","22 V"
+c338dea3-bdc1-4e74-bd5b-3a83f484ed17,SpaendingsniveauAeroeskoebing,"Spaendingsniveau ved 400V","Aeroeskoebing 400V","400 V"
+ad85fe1f-780f-4913-8fb7-987e5184353b,SpaendingsniveauAalborg,"Spaendingsniveau ved 11V","Aalborg 11V","11 V"
+ba698987-0331-4595-871a-36d137282ff5,SpaendingsniveauSoroe,"Spaendingsniveau ved 33V","Soroe 33V","33 V"
