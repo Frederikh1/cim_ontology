@@ -1,6 +1,6 @@
 neutralPoint,optionalName,tSubstationId,tVoltageLevelId,tBayId
-FALSE,"FrekvensReguleringÅsbyen","Åsbyen","Åsbyen 0.22kV","Hoveddistributionsbås"
-TRUE,"NetovervågningRøvand","Røvand","Røvand 0.022kV","Transformatorbås"
-FALSE,"StrømkontrolGrænmark","Grænmark","Grænmark 0.4kV","Kapacitorbås"
-TRUE,"KølingSystemØkernby","Økernby","Økernby 0.011kV","Energilagringsbås"
-FALSE,"EnergistrømPænebjerg","Pænebjerg","Pænebjerg 0.033kV","Solenergibås"
+FALSE,"FrekvensReguleringÅrhus","Århus","Århus 0.22kV","Hoveddistributionsbås"
+TRUE,"NetovervågningKøbenhavn","København","København 0.022kV","Transformatorbås"
+FALSE,"StrømkontrolÆrøskøbing","Ærøskøbing","Ærøskøbing 0.4kV","Kapacitorbås"
+TRUE,"KølingSystemÅlborg","Ålborg","Ålborg 0.011kV","Energilagringsbås"
+FALSE,"EnergistrømSorø","Sorø","Sorø 0.033kV","Solenergibås"
