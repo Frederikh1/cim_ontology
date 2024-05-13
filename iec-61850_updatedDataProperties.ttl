@@ -103,15 +103,15 @@
                               rdfs:label "GeneralEquipment"@en .
 
 
-###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#Substaion.Function
-:Substaion.Function rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#Substation.Function
+:Substation.Function rdf:type owl:ObjectProperty ;
                     rdfs:domain :tSubstation ;
                     rdfs:range :tFunction ;
                     rdfs:label "Function"@en .
 
 
-###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#Substaion.VoltageLevel
-:Substaion.VoltageLevel rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/information-management/mapping-cutout/iec-61850#Substation.VoltageLevel
+:Substation.VoltageLevel rdf:type owl:ObjectProperty ;
                         rdfs:domain :tSubstation ;
                         rdfs:range :tVoltageLevel ;
                         rdfs:label "VoltageLevel"@en .
