@@ -1,6 +1,6 @@
 mRID,aliasName,description,name,highVoltageLimit,lowVoltageLimit,BaseVoltageId,SubstationId
-7c52dadb-f0d8-478f-bab9-e1d353c7fe86,SpaendingsniveauAarhus,"Spaendingsniveau ved 220V","Aarhus 220V",132,1000,2d435ee5-0443-431a-8554-d9a6f14cd89b,93579d3f-84ce-47b8-8c9d-9aea02a0d346
-53a53ab4-f12a-4346-86fb-a54a0eb2e0f1,SpaendingsniveauKoebenhavn,"Spaendingsniveau ved 22V","Koebenhavn 22V",132,1000,36607a1a-2a19-481a-812d-466593218f54,2f8eeb64-2654-4324-ad47-b2b16d0519ca
-f123951f-d58b-4009-b2f6-cdedc2cee5a1,SpaendingsniveauAeroeskoebing,"Spaendingsniveau ved 400V","Aeroeskoebing 400V",132,1000,c338dea3-bdc1-4e74-bd5b-3a83f484ed17,f4826d31-18e6-4f47-994a-c9eeccb8962e
-9bb4efcd-1b30-4647-8cfb-1f79b17b74f8,SpaendingsniveauAalborg,"Spaendingsniveau ved 11V","Aalborg 11V",132,100,ad85fe1f-780f-4913-8fb7-987e5184353b,5380a02a-53dc-463a-8d7b-3318572799cd
-6cc620b9-ef8e-44af-b4f2-63e4e725079e,SpaendingsniveauSoroe,"Spaendingsniveau ved 33V","Soroe 33V",132,100,ba698987-0331-4595-871a-36d137282ff5,27de724a-8956-4b08-ae7e-dff6de1d69c4
+7c52dadb-f0d8-478f-bab9-e1d353c7fe86,SpaendingsniveauAarhus,"Spaendingsniveau ved 220V","Aarhus",132,1000,2d435ee5-0443-431a-8554-d9a6f14cd89b,93579d3f-84ce-47b8-8c9d-9aea02a0d346
+53a53ab4-f12a-4346-86fb-a54a0eb2e0f1,SpaendingsniveauKoebenhavn,"Spaendingsniveau ved 22V","Koebenhavn",132,1000,36607a1a-2a19-481a-812d-466593218f54,2f8eeb64-2654-4324-ad47-b2b16d0519ca
+f123951f-d58b-4009-b2f6-cdedc2cee5a1,SpaendingsniveauAeroeskoebing,"Spaendingsniveau ved 400V","Aeroeskoebing",132,1000,c338dea3-bdc1-4e74-bd5b-3a83f484ed17,f4826d31-18e6-4f47-994a-c9eeccb8962e
+9bb4efcd-1b30-4647-8cfb-1f79b17b74f8,SpaendingsniveauAalborg,"Spaendingsniveau ved 11V","Aalborg",132,100,ad85fe1f-780f-4913-8fb7-987e5184353b,5380a02a-53dc-463a-8d7b-3318572799cd
+6cc620b9-ef8e-44af-b4f2-63e4e725079e,SpaendingsniveauSoroe,"Spaendingsniveau ved 33V","Soroe",132,100,ba698987-0331-4595-871a-36d137282ff5,27de724a-8956-4b08-ae7e-dff6de1d69c4
