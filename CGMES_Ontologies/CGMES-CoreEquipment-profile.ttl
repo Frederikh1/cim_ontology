@@ -1,0 +1,579 @@
+@prefix : <http://iec.ch/TC57/CIM-generic#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix msg: <http://langdale.com.au/2005/Message#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix uml: <http://langdale.com.au/2005/UML#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://iec.ch/TC57/CIM-generic#> .
+
+<http://iec.ch/TC57/CIM-generic> rdf:type owl:Ontology .
+
+###################################################################################################
+#
+# Datatype
+#
+###################################################################################################
+
+###  http://iec.ch/TC57/CIM-generic#Conductance
+:Conductance rdf:type rdfs:Datatype ;
+             uml:hasMultiplier "none" ;
+             uml:hasStereotype uml:cimdatatype ;
+             uml:hasUnits "S" ;
+             rdfs:comment "Factor by which voltage must be multiplied to give corresponding power lost from a circuit. Real part of admittance." ;
+             rdfs:label "Conductance" .
+
+###  http://iec.ch/TC57/CIM-generic#Length
+:Length rdf:type rdfs:Datatype ;
+        uml:hasMultiplier "k" ;
+        uml:hasStereotype uml:cimdatatype ;
+        uml:hasUnits "m" ;
+        rdfs:comment "Unit of length. It shall be a positive value or zero." ;
+        rdfs:label "Length" .
+
+###  http://iec.ch/TC57/CIM-generic#Reactance
+:Reactance rdf:type rdfs:Datatype ;
+           uml:hasMultiplier "none" ;
+           uml:hasUnits "ohm" ;
+           rdfs:comment "Reactance (imaginary part of impedance), at rated frequency." ;
+           rdfs:label "Reactance" .
+
+###  http://iec.ch/TC57/CIM-generic#Resistance
+:Resistance rdf:type rdfs:Datatype ;
+            uml:hasMultiplier "none" ;
+            uml:hasStereotype uml:cimdatatype ;
+            uml:hasUnits "ohm" ;
+            rdfs:comment "Resistance (real part of impedance)." ;
+            rdfs:label "Resistance" .
+
+###  http://iec.ch/TC57/CIM-generic#Susceptance
+:Susceptance rdf:type rdfs:Datatype ;
+             uml:hasMultiplier "none" ;
+             uml:hasStereotype uml:cimdatatype ;
+             uml:hasUnits "S" ;
+             rdfs:comment "Imaginary part of admittance." ;
+             rdfs:label "Susceptance" .
+
+###  http://iec.ch/TC57/CIM-generic#Voltage
+:Voltage rdf:type rdfs:Datatype ;
+         uml:hasMultiplier "k" ;
+         uml:hasStereotype uml:cimdatatype ;
+         uml:hasUnits "V" ;
+         rdfs:comment "Electrical voltage, can be both AC and DC." ;
+         rdfs:label "Voltage" .
+
+###################################################################################################
+#
+# ObjectProperty
+#
+###################################################################################################
+
+###  http://iec.ch/TC57/CIM-generic#SubGeographicalRegion.Substations
+:SubGeographicalRegion.Substations rdf:type owl:ObjectProperty ;
+                                   owl:inverseOf :Substation.Region ;
+                                   rdf:type owl:InverseFunctionalProperty ;
+                                   rdfs:domain :SubGeographicalRegion ;
+                                   rdfs:range :Substation ;
+                                   uml:hasStereotype uml:aggregateOf ;
+                                   rdfs:comment "The substations in this sub-geographical region." ;
+                                   rdfs:label "Substations" .
+
+
+###  http://iec.ch/TC57/CIM-generic#SubGeographicalRegion.Region
+:SubGeographicalRegion.Region rdf:type owl:ObjectProperty ,
+                                       owl:FunctionalProperty ;
+                              rdfs:domain :SubGeographicalRegion ;
+                              rdfs:range :GeographicalRegion ;
+                              uml:hasStereotype uml:ofAggregate ;
+                              rdfs:comment "The geographical region which this sub-geographical region is within." ;
+                              rdfs:label "Region" .
+
+
+###  http://iec.ch/TC57/CIM-generic#GeographicalRegion.Regions
+:GeographicalRegion.Regions rdf:type owl:ObjectProperty ;
+                            owl:inverseOf :SubGeographicalRegion.Region ;
+                            rdf:type owl:InverseFunctionalProperty ;
+                            rdfs:domain :GeographicalRegion ;
+                            rdfs:range :SubGeographicalRegion ;
+                            uml:hasStereotype uml:aggregateOf ;
+                            rdfs:comment "All sub-geographical regions within this geographical region." ;
+                            rdfs:label "Regions" .
+
+###  http://iec.ch/TC57/CIM-generic#Substation.Region
+:Substation.Region rdf:type owl:ObjectProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain :Substation ;
+                   rdfs:range :SubGeographicalRegion ;
+                   uml:hasStereotype uml:ofAggregate ;
+                   rdfs:comment "The SubGeographicalRegion containing the substation." ;
+                   rdfs:label "Region" .
+
+###  http://iec.ch/TC57/CIM-generic#Substation.VoltageLevels
+:Substation.VoltageLevels rdf:type owl:ObjectProperty ;
+                          owl:inverseOf :VoltageLevel.Substation ;
+                          rdf:type owl:InverseFunctionalProperty ;
+                          rdfs:domain :Substation ;
+                          rdfs:range :VoltageLevel ;
+                          uml:hasStereotype uml:aggregateOf ;
+                          rdfs:comment "The voltage levels within this substation." ;
+                          rdfs:label "VoltageLevels" .
+
+
+###  http://iec.ch/TC57/CIM-generic#VoltageLevel.BaseVoltage
+:VoltageLevel.BaseVoltage rdf:type owl:ObjectProperty ,
+                                   owl:FunctionalProperty ;
+                          rdfs:domain :VoltageLevel ;
+                          rdfs:range :BaseVoltage ;
+                          rdfs:comment "The base voltage used for all equipment within the voltage level." ;
+                          rdfs:label "BaseVoltage" .
+
+
+###  http://iec.ch/TC57/CIM-generic#VoltageLevel.Bays
+:VoltageLevel.Bays rdf:type owl:ObjectProperty ,
+                            owl:InverseFunctionalProperty ;
+                   rdfs:domain :VoltageLevel ;
+                   rdfs:range :Bay ;
+                   uml:hasStereotype uml:aggregateOf ;
+                   rdfs:comment "The bays within this voltage level." ;
+                   rdfs:label "Bays" .
+
+
+###  http://iec.ch/TC57/CIM-generic#VoltageLevel.Substation
+:VoltageLevel.Substation rdf:type owl:ObjectProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain :VoltageLevel ;
+                         rdfs:range :Substation ;
+                         uml:hasStereotype uml:ofAggregate ;
+                         rdfs:comment "The substation of the voltage level." ;
+                         rdfs:label "Substation" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Bay.VoltageLevel
+:Bay.VoltageLevel rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :VoltageLevel.Bays ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :Bay ;
+                  rdfs:range :VoltageLevel ;
+                  uml:hasStereotype uml:ofAggregate ;
+                  rdfs:comment "The voltage level containing this bay." ;
+                  rdfs:label "VoltageLevel" .
+
+###  http://iec.ch/TC57/CIM-generic#EquipmentContainer.Equipments
+:EquipmentContainer.Equipments rdf:type owl:ObjectProperty ,
+                                        owl:InverseFunctionalProperty ;
+                               rdfs:domain :EquipmentContainer ;
+                               rdfs:range :Equipment ;
+                               uml:hasStereotype uml:aggregateOf ;
+                               rdfs:comment "Contained equipment." ;
+                               rdfs:label "Equipments" .
+
+###  http://iec.ch/TC57/CIM-generic#BaseVoltage.ConductingEquipment
+:BaseVoltage.ConductingEquipment rdf:type owl:ObjectProperty ;
+                                 owl:inverseOf :ConductingEquipment.BaseVoltage ;
+                                 rdf:type owl:InverseFunctionalProperty ;
+                                 rdfs:domain :BaseVoltage ;
+                                 rdfs:range :ConductingEquipment ;
+                                 rdfs:comment "All conducting equipment with this base voltage.  Use only when there is no voltage level container used and only one base voltage applies.  For example, not used for transformers." ;
+                                 rdfs:label "ConductingEquipment" .
+
+
+
+###  http://iec.ch/TC57/CIM-generic#BaseVoltage.VoltageLevel
+:BaseVoltage.VoltageLevel rdf:type owl:ObjectProperty ;
+                          owl:inverseOf :VoltageLevel.BaseVoltage ;
+                          rdf:type owl:InverseFunctionalProperty ;
+                          rdfs:domain :BaseVoltage ;
+                          rdfs:range :VoltageLevel ;
+                          rdfs:comment "The voltage levels having this base voltage." ;
+                          rdfs:label "VoltageLevel" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Equipment.EquipmentContainer
+:Equipment.EquipmentContainer rdf:type owl:ObjectProperty ;
+                              owl:inverseOf :EquipmentContainer.Equipments ;
+                              rdf:type owl:FunctionalProperty ;
+                              rdfs:domain :Equipment ;
+                              rdfs:range :EquipmentContainer ;
+                              uml:hasStereotype uml:ofAggregate ;
+                              rdfs:comment "Container of this equipment." ;
+                              rdfs:label "EquipmentContainer" .
+
+
+###  http://iec.ch/TC57/CIM-generic#ConnectivityNodeContainer.ConnectivityNodes
+:ConnectivityNodeContainer.ConnectivityNodes rdf:type owl:ObjectProperty ,
+                                                      owl:InverseFunctionalProperty ;
+                                             rdfs:domain :ConnectivityNodeContainer ;
+                                             rdfs:range :ConnectivityNode ;
+                                             rdfs:comment "Connectivity nodes which belong to this connectivity node container." ;
+                                             rdfs:label "ConnectivityNodes" .
+
+
+###  http://iec.ch/TC57/CIM-generic#ConnectivityNode.ConnectivityNodeContainer
+:ConnectivityNode.ConnectivityNodeContainer rdf:type owl:ObjectProperty ;
+                                            owl:inverseOf :ConnectivityNodeContainer.ConnectivityNodes ;
+                                            rdf:type owl:FunctionalProperty ;
+                                            rdfs:domain :ConnectivityNode ;
+                                            rdfs:range :ConnectivityNodeContainer ;
+                                            rdfs:comment "Container of this connectivity node." ;
+                                            rdfs:label "ConnectivityNodeContainer" .
+
+###  http://iec.ch/TC57/CIM-generic#ConnectivityNode.Terminals
+:ConnectivityNode.Terminals rdf:type owl:ObjectProperty ;
+                            owl:inverseOf :Terminal.ConnectivityNode ;
+                            rdf:type owl:InverseFunctionalProperty ;
+                            rdfs:domain :ConnectivityNode ;
+                            rdfs:range :Terminal ;
+                            rdfs:comment "Terminals interconnected with zero impedance at a this connectivity node." ;
+                            rdfs:label "Terminals" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Terminal.ConductingEquipment
+:Terminal.ConductingEquipment rdf:type owl:ObjectProperty ,
+                                       owl:FunctionalProperty ;
+                              rdfs:domain :Terminal ;
+                              rdfs:range :ConductingEquipment ;
+                              rdfs:comment "The conducting equipment of the terminal.  Conducting equipment have  terminals that may be connected to other conducting equipment terminals via connectivity nodes or topological nodes." ;
+                              rdfs:label "ConductingEquipment" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Terminal.ConnectivityNode
+:Terminal.ConnectivityNode rdf:type owl:ObjectProperty ,
+                                    owl:FunctionalProperty ;
+                           rdfs:domain :Terminal ;
+                           rdfs:range :ConnectivityNode ;
+                           rdfs:comment "The connectivity node to which this terminal connects with zero impedance." ;
+                           rdfs:label "ConnectivityNode" .
+
+###  http://iec.ch/TC57/CIM-generic#ACDCTerminal.BusNameMarker
+:ACDCTerminal.BusNameMarker rdf:type owl:ObjectProperty ;
+                            owl:inverseOf :BusNameMarker.Terminal ;
+                            rdf:type owl:FunctionalProperty ;
+                            rdfs:domain :ACDCTerminal ;
+                            rdfs:range :BusNameMarker ;
+                            rdfs:comment "The bus name marker used to name the bus (topological node)." ;
+                            rdfs:label "BusNameMarker" .
+
+
+###  http://iec.ch/TC57/CIM-generic#BusNameMarker.Terminal
+:BusNameMarker.Terminal rdf:type owl:ObjectProperty ,
+                                 owl:InverseFunctionalProperty ;
+                        rdfs:domain :BusNameMarker ;
+                        rdfs:range :ACDCTerminal ;
+                        rdfs:comment "The terminals associated with this bus name marker." ;
+                        rdfs:label "Terminal" .
+
+###  http://iec.ch/TC57/CIM-generic#ConductingEquipment.Terminals
+:ConductingEquipment.Terminals rdf:type owl:ObjectProperty ;
+                               owl:inverseOf :Terminal.ConductingEquipment ;
+                               rdf:type owl:InverseFunctionalProperty ;
+                               rdfs:domain :ConductingEquipment ;
+                               rdfs:range :Terminal ;
+                               rdfs:comment "Conducting equipment have terminals that may be connected to other conducting equipment terminals via connectivity nodes or topological nodes." ;
+                               rdfs:label "Terminals" .
+
+
+###  http://iec.ch/TC57/CIM-generic#ConductingEquipment.BaseVoltage
+:ConductingEquipment.BaseVoltage rdf:type owl:ObjectProperty ,
+                                          owl:FunctionalProperty ;
+                                 rdfs:domain :ConductingEquipment ;
+                                 rdfs:range :BaseVoltage ;
+                                 rdfs:comment "Base voltage of this conducting equipment.  Use only when there is no voltage level container used and only one base voltage applies.  For example, not used for transformers." ;
+                                 rdfs:label "BaseVoltage" .
+
+###  http://iec.ch/TC57/CIM-generic#BaseVoltage.nominalVoltage
+:BaseVoltage.nominalVoltage rdf:type owl:DatatypeProperty ,
+                                     owl:FunctionalProperty ;
+                            rdfs:domain :BaseVoltage ;
+                            rdfs:range xsd:float ;
+                            uml:hasStereotype uml:attribute ;
+                            rdfs:comment "The power system resource's base voltage.  Shall be a positive value and not zero." ;
+                            rdfs:label "nominalVoltage" .
+
+###  http://iec.ch/TC57/CIM-generic#ACDCTerminal.sequenceNumber
+:ACDCTerminal.sequenceNumber rdf:type owl:DatatypeProperty ,
+                                      owl:FunctionalProperty ;
+                             rdfs:domain :ACDCTerminal ;
+                             rdfs:range xsd:integer ;
+                             uml:hasStereotype uml:attribute ;
+                             rdfs:comment "The orientation of the terminal connections for a multiple terminal conducting equipment.  The sequence numbering starts with 1 and additional terminals should follow in increasing order.   The first terminal is the \"starting point\" for a two terminal branch." ;
+                             rdfs:label "sequenceNumber" .
+
+###  http://iec.ch/TC57/CIM-generic#IdentifiedObject.mRID
+:IdentifiedObject.mRID rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain :IdentifiedObject ;
+                       rdfs:range xsd:string ;
+                       uml:hasStereotype uml:attribute ;
+                       rdfs:comment """Master resource identifier issued by a model authority. The mRID is unique within an exchange context. Global uniqueness is easily achieved by using a UUID, as specified in RFC 4122, for the mRID. The use of UUID is strongly recommended.
+For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.""" ;
+                       rdfs:label "mRID" .
+
+
+###  http://iec.ch/TC57/CIM-generic#IdentifiedObject.name
+:IdentifiedObject.name rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain :IdentifiedObject ;
+                       rdfs:range xsd:string ;
+                       uml:hasStereotype uml:attribute ;
+                       rdfs:comment "The name is any free human readable and possibly non unique text naming the object." ;
+                       rdfs:label "name" .
+
+###  http://iec.ch/TC57/CIM-generic#Equipment.aggregate
+:Equipment.aggregate rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain :Equipment ;
+                     rdfs:range xsd:boolean ;
+                     uml:hasStereotype uml:attribute ;
+                     rdfs:comment """The aggregate flag provides an alternative way of representing an aggregated (equivalent) element. It is applicable in cases when the dedicated classes for equivalent equipment do not have all of the attributes necessary to represent the required level of detail.  In case the flag is set to  true  the single instance of equipment represents multiple pieces of equipment that have been modelled together as an aggregate equivalent obtained by a network reduction procedure. Examples would be power transformers or synchronous machines operating in parallel modelled as a single aggregate power transformer or aggregate synchronous machine.  
+The attribute is not used for EquivalentBranch, EquivalentShunt and EquivalentInjection.""" ;
+                     rdfs:label "aggregate" .
+
+
+###  http://iec.ch/TC57/CIM-generic#BusNameMarker.priority
+:BusNameMarker.priority rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain :BusNameMarker ;
+                        rdfs:range xsd:integer ;
+                        uml:hasStereotype uml:attribute ;
+                        rdfs:comment "Priority of bus name marker for use as topology bus name.  Use 0 for do not care.  Use 1 for highest priority.  Use 2 as priority is less than 1 and so on." ;
+                        rdfs:label "priority" .
+
+###  http://iec.ch/TC57/CIM-generic#Conductor.length
+:Conductor.length rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :Conductor ;
+                  rdfs:range xsd:float ;
+                  uml:hasStereotype uml:attribute ;
+                  rdfs:comment "Segment length for calculating line section capabilities." ;
+                  rdfs:label "length" .
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.r
+:ACLineSegment.r rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :ACLineSegment ;
+                 rdfs:range xsd:float ;
+                 uml:hasStereotype uml:attribute ;
+                 uml:id "_57B0CDE3-FEB1-4d13-8906-A9C7AF3C5482" ,
+                        "_6D31C2E4-1B03-4905-9D2B-17CF9C757B57" ,
+                        "_C6C181DF-22F1-46bf-932F-790CCCBF5FCC" ;
+                 rdfs:comment "Positive sequence series resistance of the entire line section." ;
+                 rdfs:isDefinedBy :Package_CoreEquipmentProfile ,
+                                  :Package_EQDelete ,
+                                  :Package_Wires ;
+                 rdfs:label "r" .
+
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.gch
+:ACLineSegment.gch rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain :ACLineSegment ;
+                   rdfs:range xsd:float ;
+                   uml:hasStereotype uml:attribute ;
+                   rdfs:comment "Positive sequence shunt (charging) conductance, uniformly distributed, of the entire line section." ;
+                   rdfs:label "gch" .
+
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.x
+:ACLineSegment.x rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :ACLineSegment ;
+                 rdfs:range xsd:float ;
+                 uml:hasStereotype uml:attribute ;
+                 rdfs:comment "Positive sequence series reactance of the entire line section." ;
+                 rdfs:label "x" .
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.b0ch
+:ACLineSegment.b0ch rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :ACLineSegment ;
+                    rdfs:range xsd:float ;
+                    uml:hasStereotype uml:attribute ;
+                    rdfs:comment "Zero sequence shunt (charging) susceptance, uniformly distributed, of the entire line section." ;
+                    rdfs:label "b0ch" .
+
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.bch
+:ACLineSegment.bch rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain :ACLineSegment ;
+                   rdfs:range xsd:float ;
+                   uml:hasStereotype uml:attribute ;
+                   rdfs:comment "Positive sequence shunt (charging) susceptance, uniformly distributed, of the entire line section.  This value represents the full charging over the full length of the line." ;
+                   rdfs:label "bch" .
+
+
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.g0ch
+:ACLineSegment.g0ch rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :ACLineSegment ;
+                    rdfs:range xsd:float ;
+                    uml:hasStereotype uml:attribute ;
+                    rdfs:comment "Zero sequence shunt (charging) conductance, uniformly distributed, of the entire line section." ;
+                    rdfs:label "g0ch" .
+
+
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.r0
+:ACLineSegment.r0 rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :ACLineSegment ;
+                  rdfs:range  xsd:float;
+                  uml:hasStereotype uml:attribute ;
+                  rdfs:comment "Zero sequence series resistance of the entire line section." ;
+                  rdfs:label "r0" .
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.shortCircuitEndTemperature
+:ACLineSegment.shortCircuitEndTemperature rdf:type owl:DatatypeProperty ,
+                                                   owl:FunctionalProperty ;
+                                          rdfs:domain :ACLineSegment ;
+                                          rdfs:range xsd:float ;
+                                          uml:hasStereotype uml:attribute ;
+                                          rdfs:comment "Maximum permitted temperature at the end of SC for the calculation of minimum short-circuit currents. Used for short circuit data exchange according to IEC 60909." ;
+                                          rdfs:label "shortCircuitEndTemperature" .
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment.x0
+:ACLineSegment.x0 rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :ACLineSegment ;
+                  rdfs:range xsd:float ;
+                  uml:hasStereotype uml:attribute ;
+                  rdfs:comment "Zero sequence series reactance of the entire line section." ;
+                  rdfs:label "x0" .
+
+
+###################################################################################################
+#
+# OWL CLASS
+#
+###################################################################################################
+
+###  http://iec.ch/TC57/CIM-generic#ACDCTerminal
+:ACDCTerminal rdf:type owl:Class ;
+              rdfs:subClassOf :IdentifiedObject ;
+              rdfs:comment "An electrical connection point (AC or DC) to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes." ;
+              rdfs:label "ACDCTerminal" .
+
+###  http://iec.ch/TC57/CIM-generic#ACLineSegment
+:ACLineSegment rdf:type owl:Class ;
+               rdfs:subClassOf :Conductor ;
+               rdfs:comment """A wire or combination of wires, with consistent electrical characteristics, building a single electrical system, used to carry alternating current between points in the power system.
+For symmetrical, transposed three phase lines, it is sufficient to use attributes of the line segment, which describe impedances and admittances for the entire length of the segment.  Additionally impedances can be computed by using length and associated per length impedances.
+The BaseVoltage at the two ends of ACLineSegments in a Line shall have the same BaseVoltage.nominalVoltage. However, boundary lines may have slightly different BaseVoltage.nominalVoltages and variation is allowed. Larger voltage difference in general requires use of an equivalent branch.""" ;
+               rdfs:label "ACLineSegment" .
+
+###  http://iec.ch/TC57/CIM-generic#BaseVoltage
+:BaseVoltage rdf:type owl:Class ;
+             rdfs:subClassOf :IdentifiedObject ;
+             rdfs:comment "Defines a system base voltage which is referenced." ;
+             rdfs:label "BaseVoltage" .
+
+###  http://iec.ch/TC57/CIM-generic#Bay
+:Bay rdf:type owl:Class ;
+     rdfs:subClassOf :EquipmentContainer ;
+     rdfs:comment "A collection of power system resources (within a given substation) including conducting equipment, protection relays, measurements, and telemetry.  A bay typically represents a physical grouping related to modularization of equipment." ;
+     rdfs:label "Bay" .
+
+###  http://iec.ch/TC57/CIM-generic#BusNameMarker
+:BusNameMarker rdf:type owl:Class ;
+               rdfs:subClassOf :IdentifiedObject ;
+               rdfs:comment "Used to apply user standard names to TopologicalNodes. Associated with one or more terminals that are normally connected with the bus name.    The associated terminals are normally connected by non-retained switches. For a ring bus station configuration, all BusbarSection terminals in the ring are typically associated.   For a breaker and a half scheme, both BusbarSections would normally be associated.  For a ring bus, all BusbarSections would normally be associated.  For a \"straight\" busbar configuration, normally only the main terminal at the BusbarSection would be associated." ;
+               rdfs:label "BusNameMarker" .
+
+###  http://iec.ch/TC57/CIM-generic#ConductingEquipment
+:ConductingEquipment rdf:type owl:Class ;
+                     rdfs:subClassOf :Equipment ;
+                     rdfs:comment "The parts of the AC power system that are designed to carry current or that are conductively connected through terminals." ;
+                     rdfs:label "ConductingEquipment" .
+
+###  http://iec.ch/TC57/CIM-generic#Conductor
+:Conductor rdf:type owl:Class ;
+           rdfs:subClassOf :ConductingEquipment ;
+           rdfs:comment "Combination of conducting material with consistent electrical characteristics, building a single electrical system, used to carry current between points in the power system." ;
+           rdfs:label "Conductor" .
+
+###  http://iec.ch/TC57/CIM-generic#ConnectivityNode
+:ConnectivityNode rdf:type owl:Class ;
+                  rdfs:subClassOf :IdentifiedObject ;
+                  uml:hasStereotype uml:description ;
+                  rdfs:comment "Connectivity nodes are points where terminals of AC conducting equipment are connected together with zero impedance." ;
+                  rdfs:label "ConnectivityNode" .
+
+###  http://iec.ch/TC57/CIM-generic#ConnectivityNodeContainer
+:ConnectivityNodeContainer rdf:type owl:Class ;
+                           rdfs:subClassOf :PowerSystemResource ;
+                           rdfs:comment "A base class for all objects that may contain connectivity nodes or topological nodes." ;
+                           rdfs:label "ConnectivityNodeContainer" .
+
+###  http://iec.ch/TC57/CIM-generic#Equipment
+:Equipment rdf:type owl:Class ;
+           rdfs:subClassOf :PowerSystemResource ;
+           uml:hasStereotype uml:description ;
+           rdfs:comment "The parts of a power system that are physical devices, electronic or mechanical." ;
+           rdfs:label "Equipment" .
+
+###  http://iec.ch/TC57/CIM-generic#EquipmentContainer
+:EquipmentContainer rdf:type owl:Class ;
+                    rdfs:subClassOf :ConnectivityNodeContainer ;
+                    rdfs:comment "A modelling construct to provide a root class for containing equipment." ;
+                    rdfs:label "EquipmentContainer" .
+
+###  http://iec.ch/TC57/CIM-generic#GeographicalRegion
+:GeographicalRegion rdf:type owl:Class ;
+                    rdfs:subClassOf :IdentifiedObject ;
+                    rdfs:comment "A geographical region of a power system network model." ;
+                    rdfs:label "GeographicalRegion" .
+
+###  http://iec.ch/TC57/CIM-generic#Line
+:Line rdf:type owl:Class ;
+      rdfs:subClassOf :EquipmentContainer ;
+      uml:hasStereotype uml:description ;
+      rdfs:comment "Contains equipment beyond a substation belonging to a power transmission line." ;
+      rdfs:label "Line" .
+
+###  http://iec.ch/TC57/CIM-generic#IdentifiedObject
+:IdentifiedObject rdf:type owl:Class ;
+                  rdfs:comment "This is a root class to provide common identification for all classes needing identification and naming attributes." ;
+                  rdfs:label "IdentifiedObject" .
+
+###  http://iec.ch/TC57/CIM-generic#PowerSystemResource
+:PowerSystemResource rdf:type owl:Class ;
+                     rdfs:subClassOf :IdentifiedObject ;
+                     rdfs:comment "A power system resource (PSR) can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated." ;
+                     rdfs:label "PowerSystemResource" .
+
+###  http://iec.ch/TC57/CIM-generic#Terminal
+:Terminal rdf:type owl:Class ;
+          rdfs:subClassOf :ACDCTerminal ;
+          uml:hasStereotype uml:description ;
+          rdfs:comment "An AC electrical connection point to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes." ;
+          rdfs:label "Terminal" .
+
+###  http://iec.ch/TC57/CIM-generic#VoltageLevel
+:VoltageLevel rdf:type owl:Class ;
+              rdfs:subClassOf :EquipmentContainer ;
+              rdfs:comment "A collection of equipment at one common system voltage forming a switchgear. The equipment typically consists of breakers, busbars, instrumentation, control, regulation and protection devices as well as assemblies of all these." ;
+              rdfs:label "VoltageLevel" .
+
+###  http://iec.ch/TC57/CIM-generic#Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf :PowerSystemResource ;
+        uml:hasStereotype uml:description ,
+                          uml:nc ;
+        rdfs:comment "A region where the system operator belongs to." ;
+        rdfs:label "Region" .
+
+###  http://iec.ch/TC57/CIM-generic#Substation
+:Substation rdf:type owl:Class ;
+            rdfs:subClassOf :EquipmentContainer ;
+            uml:hasStereotype uml:description ;
+            rdfs:comment "A collection of equipment for purposes other than generation or utilization, through which electric energy in bulk is passed for the purposes of switching or modifying its characteristics." ;
+            rdfs:label "Substation" .
+
+###  http://iec.ch/TC57/CIM-generic#SubGeographicalRegion
+:SubGeographicalRegion rdf:type owl:Class ;
+                       rdfs:subClassOf :IdentifiedObject ;
+                       rdfs:comment "A subset of a geographical region of a power system network model." ;
+                       rdfs:label "SubGeographicalRegion" .

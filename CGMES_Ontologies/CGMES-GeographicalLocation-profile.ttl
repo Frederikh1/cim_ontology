@@ -1,0 +1,307 @@
+@prefix : <http://iec.ch/TC57/CIM-generic#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix msg: <http://langdale.com.au/2005/Message#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix uml: <http://langdale.com.au/2005/UML#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://iec.ch/TC57/CIM-generic#> .
+
+<http://iec.ch/TC57/CIM-generic> rdf:type owl:Ontology .
+
+###  http://iec.ch/TC57/CIM-generic#IdentifiedObject.mRID
+:IdentifiedObject.mRID rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain :IdentifiedObject ;
+                       rdfs:range xsd:string ;
+                       uml:hasStereotype uml:attribute ;
+                       rdfs:comment """Master resource identifier issued by a model authority. The mRID is unique within an exchange context. Global uniqueness is easily achieved by using a UUID, as specified in RFC 4122, for the mRID. The use of UUID is strongly recommended.
+For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.""" ;
+                       rdfs:label "mRID" .
+
+
+###  http://iec.ch/TC57/CIM-generic#IdentifiedObject.name
+:IdentifiedObject.name rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain :IdentifiedObject ;
+                       rdfs:range xsd:string ;
+                       uml:hasStereotype uml:attribute ;
+                       rdfs:comment "The name is any free human readable and possibly non unique text naming the object." ;
+                       rdfs:label "name" .
+
+###  http://iec.ch/TC57/CIM-generic#IdentifiedObject
+:IdentifiedObject rdf:type owl:Class ;
+                  rdfs:comment "This is a root class to provide common identification for all classes needing identification and naming attributes." ;
+                  rdfs:label "IdentifiedObject" .
+
+###  http://iec.ch/TC57/CIM-generic#PowerSystemResource
+:PowerSystemResource rdf:type owl:Class ;
+                     rdfs:subClassOf :IdentifiedObject ;
+                     rdfs:comment "A power system resource (PSR) can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated." ;
+                     rdfs:label "PowerSystemResource" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Location
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf :IdentifiedObject ;
+          rdfs:comment "The place, scene, or point of something where someone or something has been, is, and/or will be at a given moment in time. It can be defined with one or more position points (coordinates) in a given coordinate system." ;
+	   rdfs:label "Location" .
+
+###  http://iec.ch/TC57/CIM-generic#Location.mainAddress
+:Location.mainAddress rdf:type owl:ObjectProperty ,
+                               owl:FunctionalProperty ;
+                      rdfs:domain :Location ;
+                      rdfs:range :StreetAddress ;
+                      uml:hasStereotype uml:attribute ;
+                      rdfs:comment "Main address of the location." ;
+                      rdfs:label "mainAddress" .
+
+###  http://iec.ch/TC57/CIM-generic#StreetAddress
+:StreetAddress rdf:type owl:Class ;
+               uml:hasStereotype uml:compound ;
+               uml:id "_7BCBC751-7F78-45b6-B2AF-A9B36A32279D" ,
+                      "_90007399-BB87-4f28-9898-853DAB696115" ;
+               rdfs:comment "General purpose street and postal address information." ;
+               rdfs:isDefinedBy :Package_Common ,
+                                :Package_GeographicalLocationProfile ;
+               rdfs:label "StreetAddress" .
+
+###  http://iec.ch/TC57/CIM-generic#CoordinateSystem
+:CoordinateSystem rdf:type owl:Class ;
+                  rdfs:subClassOf :IdentifiedObject ;
+                  uml:id "_A5B2A800-5D32-4cc3-9617-9182598BDF78" ,
+                         "_D3B6F87F-97CC-4cbf-A14E-C851C839A167" ,
+                         "_D7A22063-DBE9-467d-9E72-C32640FABCA0" ;
+                  rdfs:comment "Coordinate reference system." ;
+                  rdfs:isDefinedBy :Package_Common ,
+                                   :Package_GeographicalLocationProfile ,
+                                   :Package_GridDisturbanceProfile ;
+                  rdfs:label "CoordinateSystem" .
+
+###  http://iec.ch/TC57/CIM-generic#CoordinateSystem.crsUrn
+:CoordinateSystem.crsUrn rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain :CoordinateSystem ;
+                         rdfs:range xsd:string ;
+                         uml:hasStereotype uml:attribute ;
+                         uml:id "_08BE4B50-4FF7-44d2-AE56-DFF2010A9944" ,
+                                "_88A7A1F0-1E16-4776-8350-629D7362D7E4" ,
+                                "_961FC72C-29B9-4d09-B575-0140E5585552" ;
+                         rdfs:comment """A Uniform Resource Name (URN) for the coordinate reference system (crs) used to define 'Location.PositionPoints'.
+An example would be the European Petroleum Survey Group (EPSG) code for a coordinate reference system, defined in URN under the Open Geospatial Consortium (OGC) namespace as: urn:ogc:def:crs:EPSG::XXXX, where XXXX is an EPSG code (a full list of codes can be found at the EPSG Registry web site http://www.epsg-registry.org/). To define the coordinate system as being WGS84 (latitude, longitude) using an EPSG OGC, this attribute would be urn:ogc:def:crs:EPSG::4236.
+A profile should limit this code to a set of allowed URNs agreed to by all sending and receiving parties.""" ;
+                         rdfs:isDefinedBy :Package_Common ,
+                                          :Package_GeographicalLocationProfile ,
+                                          :Package_GridDisturbanceProfile ;
+                         rdfs:label "crsUrn" .
+
+###  http://iec.ch/TC57/CIM-generic#PositionPoint
+:PositionPoint rdf:type owl:Class ;
+               uml:id "_17847D7C-A86C-43c9-B8AA-522B70002D29" ,
+                      "_EF85055A-B753-4eb9-9FD7-FE577C68685D" ,
+                      "_F239B8D1-7822-49ce-B280-1012B6DCC1CA" ;
+               rdfs:comment "Set of spatial coordinates that determine a point, defined in the coordinate system specified in 'Location.CoordinateSystem'. Use a single position point instance to describe a point-oriented location. Use a sequence of position points to describe a line-oriented object (physical location of non-point oriented objects like cables or lines), or area of an object (like a substation or a geographical zone - in this case, have first and last position point with the same values)." ;
+               rdfs:isDefinedBy :Package_Common ,
+                                :Package_GeographicalLocationProfile ,
+                                :Package_GridDisturbanceProfile ;
+               rdfs:label "PositionPoint" .
+
+###  http://iec.ch/TC57/CIM-generic#PositionPoint.Location
+:PositionPoint.Location rdf:type owl:ObjectProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain :PositionPoint ;
+                        rdfs:range :Location ;
+                        uml:id "_3915E768-6DC5-4438-99FD-D7A52480F750-B" ,
+                               "_53432F35-75AF-48fa-8C1A-3DDA656F3385-B" ,
+                               "_DBF35456-ABE1-4deb-A885-2E48B3D6F8F6-B" ;
+                        rdfs:comment "Location described by this position point." ;
+                        rdfs:isDefinedBy :Package_Common ,
+                                         :Package_GeographicalLocationProfile ,
+                                         :Package_GridDisturbanceProfile ;
+                        rdfs:label "Location" .
+
+
+###  http://iec.ch/TC57/CIM-generic#PositionPoint.xPosition
+:PositionPoint.xPosition rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain :PositionPoint ;
+                         rdfs:range xsd:string ;
+                         uml:hasStereotype uml:attribute ;
+                         uml:id "_2C06CBF6-1564-417b-98DF-24B9E0040DCC" ,
+                                "_6CA436AB-9CAC-42e9-9B16-62EB9B5BEAB6" ,
+                                "_6FC2D71B-DBB3-4cf1-BE5C-6F2CC6F5EFC6" ;
+                         rdfs:comment "X axis position." ;
+                         rdfs:isDefinedBy :Package_Common ,
+                                          :Package_GeographicalLocationProfile ,
+                                          :Package_GridDisturbanceProfile ;
+                         rdfs:label "xPosition" .
+
+
+###  http://iec.ch/TC57/CIM-generic#PositionPoint.yPosition
+:PositionPoint.yPosition rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain :PositionPoint ;
+                         rdfs:range xsd:string ;
+                         uml:hasStereotype uml:attribute ;
+                         uml:id "_150622F9-462B-4479-9DC4-F9035E140110" ,
+                                "_3577FC25-5DB0-46bb-AE53-EE28521E692A" ,
+                                "_A7C65FD0-2120-4f5c-8E51-869636825385" ;
+                         rdfs:comment "Y axis position." ;
+                         rdfs:isDefinedBy :Package_Common ,
+                                          :Package_GeographicalLocationProfile ,
+                                          :Package_GridDisturbanceProfile ;
+                         rdfs:label "yPosition" .
+
+
+###  http://iec.ch/TC57/CIM-generic#PositionPoint.zPosition
+:PositionPoint.zPosition rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain :PositionPoint ;
+                         rdfs:range xsd:string ;
+                         uml:hasStereotype uml:attribute ;
+                         uml:id "_02ED85CD-FF93-4b0e-8201-25FE89632531" ,
+                                "_A0537144-D5D9-4a24-805C-D4478E98690C" ,
+                                "_C0A56CC8-3E5B-4ff1-AC7D-F61FB10EEE4A" ;
+                         rdfs:comment "(if applicable) Z axis position." ;
+                         rdfs:isDefinedBy :Package_Common ,
+                                          :Package_GeographicalLocationProfile ,
+                                          :Package_GridDisturbanceProfile ;
+                         rdfs:label "zPosition" .
+
+
+###  http://iec.ch/TC57/CIM-generic#PositionPoint.sequenceNumber
+:PositionPoint.sequenceNumber rdf:type owl:DatatypeProperty ,
+                                       owl:FunctionalProperty ;
+                              rdfs:domain :PositionPoint ;
+                              rdfs:range xsd:integer ;
+                              uml:hasStereotype uml:attribute ;
+                              uml:id "_4FFAE9CF-5382-4de2-AE14-23FDDBAE9D7E" ,
+                                     "_9C1FA17F-EC70-452a-9BD5-2F5E29234B28" ;
+                              rdfs:comment "Zero-relative sequence number of this point within a series of points." ;
+                              rdfs:isDefinedBy :Package_Common ,
+                                               :Package_GeographicalLocationProfile ;
+                              rdfs:label "sequenceNumber" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Location.PowerSystemResources
+:Location.PowerSystemResources rdf:type owl:ObjectProperty ;
+                               owl:inverseOf :PowerSystemResource.Location ;
+                               rdf:type owl:FunctionalProperty ,
+                                        owl:InverseFunctionalProperty ;
+                               rdfs:domain :Location ;
+                               rdfs:range :PowerSystemResource ;
+                               uml:id "_61A89810-B909-433b-B039-282C299F5241-A" ,
+                                      "_9F4B30FA-0A66-4ce4-9A00-413B0DB058C7-A" ;
+                               rdfs:comment "All power system resources at this location." ;
+                               rdfs:isDefinedBy :Package_Common ,
+                                                :Package_GeographicalLocationProfile ;
+                               rdfs:label "PowerSystemResources" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Location.CoordinateSystem
+:Location.CoordinateSystem rdf:type owl:ObjectProperty ,
+                                    owl:FunctionalProperty ;
+                           rdfs:domain :Location ;
+                           rdfs:range :CoordinateSystem ;
+                           uml:id "_01E0182E-CCA4-4b2c-B725-2666161650AF-A" ,
+                                  "_BC5C575E-F435-450d-AD64-575CD67A5E98-A" ,
+                                  "_D9DB79D8-27F1-4071-9C79-F0F1F62B4F18-A" ;
+                           rdfs:comment "Coordinate system used to describe position points of this location." ;
+                           rdfs:isDefinedBy :Package_Common ,
+                                            :Package_GeographicalLocationProfile ,
+                                            :Package_GridDisturbanceProfile ;
+                           rdfs:label "CoordinateSystem" .
+
+
+###  http://iec.ch/TC57/CIM-generic#Location.PositionPoints
+:Location.PositionPoints rdf:type owl:ObjectProperty ;
+                         owl:inverseOf :PositionPoint.Location ;
+                         rdf:type owl:InverseFunctionalProperty ;
+                         rdfs:domain :Location ;
+                         rdfs:range :PositionPoint ;
+                         uml:id "_3915E768-6DC5-4438-99FD-D7A52480F750-A" ,
+                                "_53432F35-75AF-48fa-8C1A-3DDA656F3385-A" ,
+                                "_DBF35456-ABE1-4deb-A885-2E48B3D6F8F6-A" ;
+                         rdfs:comment "Sequence of position points describing this location, expressed in coordinate system 'Location.CoordinateSystem'." ;
+                         rdfs:isDefinedBy :Package_Common ,
+                                          :Package_GeographicalLocationProfile ,
+                                          :Package_GridDisturbanceProfile ;
+                         rdfs:label "PositionPoints" .
+
+
+###  http://iec.ch/TC57/CIM-generic#PowerSystemResource.Location
+:PowerSystemResource.Location rdf:type owl:ObjectProperty ,
+                                       owl:FunctionalProperty ,
+                                       owl:InverseFunctionalProperty ;
+                              rdfs:domain :PowerSystemResource ;
+                              rdfs:range :Location ;
+                              uml:id "_61A89810-B909-433b-B039-282C299F5241-B" ,
+                                     "_9F4B30FA-0A66-4ce4-9A00-413B0DB058C7-B" ;
+                              rdfs:comment "Location of this power system resource." ;
+                              rdfs:isDefinedBy :Package_Core ,
+                                               :Package_GeographicalLocationProfile ;
+                              rdfs:label "Location" .
+
+
+
+###  http://iec.ch/TC57/CIM-generic#CoordinateSystem.Locations
+:CoordinateSystem.Locations rdf:type owl:ObjectProperty ;
+                            owl:inverseOf :Location.CoordinateSystem ;
+                            rdf:type owl:InverseFunctionalProperty ;
+                            rdfs:domain :CoordinateSystem ;
+                            rdfs:range :Location ;
+                            uml:id "_01E0182E-CCA4-4b2c-B725-2666161650AF-B" ,
+                                   "_BC5C575E-F435-450d-AD64-575CD67A5E98-B" ,
+                                   "_D9DB79D8-27F1-4071-9C79-F0F1F62B4F18-B" ;
+                            rdfs:comment "All locations described with position points in this coordinate system." ;
+                            rdfs:isDefinedBy :Package_Common ,
+                                             :Package_GeographicalLocationProfile ,
+                                             :Package_GridDisturbanceProfile ;
+                            rdfs:label "Locations" .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
