@@ -1,4 +1,4 @@
-rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,cim:Bay.VoltageLevel,
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,cim:Bay.VoltageLevel
 _80fd16c4-fd50-41aa-9a6b-19490e335fd9,BAY_1-2_0,,,,,_0488c79a-c766-11e1-8775-005056c00008,
 _66be2d3c-f1ba-4de5-b8ee-29552305fb8d,BAY_1-2_1,,,,,_045d4ac5-c766-11e1-8775-005056c00008,
 _52bcbc5b-c358-4f08-ac63-b744a5c9ca67,BAY_1-3_0,,,,,_0488c79a-c766-11e1-8775-005056c00008,
