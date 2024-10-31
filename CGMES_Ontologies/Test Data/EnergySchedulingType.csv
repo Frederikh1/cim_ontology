@@ -1,0 +1,7 @@
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,
+_57a34c10-edc9-db4c-c4fb-fc06367285f8,Biomass,Biomass Energy Scheduling Type,,Bio,,
+_eb480ce2-3925-ce20-3bf6-b26e95c47b3f,Co-generation,Co-generation Energy Scheduling Type,,Cog,,
+_3f3f7dda-a26a-792f-9707-f4de5f077cf3,Geothermal,Geothermal Energy Scheduling Type,,Geo,,
+_801a6158-3a73-f5c3-e28d-34771df22617,Marine,Marine Energy Scheduling Type,,Mar,,
+_3ebfc355-3ecf-cb3d-76a4-0da84083c240,OtherRenewable,Other Renewable Energy Scheduling Type,,Other,,
+_977fe39d-1cc1-3e3e-5e6a-bec301be214d,Waste,Waste Energy Scheduling Type,,Was,,

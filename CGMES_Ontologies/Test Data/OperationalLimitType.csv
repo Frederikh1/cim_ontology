@@ -1,0 +1,5 @@
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,entsoe:OperationalLimitType.limitType,cim:OperationalLimitType.acceptableDuration,cim:OperationalLimitType.direction,
+_c4604ca3-6418-41f9-95f8-c7217db17e90,PATL,,,,,LimitTypeKind.patl,45000,OperationalLimitDirectionKind.absoluteValue,
+_b05800c4-9744-45d8-8d9e-c1f39562e4fb,PATLT,,,,,LimitTypeKind.patlt,4000,OperationalLimitDirectionKind.absoluteValue,
+_7747fcd0-2c9e-4cc7-ade6-29e7b3338e71,TATL,,,,,LimitTypeKind.tatl,900,OperationalLimitDirectionKind.absoluteValue,
+_8a32b9fd-35f1-4dae-a9d0-e9344ed07958,TATL,,,,,LimitTypeKind.tatl,60,OperationalLimitDirectionKind.absoluteValue,

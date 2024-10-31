@@ -1,0 +1,3 @@
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,cim:SubGeographicalRegion.Region,
+_fc57c438-f814-4bf0-9030-790d68ed1694,ENTSO-E,SubGeographical Region of ENTSO-E,,ENTSO-E,10Y-CB-ENTSO-001,_4cb71c9a-6201-42ac-90ab-97baf95c107b,
+_0472a781-c766-11e1-8775-005056c00008,Middle,,,,,_0472f5a6-c766-11e1-8775-005056c00008,

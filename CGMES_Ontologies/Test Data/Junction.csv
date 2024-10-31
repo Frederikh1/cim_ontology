@@ -1,0 +1,4 @@
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,cim:Equipment.EquipmentContainer,cim:ConductingEquipment.BaseVoltage,cim:Equipment.aggregate,
+_7ca3e3a5-eab5-47bb-b16f-df070d8e18f3,junction1,1,,j1,,_41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3,,,
+_72acb9ad-9a24-4b1b-bb6c-c906031151f0,junction2,2,,j2,,_c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2,,,
+_e0fe87f5-3ba8-491e-964a-2e292a4e09ec,junction3,3,,j3,,_0b5bf2ef-a008-4b9a-9fe9-3c528c8bec50,,,

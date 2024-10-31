@@ -1,0 +1,6 @@
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,cim:BaseVoltage.nominalVoltage,
+_c63f79cc-7953-4ab6-9fa6-f8c729bf895b,132.00,,,,,132,
+_60ee59f3-5ed7-4551-b623-f4346554b22a,220.00,,,,,220,
+_c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc,33.00,,,,,33,
+_af264e1c-ab1f-4f3b-88c4-ab019b9abf07,BV_132,BV 132 kV,,BV132,,132,
+_e557cd71-6e24-4daf-9abe-cb188e8f98be,BV_220,BV 220 kV,,BV220,,220,

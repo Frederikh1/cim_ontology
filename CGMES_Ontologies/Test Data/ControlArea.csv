@@ -1,0 +1,2 @@
+rdf:ID,cim:IdentifiedObject.name,cim:IdentifiedObject.description,cim:IdentifiedObject.mRID,entsoe:IdentifiedObject.shortName,entsoe:IdentifiedObject.energyIdentCodeEic,cim:ControlArea.type,cim:ControlArea.EnergyArea,cim:ControlArea.netInterchange,cim:ControlArea.pTolerance,
+_1f9ecd81-e069-4040-bd64-f34b0fac3a60,_CA_GB,,,,,ControlAreaTypeKind.Interchange,_c2cce50c-dc27-43a0-9de8-2488d0ab662c,210,,
