@@ -1,4 +1,4 @@
-@prefix : <http://iec.ch/TC57/CIM-generic#> .
+@prefix : <http://iec.ch/TC57/CIM1-generic#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix msg: <http://langdale.com.au/2005/Message#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -7,11 +7,11 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://iec.ch/TC57/CIM-generic#> .
+@base <http://iec.ch/TC57/CIM1-generic#> .
 
 <http://iec.ch/TC57/CIM-generic> rdf:type owl:Ontology .
 
-###  http://iec.ch/TC57/CIM-generic#IdentifiedObject.mRID
+###  http://iec.ch/TC57/CIM1-generic#IdentifiedObject.mRID
 :IdentifiedObject.mRID rdf:type owl:DatatypeProperty ,
                                 owl:FunctionalProperty ;
                        rdfs:domain :IdentifiedObject ;
@@ -22,7 +22,7 @@ For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is map
                        rdfs:label "mRID" .
 
 
-###  http://iec.ch/TC57/CIM-generic#IdentifiedObject.name
+###  http://iec.ch/TC57/CIM1-generic#IdentifiedObject.name
 :IdentifiedObject.name rdf:type owl:DatatypeProperty ,
                                 owl:FunctionalProperty ;
                        rdfs:domain :IdentifiedObject ;
@@ -31,25 +31,25 @@ For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is map
                        rdfs:comment "The name is any free human readable and possibly non unique text naming the object." ;
                        rdfs:label "name" .
 
-###  http://iec.ch/TC57/CIM-generic#IdentifiedObject
+###  http://iec.ch/TC57/CIM1-generic#IdentifiedObject
 :IdentifiedObject rdf:type owl:Class ;
                   rdfs:comment "This is a root class to provide common identification for all classes needing identification and naming attributes." ;
                   rdfs:label "IdentifiedObject" .
 
-###  http://iec.ch/TC57/CIM-generic#PowerSystemResource
+###  http://iec.ch/TC57/CIM1-generic#PowerSystemResource
 :PowerSystemResource rdf:type owl:Class ;
                      rdfs:subClassOf :IdentifiedObject ;
                      rdfs:comment "A power system resource (PSR) can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated." ;
                      rdfs:label "PowerSystemResource" .
 
 
-###  http://iec.ch/TC57/CIM-generic#Location
+###  http://iec.ch/TC57/CIM1-generic#Location
 :Location rdf:type owl:Class ;
           rdfs:subClassOf :IdentifiedObject ;
           rdfs:comment "The place, scene, or point of something where someone or something has been, is, and/or will be at a given moment in time. It can be defined with one or more position points (coordinates) in a given coordinate system." ;
 	   rdfs:label "Location" .
 
-###  http://iec.ch/TC57/CIM-generic#Location.mainAddress
+###  http://iec.ch/TC57/CIM1-generic#Location.mainAddress
 :Location.mainAddress rdf:type owl:ObjectProperty ,
                                owl:FunctionalProperty ;
                       rdfs:domain :Location ;
@@ -58,7 +58,7 @@ For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is map
                       rdfs:comment "Main address of the location." ;
                       rdfs:label "mainAddress" .
 
-###  http://iec.ch/TC57/CIM-generic#StreetAddress
+###  http://iec.ch/TC57/CIM1-generic#StreetAddress
 :StreetAddress rdf:type owl:Class ;
                uml:hasStereotype uml:compound ;
                uml:id "_7BCBC751-7F78-45b6-B2AF-A9B36A32279D" ,
@@ -68,7 +68,7 @@ For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is map
                                 :Package_GeographicalLocationProfile ;
                rdfs:label "StreetAddress" .
 
-###  http://iec.ch/TC57/CIM-generic#CoordinateSystem
+###  http://iec.ch/TC57/CIM1-generic#CoordinateSystem
 :CoordinateSystem rdf:type owl:Class ;
                   rdfs:subClassOf :IdentifiedObject ;
                   uml:id "_A5B2A800-5D32-4cc3-9617-9182598BDF78" ,
@@ -80,7 +80,7 @@ For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is map
                                    :Package_GridDisturbanceProfile ;
                   rdfs:label "CoordinateSystem" .
 
-###  http://iec.ch/TC57/CIM-generic#CoordinateSystem.crsUrn
+###  http://iec.ch/TC57/CIM1-generic#CoordinateSystem.crsUrn
 :CoordinateSystem.crsUrn rdf:type owl:DatatypeProperty ,
                                   owl:FunctionalProperty ;
                          rdfs:domain :CoordinateSystem ;
@@ -97,7 +97,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                                           :Package_GridDisturbanceProfile ;
                          rdfs:label "crsUrn" .
 
-###  http://iec.ch/TC57/CIM-generic#PositionPoint
+###  http://iec.ch/TC57/CIM1-generic#PositionPoint
 :PositionPoint rdf:type owl:Class ;
                uml:id "_17847D7C-A86C-43c9-B8AA-522B70002D29" ,
                       "_EF85055A-B753-4eb9-9FD7-FE577C68685D" ,
@@ -108,7 +108,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                                 :Package_GridDisturbanceProfile ;
                rdfs:label "PositionPoint" .
 
-###  http://iec.ch/TC57/CIM-generic#PositionPoint.Location
+###  http://iec.ch/TC57/CIM1-generic#PositionPoint.Location
 :PositionPoint.Location rdf:type owl:ObjectProperty ,
                                  owl:FunctionalProperty ;
                         rdfs:domain :PositionPoint ;
@@ -123,7 +123,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                         rdfs:label "Location" .
 
 
-###  http://iec.ch/TC57/CIM-generic#PositionPoint.xPosition
+###  http://iec.ch/TC57/CIM1-generic#PositionPoint.xPosition
 :PositionPoint.xPosition rdf:type owl:DatatypeProperty ,
                                   owl:FunctionalProperty ;
                          rdfs:domain :PositionPoint ;
@@ -139,7 +139,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                          rdfs:label "xPosition" .
 
 
-###  http://iec.ch/TC57/CIM-generic#PositionPoint.yPosition
+###  http://iec.ch/TC57/CIM1-generic#PositionPoint.yPosition
 :PositionPoint.yPosition rdf:type owl:DatatypeProperty ,
                                   owl:FunctionalProperty ;
                          rdfs:domain :PositionPoint ;
@@ -155,7 +155,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                          rdfs:label "yPosition" .
 
 
-###  http://iec.ch/TC57/CIM-generic#PositionPoint.zPosition
+###  http://iec.ch/TC57/CIM1-generic#PositionPoint.zPosition
 :PositionPoint.zPosition rdf:type owl:DatatypeProperty ,
                                   owl:FunctionalProperty ;
                          rdfs:domain :PositionPoint ;
@@ -171,7 +171,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                          rdfs:label "zPosition" .
 
 
-###  http://iec.ch/TC57/CIM-generic#PositionPoint.sequenceNumber
+###  http://iec.ch/TC57/CIM1-generic#PositionPoint.sequenceNumber
 :PositionPoint.sequenceNumber rdf:type owl:DatatypeProperty ,
                                        owl:FunctionalProperty ;
                               rdfs:domain :PositionPoint ;
@@ -185,7 +185,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                               rdfs:label "sequenceNumber" .
 
 
-###  http://iec.ch/TC57/CIM-generic#Location.PowerSystemResources
+###  http://iec.ch/TC57/CIM1-generic#Location.PowerSystemResources
 :Location.PowerSystemResources rdf:type owl:ObjectProperty ;
                                owl:inverseOf :PowerSystemResource.Location ;
                                rdf:type owl:FunctionalProperty ,
@@ -200,7 +200,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                                rdfs:label "PowerSystemResources" .
 
 
-###  http://iec.ch/TC57/CIM-generic#Location.CoordinateSystem
+###  http://iec.ch/TC57/CIM1-generic#Location.CoordinateSystem
 :Location.CoordinateSystem rdf:type owl:ObjectProperty ,
                                     owl:FunctionalProperty ;
                            rdfs:domain :Location ;
@@ -215,7 +215,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                            rdfs:label "CoordinateSystem" .
 
 
-###  http://iec.ch/TC57/CIM-generic#Location.PositionPoints
+###  http://iec.ch/TC57/CIM1-generic#Location.PositionPoints
 :Location.PositionPoints rdf:type owl:ObjectProperty ;
                          owl:inverseOf :PositionPoint.Location ;
                          rdf:type owl:InverseFunctionalProperty ;
@@ -231,7 +231,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
                          rdfs:label "PositionPoints" .
 
 
-###  http://iec.ch/TC57/CIM-generic#PowerSystemResource.Location
+###  http://iec.ch/TC57/CIM1-generic#PowerSystemResource.Location
 :PowerSystemResource.Location rdf:type owl:ObjectProperty ,
                                        owl:FunctionalProperty ,
                                        owl:InverseFunctionalProperty ;
@@ -246,7 +246,7 @@ A profile should limit this code to a set of allowed URNs agreed to by all sendi
 
 
 
-###  http://iec.ch/TC57/CIM-generic#CoordinateSystem.Locations
+###  http://iec.ch/TC57/CIM1-generic#CoordinateSystem.Locations
 :CoordinateSystem.Locations rdf:type owl:ObjectProperty ;
                             owl:inverseOf :Location.CoordinateSystem ;
                             rdf:type owl:InverseFunctionalProperty ;
