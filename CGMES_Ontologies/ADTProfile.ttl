@@ -1,0 +1,883 @@
+@prefix msg:     <http://langdale.com.au/2005/Message#> .
+@prefix :        <http://iec.ch/TC57/2007/profile#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix uml:     <http://langdale.com.au/2005/UML#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+
+[]    rdf:rest () .
+
+[]    rdf:rest () .
+
+[]    rdf:rest () .
+
+<http://iec.ch/TC57/2007/profile>
+      a       owl:Ontology ;
+      rdfs:comment "ddd" ;
+      rdfs:label "ProfileWork" ;
+      owl:imports <http://iec.ch/TC57/CIM-generic> .
+
+:AssetInfo
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#AssetInfo> , :AssetInfo .
+
+:ChangeSetMember
+      a       owl:Class ;
+      rdfs:subClassOf :ChangeSetMember , <http://iec.ch/TC57/CIM-generic#ChangeSetMember> .
+
+:CoordinateSystem
+      a       owl:Class ;
+      rdfs:subClassOf :IdentifiedObject , <http://iec.ch/TC57/CIM-generic#CoordinateSystem> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "crsUrn" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#CoordinateSystem.crsUrn>
+              ] .
+
+:CoordinateSystem1
+      rdfs:subClassOf :IdentifiedObject .
+
+:ElectronicAddress
+      a       owl:Class ;
+      rdfs:subClassOf :ElectronicAddress , <http://iec.ch/TC57/CIM-generic#ElectronicAddress> ;
+      uml:hasStereotype uml:compound .
+
+:GeographicalLocation-EU_Ontology
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology> ;
+      uml:hasStereotype uml:owl .
+
+:IdentifiedObject
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#IdentifiedObject> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "aliasName" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.aliasName>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "PropertiesCIMDataObject" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#ChangeSetMember> ;
+                          owl:unionOf (:ChangeSetMember)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.PropertiesCIMDataObject>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "description" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.description>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "energyIdentCodeEic" ;
+                          uml:hasStereotype uml:deprecated , uml:attribute , uml:european ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.energyIdentCodeEic>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "InstanceSet" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#InstanceSet> ;
+                          owl:unionOf (:InstanceSet)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.InstanceSet>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "mRID" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.mRID>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "ObjectType" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#ObjectType> ;
+                          uml:hasStereotype uml:nc ;
+                          owl:unionOf (:ObjectType)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.ObjectType>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "shortName" ;
+                          uml:hasStereotype uml:deprecated , uml:attribute , uml:european ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.shortName>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "name" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#IdentifiedObject.name>
+              ] .
+
+:Incident
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Incident> , :Incident .
+
+:InstanceSet
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#InstanceSet> , :InstanceSet .
+
+:Location
+      a       owl:Class ;
+      rdfs:subClassOf :IdentifiedObject , <http://iec.ch/TC57/CIM-generic#Location> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "geoInfoReference" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.geoInfoReference>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "phone2" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TelephoneNumber> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:TelephoneNumber)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.phone2>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "type" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.type>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "electronicAddress" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#ElectronicAddress> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:ElectronicAddress)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.electronicAddress>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "secondaryAddress" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#StreetAddress> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:StreetAddress)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.secondaryAddress>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "TroubleOrder" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TroubleOrder> ;
+                          owl:unionOf (:TroubleOrder)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.TroubleOrder>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "mainAddress" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#StreetAddress> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:StreetAddress)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.mainAddress>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "Incident" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Incident> ;
+                          owl:unionOf (:Incident)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.Incident>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "phone1" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TelephoneNumber> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:TelephoneNumber)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.phone1>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "CoordinateSystem" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#CoordinateSystem> ;
+                          owl:unionOf (:CoordinateSystem)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.CoordinateSystem>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "status" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Status> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:Status)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.status>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "direction" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.direction>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "TroubleTicket" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TroubleTicket> ;
+                          owl:unionOf (:TroubleTicket)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.TroubleTicket>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "PowerSystemResources" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#PowerSystemResource> ;
+                          owl:unionOf (:PowerSystemResource)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.PowerSystemResources>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "OutageOrder" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#OutageOrder> ;
+                          owl:unionOf (:OutageOrder)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.OutageOrder>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "SwitchingOrder" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#SwitchingOrder> ;
+                          owl:unionOf (:SwitchingOrder)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Location.SwitchingOrder>
+              ] .
+
+:Location1
+      rdfs:subClassOf :IdentifiedObject .
+
+:ObjectType
+      a       owl:Class ;
+      rdfs:subClassOf :ObjectType , <http://iec.ch/TC57/CIM-generic#ObjectType> ;
+      uml:hasStereotype uml:nc .
+
+:OneCallRequest
+      a       owl:Class ;
+      rdfs:subClassOf :OneCallRequest , <http://iec.ch/TC57/CIM-generic#OneCallRequest> .
+
+:OutageOrder
+      a       owl:Class ;
+      rdfs:subClassOf :OutageOrder , <http://iec.ch/TC57/CIM-generic#OutageOrder> .
+
+:PSRType
+      a       owl:Class ;
+      rdfs:subClassOf :PSRType , <http://iec.ch/TC57/CIM-generic#PSRType> .
+
+:Package_Assets
+      rdfs:label "Assets" .
+
+:Package_Base
+      rdfs:label "Base" .
+
+:Package_Common
+      rdfs:label "Common" .
+
+:Package_Core
+      rdfs:label "Core" .
+
+:Package_DetailedModelParameterisationProfile
+      rdfs:label "DetailedModelParameterisationProfile" .
+
+:Package_GeographicalLocationProfile
+      rdfs:label "GeographicalLocationProfile" .
+
+:Package_GridDisturbanceProfile
+      rdfs:label "GridDisturbanceProfile" .
+
+:Package_IEC61968
+      rdfs:label "IEC61968" .
+
+:Package_IEC61968Profiles
+      rdfs:label "IEC61968Profiles" .
+
+:Package_IEC61970
+      rdfs:label "IEC61970" .
+
+:Package_IEC61970Profiles
+      rdfs:label "IEC61970Profiles" .
+
+:Package_InfIEC61968
+      rdfs:label "InfIEC61968" .
+
+:Package_InfWork
+      rdfs:label "InfWork" .
+
+:Package_NetworkCodesProfiles
+      rdfs:label "NetworkCodesProfiles" .
+
+:Package_Part13
+      rdfs:label "Part13" .
+
+:Package_Part457
+      rdfs:label "Part457" .
+
+:Package_TC57CIM
+      rdfs:label "TC57CIM" .
+
+:Package_TC57CIMProfiles
+      rdfs:label "TC57CIMProfiles" .
+
+:PositionPoint
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#PositionPoint> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "Location" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Location> ;
+                          owl:unionOf (:Location)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PositionPoint.Location>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "yPosition" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PositionPoint.yPosition>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "groupNumber" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:integer
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PositionPoint.groupNumber>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "xPosition" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PositionPoint.xPosition>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "zPosition" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PositionPoint.zPosition>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "sequenceNumber" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:integer
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PositionPoint.sequenceNumber>
+              ] .
+
+:PowerSystemResource
+      a       owl:Class ;
+      rdfs:subClassOf :IdentifiedObject , <http://iec.ch/TC57/CIM-generic#PowerSystemResource> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "PSRType" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#PSRType> ;
+                          owl:unionOf (:PSRType)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PowerSystemResource.PSRType>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "AssetDatasheet" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#AssetInfo> ;
+                          owl:unionOf (:AssetInfo)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PowerSystemResource.AssetDatasheet>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "Location" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Location> ;
+                          owl:unionOf (:Location)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#PowerSystemResource.Location>
+              ] .
+
+:PowerSystemResource1
+      rdfs:subClassOf :IdentifiedObject .
+
+:ServiceLocation
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#ServiceLocation> , :WorkLocation ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "siteAccessProblem" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#ServiceLocation.siteAccessProblem>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "needsInspection" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:boolean
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#ServiceLocation.needsInspection>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "accessMethod" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#ServiceLocation.accessMethod>
+              ] .
+
+:ServiceLocation1
+      rdfs:subClassOf :WorkLocation .
+
+:Status
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Status> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "dateTime" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:dateTime
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Status.dateTime>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "reason" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Status.reason>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "value" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Status.value>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "remark" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#Status.remark>
+              ] ;
+      uml:hasStereotype uml:compound .
+
+:StreetAddress
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#StreetAddress> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "language" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetAddress.language>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "streetDetail" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#StreetDetail> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:StreetDetail)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetAddress.streetDetail>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "townDetail" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TownDetail> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:TownDetail)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetAddress.townDetail>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "status" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#Status> ;
+                          uml:hasStereotype uml:attribute , uml:compound ;
+                          owl:unionOf (:Status)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetAddress.status>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "postalCode" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetAddress.postalCode>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "poBox" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetAddress.poBox>
+              ] ;
+      uml:hasStereotype uml:compound .
+
+:StreetDetail
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#StreetDetail> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "name" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.name>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "floorIdentification" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.floorIdentification>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "suffix" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.suffix>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "type" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.type>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "addressGeneral2" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.addressGeneral2>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "prefix" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.prefix>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "addressGeneral" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.addressGeneral>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "addressGeneral3" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.addressGeneral3>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "buildingName" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.buildingName>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "suiteNumber" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.suiteNumber>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "code" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.code>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "number" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.number>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "withinTownLimits" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:boolean
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#StreetDetail.withinTownLimits>
+              ] ;
+      uml:hasStereotype uml:compound .
+
+:SwitchingOrder
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#SwitchingOrder> , :SwitchingOrder .
+
+:TelephoneNumber
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TelephoneNumber> , :TelephoneNumber ;
+      uml:hasStereotype uml:compound .
+
+:TownDetail
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TownDetail> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "country" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#TownDetail.country>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "name" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#TownDetail.name>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "stateOrProvince" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#TownDetail.stateOrProvince>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "section" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#TownDetail.section>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          rdfs:label "code" ;
+                          uml:hasStereotype uml:attribute ;
+                          owl:equivalentClass xsd:string
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#TownDetail.code>
+              ] ;
+      uml:hasStereotype uml:compound .
+
+:TroubleOrder
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TroubleOrder> , :TroubleOrder .
+
+:TroubleTicket
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#TroubleTicket> , :TroubleTicket .
+
+:WorkLocation
+      a       owl:Class ;
+      rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#WorkLocation> , :Location ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       owl:Class ;
+                          rdfs:label "OneCallRequest" ;
+                          rdfs:subClassOf <http://iec.ch/TC57/CIM-generic#OneCallRequest> ;
+                          owl:unionOf (:OneCallRequest)
+                        ] ;
+                owl:onProperty <http://iec.ch/TC57/CIM-generic#WorkLocation.OneCallRequest>
+              ] .
+
+:WorkLocation1
+      rdfs:subClassOf :Location .
+
+<http://langdale.com.au/2007/Buildlet#ttl>
+      a       msg:Flag .
+
+owl:Thing
+      a       owl:Class .
