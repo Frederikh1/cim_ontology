@@ -1,0 +1,1460 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:uml="http://langdale.com.au/2005/UML#"><owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.backwardCompatibleWith">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_DC2E5E52-9670-4971-961C-EC1D678DCACE</uml:id>
+        <rdfs:comment>The annotation property that indicates that a given ontology is backward compatible with another ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>backwardCompatibleWith</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.conformsTo">
+        <uml:hasInitialValue>urn:iso:std:iec:61970-600-2:ed-1|urn:iso:std:iec:61970-301:ed-7:amd1|file://iec61970cim17v40_iec61968cim13v13a_iec62325cim03v17a.eap|urn:iso:std:iec:61970-401:draft:ed-1|urn:iso:std:iec:61970-501:draft:ed-2</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_97F787C9-53FF-4e31-9C3F-1A9F1CA3EE88</uml:id>
+        <rdfs:comment>An established standard to which the described resource conforms.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>conformsTo</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.creator">
+        <uml:hasInitialValue>IEC TC57 WG13</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_A265C534-0507-4a44-8C13-DC065A2A0928</uml:id>
+        <rdfs:comment>An entity responsible for making the resource.
+Recommended practice is to identify the creator with a URI. If this is not possible or feasible, a literal value that identifies the creator may be provided.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>creator</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.description">
+        <uml:hasInitialValue>This vocabulary is describing the geographical location profile from IEC 61970-600-2.</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_CB52550A-9B1A-4c9a-969D-BDDE8A7BC549</uml:id>
+        <rdfs:comment>An account of the resource.
+Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>description</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.identifier">
+        <uml:hasInitialValue>urn:uuid:862c1230-be19-4a01-bd6f-1a6c03d213ff</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_4EDA631D-5C96-4a1a-8AC6-F3311FAE180C</uml:id>
+        <rdfs:comment>An unambiguous reference to the resource within a given context.
+Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN). Persistent identifiers should be provided as HTTP URIs.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>identifier</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.incompatibleWith">
+        <uml:hasInitialValue>http://entsoe.eu/2009/profile1#</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_E7DB0FE0-933C-4073-A676-6AC23654A4A0</uml:id>
+        <rdfs:comment>The annotation property that indicates that a given ontology is incompatible with another ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>incompatibleWith</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.issued">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_9BDAFA84-ADE0-4886-A00C-9F0E053C3DAD</uml:id>
+        <rdfs:comment>Date of formal issuance of the resource.
+Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>issued</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.keyword">
+        <uml:hasInitialValue>GL</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcat" />
+        <uml:id>_00C5DFA6-E726-4758-AD4A-1E5F92396A19</uml:id>
+        <rdfs:comment>A keyword or tag describing a resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>keyword</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.landingPage">
+        <uml:hasInitialValue>https://webstore.iec.ch/</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcat" />
+        <uml:id>_F0EE71CE-31D7-4f3d-B0E8-D796558785A2</uml:id>
+        <rdfs:comment>A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.
+
+If the distribution(s) are accessible only through a landing page (i.e. direct download URLs are not known), then the landing page link should be duplicated as accessURL on a distribution.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>landingPage</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.language">
+        <uml:hasInitialValue>en-GB</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_1ADCD242-45DC-49f3-B9E8-041887033466</uml:id>
+        <rdfs:comment>A language of the item. This refers to the natural language used for textual metadata (i.e. titles, descriptions, etc) of a cataloged resource (i.e. dataset or service) or the textual values of a dataset distribution.
+Recommended practice is to use either a non-literal value representing a language from a controlled vocabulary such as ISO 639-2 or ISO 639-3, or a literal value consisting of an IETF Best Current Practice 47 [IETF-BCP47] language tag.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>language</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.license">
+        <uml:hasInitialValue>https://creativecommons.org/licenses/by/4.0/</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_060118FF-A6C9-402b-9DB3-C77C51C47BC4</uml:id>
+        <rdfs:comment>A legal document giving official permission to do something with the resource.
+Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>license</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.modified">
+        <uml:hasInitialValue>2020-10-12</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_2C3412A0-AC6F-4b30-8D27-D3E6D2DF8B2B</uml:id>
+        <rdfs:comment>Most recent date on which the item was changed, updated or modified.
+Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>modified</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.priorVersion">
+        <uml:hasInitialValue>http://entsoe.eu/CIM/GeographicalLocation/2/1</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_930CD77E-BF63-4d31-AD93-FA6BE157CB0C</uml:id>
+        <rdfs:comment>The annotation property that indicates the predecessor ontology of a given ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>priorVersion</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.publisher">
+        <uml:hasInitialValue>IEC</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_3E1A8F4B-0BFA-4dc4-A809-F85578A7C3CB</uml:id>
+        <rdfs:comment>An entity responsible for making the resource available.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>publisher</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.rights">
+        <uml:hasInitialValue>Copyright</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_372FE8B8-0CB7-4c34-90DB-002A84E12960</uml:id>
+        <rdfs:comment>A statement that concerns all rights not addressed with dct:license or dct:accessRights, such as copyright statements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>rights</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.rightsHolder">
+        <uml:hasInitialValue>IEC</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_1E85DFF7-618E-4509-8C46-4DA8EB68CAB7</uml:id>
+        <rdfs:comment>Information about rights held in and over the resource.
+Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights. Recommended practice is to refer to a rights statement with a URI. If this is not possible or feasible, a literal value (name, label, or short text) may be provided.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>rightsHolder</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.theme">
+        <uml:hasInitialValue>vocabulary</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcat" />
+        <uml:id>_720CA746-5282-445d-9D90-D5A4F5F6500D</uml:id>
+        <rdfs:comment>A main category of the resource. A resource can have multiple themes.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>theme</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.title">
+        <uml:hasInitialValue>Geographical Location Vocabulary</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dct" />
+        <uml:id>_4D11DB80-51B7-42af-88CD-71CBDD16C611</uml:id>
+        <rdfs:comment>A name given to the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>title</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.versionIRI">
+        <uml:hasInitialValue>http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_7464DC2E-8304-478c-A2C5-FAFE6F88378E</uml:id>
+        <rdfs:comment>The property that identifies the version IRI of an ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>versionIRI</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:AnnotationProperty rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology.versionInfo">
+        <uml:hasInitialValue>3.0.0</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_465900DB-97B4-4610-BE41-3DE859F9E4FF</uml:id>
+        <rdfs:comment>The annotation property that provides version information for an ontology or another OWL construct.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>versionInfo</rdfs:label>
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology" />
+    </owl:AnnotationProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#CoordinateSystem.Locations">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#Location.CoordinateSystem" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#CoordinateSystem" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <uml:id>_01E0182E-CCA4-4b2c-B725-2666161650AF-B</uml:id>
+        <uml:id>_BC5C575E-F435-450d-AD64-575CD67A5E98-B</uml:id>
+        <uml:id>_D9DB79D8-27F1-4071-9C79-F0F1F62B4F18-B</uml:id>
+        <rdfs:comment>All locations described with position points in this coordinate system.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>Locations</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Location.CoordinateSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#CoordinateSystem" />
+        <uml:id>_01E0182E-CCA4-4b2c-B725-2666161650AF-A</uml:id>
+        <uml:id>_BC5C575E-F435-450d-AD64-575CD67A5E98-A</uml:id>
+        <uml:id>_D9DB79D8-27F1-4071-9C79-F0F1F62B4F18-A</uml:id>
+        <rdfs:comment>Coordinate system used to describe position points of this location.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>CoordinateSystem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Location.PositionPoints">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint.Location" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint" />
+        <uml:id>_3915E768-6DC5-4438-99FD-D7A52480F750-A</uml:id>
+        <uml:id>_53432F35-75AF-48fa-8C1A-3DDA656F3385-A</uml:id>
+        <uml:id>_DBF35456-ABE1-4deb-A885-2E48B3D6F8F6-A</uml:id>
+        <rdfs:comment>Sequence of position points describing this location, expressed in coordinate system 'Location.CoordinateSystem'.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>PositionPoints</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Location.PowerSystemResources">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemResource.Location" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemResource" />
+        <uml:id>_61A89810-B909-433b-B039-282C299F5241-A</uml:id>
+        <uml:id>_9F4B30FA-0A66-4ce4-9A00-413B0DB058C7-A</uml:id>
+        <rdfs:comment>All power system resources at this location.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>PowerSystemResources</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Location.mainAddress">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_44CF2281-A210-4c5a-A26A-D802302AA58D</uml:id>
+        <uml:id>_CE22DA10-9B5C-4c61-9DA4-16266DAF0350</uml:id>
+        <rdfs:comment>Main address of the location.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>mainAddress</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#PositionPoint.Location">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <uml:id>_3915E768-6DC5-4438-99FD-D7A52480F750-B</uml:id>
+        <uml:id>_53432F35-75AF-48fa-8C1A-3DDA656F3385-B</uml:id>
+        <uml:id>_DBF35456-ABE1-4deb-A885-2E48B3D6F8F6-B</uml:id>
+        <rdfs:comment>Location described by this position point.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>Location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#PowerSystemResource.Location">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemResource" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <uml:id>_61A89810-B909-433b-B039-282C299F5241-B</uml:id>
+        <uml:id>_9F4B30FA-0A66-4ce4-9A00-413B0DB058C7-B</uml:id>
+        <rdfs:comment>Location of this power system resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>Location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress.status">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Status" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_32354147-6588-46c6-9B6F-C327E702BCAC</uml:id>
+        <uml:id>_6739BE34-57EF-4b10-98B2-4F4EF318CE26</uml:id>
+        <rdfs:comment>Status of this address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress.streetDetail">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_080F12A9-718C-4a10-A2BE-878231C3927F</uml:id>
+        <uml:id>_111D15FC-D911-4c07-BD94-FFAE164C5BC8</uml:id>
+        <rdfs:comment>Street detail.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>streetDetail</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress.townDetail">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#TownDetail" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_07E7BC8F-BAA8-4462-BDA1-BA35D58B129D</uml:id>
+        <uml:id>_187CC125-B1BB-42d0-9109-DBF7155516F4</uml:id>
+        <rdfs:comment>Town detail.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>townDetail</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#CoordinateSystem.crsUrn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#CoordinateSystem" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_08BE4B50-4FF7-44d2-AE56-DFF2010A9944</uml:id>
+        <uml:id>_88A7A1F0-1E16-4776-8350-629D7362D7E4</uml:id>
+        <uml:id>_961FC72C-29B9-4d09-B575-0140E5585552</uml:id>
+        <rdfs:comment>A Uniform Resource Name (URN) for the coordinate reference system (crs) used to define 'Location.PositionPoints'.
+An example would be the European Petroleum Survey Group (EPSG) code for a coordinate reference system, defined in URN under the Open Geospatial Consortium (OGC) namespace as: urn:ogc:def:crs:EPSG::XXXX, where XXXX is an EPSG code (a full list of codes can be found at the EPSG Registry web site http://www.epsg-registry.org/). To define the coordinate system as being WGS84 (latitude, longitude) using an EPSG OGC, this attribute would be urn:ogc:def:crs:EPSG::4236.
+A profile should limit this code to a set of allowed URNs agreed to by all sending and receiving parties.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>crsUrn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject.mRID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_1976A5C8-B53B-46e7-997E-D8D57F1CE4B0</uml:id>
+        <uml:id>_40A590C5-5AE7-40ce-BE75-459301C31A38</uml:id>
+        <uml:id>_51C18198-054B-4f6d-A43F-A03D1F1EBBF0</uml:id>
+        <uml:id>_58327049-C02F-4d18-899B-9DAC37A13AF4</uml:id>
+        <uml:id>_59AA2F2E-91FB-46e0-80F2-28059AC5C893</uml:id>
+        <uml:id>_5B79DC03-4B42-44c3-81B6-B70AB06BD3C6</uml:id>
+        <uml:id>_5F2EC550-2969-48a1-8300-94D6EDEB80B8</uml:id>
+        <uml:id>_6A4168F2-A16D-40b8-97BD-266F0774EF68</uml:id>
+        <uml:id>_80DB144A-ADEF-424c-A9EB-3A7A4BBC84BC</uml:id>
+        <uml:id>_84E140F2-5238-4b45-B70A-1AF20A146DA9</uml:id>
+        <uml:id>_8710349A-D2AC-4270-8CD4-7FC3EAB5FB66</uml:id>
+        <uml:id>_8A9AA8F2-7D6E-4956-A55C-E9F15D2689DA</uml:id>
+        <uml:id>_8D8774C1-B9EF-4333-BEA8-BBD55E64E52D</uml:id>
+        <uml:id>_946CEB1A-0F91-4c2b-A6BE-BCC235247D88</uml:id>
+        <uml:id>_9B91875F-6F18-4d9f-B43B-B55109597DF4</uml:id>
+        <uml:id>_9F975B97-59FC-4536-AE25-5F9CF6568193</uml:id>
+        <uml:id>_A21B2109-7518-457a-8AD6-8784A68EE275</uml:id>
+        <uml:id>_A505F4CC-B344-4c00-91BB-7938F806CD64</uml:id>
+        <uml:id>_A5974044-7858-47fc-A386-39F79EF6B2D8</uml:id>
+        <uml:id>_A9506B70-2040-4813-83B1-238C01C4A607</uml:id>
+        <uml:id>_B3E0D5E6-BE0A-4a85-B09F-853B1C15F478</uml:id>
+        <uml:id>_B9C90CD6-5C25-40e5-9571-377C9B6D3836</uml:id>
+        <uml:id>_BA920D29-C59C-491e-B544-9F6A05C971D2</uml:id>
+        <uml:id>_BFAFA6F0-A5F4-4e97-81AB-F29A2729C996</uml:id>
+        <uml:id>_C30067BB-60D9-4fdd-B365-404B5416EA6D</uml:id>
+        <uml:id>_C4457618-6F40-47de-A383-6A49B89D0CC0</uml:id>
+        <uml:id>_C775F80A-A23D-4f38-AB9D-49D1FA882337</uml:id>
+        <uml:id>_C782EE14-B5A0-444e-AAD9-9EFBE56CBC52</uml:id>
+        <uml:id>_C8E3453C-9E40-47a4-BB02-AC3559F2BDA6</uml:id>
+        <uml:id>_D96FAB71-6AFE-4c76-82EA-508D7592B6AF</uml:id>
+        <uml:id>_DA4425B5-398C-485b-84E8-D7317B3FFCB3</uml:id>
+        <uml:id>_DA4A4438-D1DF-41c2-8D50-4D4CC60F69D3</uml:id>
+        <uml:id>_DBFCCBEE-0CEC-4a54-A939-652C9855765A</uml:id>
+        <uml:id>_E167928A-EAA3-4aa7-991A-67F1B152BC74</uml:id>
+        <uml:id>_F56664AF-7A7E-40a1-8606-199538EBC88C</uml:id>
+        <uml:id>_F7DC41D4-A0F8-4f20-8395-778F867B8526</uml:id>
+        <rdfs:comment>Master resource identifier issued by a model authority. The mRID is unique within an exchange context. Global uniqueness is easily achieved by using a UUID, as specified in RFC 4122, for the mRID. The use of UUID is strongly recommended.
+For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>mRID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject.name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_175A04D0-6271-44bf-AB22-C6FD94FF3E87</uml:id>
+        <uml:id>_1EDCF6A3-D648-4de6-9714-9FF15A15553F</uml:id>
+        <uml:id>_1FF76FAC-4E6F-4cf6-AF3B-3A6213F67258</uml:id>
+        <uml:id>_3C34DAC2-F031-4ab6-AB33-07C2346E7FBC</uml:id>
+        <uml:id>_54CA5FC6-C425-4c0f-8268-34B584F00AE7</uml:id>
+        <uml:id>_5666A30F-FC4D-4c75-9D28-5B530BE89B96</uml:id>
+        <uml:id>_5AE55158-D97D-437e-AEA6-D1837386E01D</uml:id>
+        <uml:id>_71EB558E-48CA-4665-8854-F896EF0C921B</uml:id>
+        <uml:id>_7237D113-5AAB-4535-9965-FBDFEA8BDA7D</uml:id>
+        <uml:id>_74DA03EF-5D5C-4b8c-96CE-CD537680BD8F</uml:id>
+        <uml:id>_76DA4957-1315-43da-9865-79E566425582</uml:id>
+        <uml:id>_789E7CD0-A2B5-43a9-966B-E5577F3A3E1F</uml:id>
+        <uml:id>_7B806CDA-E477-4aa4-B5E4-840711EDF70C</uml:id>
+        <uml:id>_7FD7681C-CB7D-4e14-95F8-39C0FC53B1F4</uml:id>
+        <uml:id>_870F033B-EDA6-4a32-A5AD-47DCBBFE2997</uml:id>
+        <uml:id>_89C350C0-018A-4225-8F35-754BD05D0B4A</uml:id>
+        <uml:id>_8CE5611D-3765-4b7d-A6EA-83A7A76F944C</uml:id>
+        <uml:id>_8F503B3C-496C-4bfa-A974-FA2EE35F9AA0</uml:id>
+        <uml:id>_9305CAAA-65C5-4a40-8762-E734B79FE487</uml:id>
+        <uml:id>_A175B0A1-B7B1-44dd-9847-BE8D94593F21</uml:id>
+        <uml:id>_A4060B06-F259-45b7-8688-025F60494189</uml:id>
+        <uml:id>_A5201EC6-6564-406c-8C0A-CE02657D725D</uml:id>
+        <uml:id>_AA6CCFF9-D057-414d-ACBA-98D2E141B55A</uml:id>
+        <uml:id>_B46B3D3E-4499-4d09-9D61-109FD3480798</uml:id>
+        <uml:id>_B69E3D2E-E790-4571-AA5D-62BF338309FE</uml:id>
+        <uml:id>_BA0F0F7F-94A0-4e5f-8217-5D752795DB59</uml:id>
+        <uml:id>_C928603C-2624-4566-92E6-D44710C53AEE</uml:id>
+        <uml:id>_CE283742-E1D1-4926-8C7A-EAAACB3E6F92</uml:id>
+        <uml:id>_D3BE7EB1-F9C2-45c2-8ECE-21A81FD6ECA1</uml:id>
+        <uml:id>_DBC85ECC-63DA-4db5-9141-4CBF4AA488BA</uml:id>
+        <uml:id>_EABB189D-DA06-4e03-B67A-63C896F1DC51</uml:id>
+        <uml:id>_ED172492-DE80-492f-9A17-D5B71FBF3CCB</uml:id>
+        <uml:id>_FBE662C7-BFDB-43bb-8402-4235A07F2B1D</uml:id>
+        <uml:id>_FEE5CD62-6C33-4596-9EF2-C08B3873EB98</uml:id>
+        <rdfs:comment>The name is any free human readable and possibly non unique text naming the object.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#PositionPoint.sequenceNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_4FFAE9CF-5382-4de2-AE14-23FDDBAE9D7E</uml:id>
+        <uml:id>_9C1FA17F-EC70-452a-9BD5-2F5E29234B28</uml:id>
+        <rdfs:comment>Zero-relative sequence number of this point within a series of points.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>sequenceNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#PositionPoint.xPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_2C06CBF6-1564-417b-98DF-24B9E0040DCC</uml:id>
+        <uml:id>_6CA436AB-9CAC-42e9-9B16-62EB9B5BEAB6</uml:id>
+        <uml:id>_6FC2D71B-DBB3-4cf1-BE5C-6F2CC6F5EFC6</uml:id>
+        <rdfs:comment>X axis position.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>xPosition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#PositionPoint.yPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_150622F9-462B-4479-9DC4-F9035E140110</uml:id>
+        <uml:id>_3577FC25-5DB0-46bb-AE53-EE28521E692A</uml:id>
+        <uml:id>_A7C65FD0-2120-4f5c-8E51-869636825385</uml:id>
+        <rdfs:comment>Y axis position.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>yPosition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#PositionPoint.zPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#PositionPoint" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_02ED85CD-FF93-4b0e-8201-25FE89632531</uml:id>
+        <uml:id>_A0537144-D5D9-4a24-805C-D4478E98690C</uml:id>
+        <uml:id>_C0A56CC8-3E5B-4ff1-AC7D-F61FB10EEE4A</uml:id>
+        <rdfs:comment>(if applicable) Z axis position.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>zPosition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Status.dateTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Status" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_8B287211-9433-4a07-9299-88294FFE4F59</uml:id>
+        <uml:id>_F75CAF5C-DCC0-40fc-A2AF-D10354C0E735</uml:id>
+        <rdfs:comment>Date and time for which status 'value' applies.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>dateTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Status.reason">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Status" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_93656A03-B636-4e76-B47D-589EC67B662E</uml:id>
+        <uml:id>_BF4685AC-F0E0-40f0-87F2-5D4714B1D11F</uml:id>
+        <rdfs:comment>Reason code or explanation for why an object went to the current status 'value'.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>reason</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Status.remark">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Status" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_9C24133E-C357-4c27-899D-810C462F57BD</uml:id>
+        <uml:id>_BD8B05D0-CEC7-4f60-8CC3-7C88DA03505F</uml:id>
+        <rdfs:comment>Pertinent information regarding the current 'value', as free form text.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>remark</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Status.value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Status" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_01345278-2645-454e-BBEC-994F30086E0A</uml:id>
+        <uml:id>_7BAA985C-D13D-4282-91ED-90FBCF326D6B</uml:id>
+        <rdfs:comment>Status value at 'dateTime'; prior status changes may have been kept in instances of activity records associated with the object to which this status applies.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress.language">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_7BD40FC3-3D5F-4229-ADAF-7CFC1AC97F0B</uml:id>
+        <uml:id>_F617B530-7A52-4e40-9F85-54BA4A6DA0BD</uml:id>
+        <rdfs:comment>The language in which the address is specified, using ISO 639-1 two digit language code.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>language</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress.poBox">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_532AB68B-C904-42c0-A2D2-DC7DCF05B3FF</uml:id>
+        <uml:id>_AE33800A-1AD9-45e6-8415-1B9FB3A789C8</uml:id>
+        <rdfs:comment>Post office box.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>poBox</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress.postalCode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetAddress" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_269C6D4D-A5DF-45d7-B9C5-9838F15D5723</uml:id>
+        <uml:id>_8F962EBC-8805-4e03-8051-45E7382F0649</uml:id>
+        <rdfs:comment>Postal code for the address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>postalCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.addressGeneral">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_5188477C-CCF4-417f-9322-1163F0B31FEA</uml:id>
+        <uml:id>_5CE3C56A-A8CB-4d17-8F13-B1D56813F9B0</uml:id>
+        <rdfs:comment>First line of a free form address or some additional address information (for example a mail stop).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>addressGeneral</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.addressGeneral2">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_49739B47-8008-40b7-BB02-E4FE3B18D0BB</uml:id>
+        <uml:id>_DC974BBD-371B-400a-BECB-7D8F8A5C58E2</uml:id>
+        <rdfs:comment>(if applicable) Second line of a free form address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>addressGeneral2</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.addressGeneral3">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_07C70D18-5538-4645-B13D-BBD72DE32C97</uml:id>
+        <uml:id>_6530FD32-69EF-4e5b-938F-CC07DC01CE4D</uml:id>
+        <rdfs:comment>(if applicable) Third line of a free form address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>addressGeneral3</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.buildingName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_7537B883-F71B-4189-B0C4-036277339DEF</uml:id>
+        <uml:id>_E19655DB-8BFD-400e-955F-21DF2EADC421</uml:id>
+        <rdfs:comment>(if applicable) In certain cases the physical location of the place of interest does not have a direct point of entry from the street, but may be located inside a larger structure such as a building, complex, office block, apartment, etc.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>buildingName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.code">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_80BCB1DC-C69A-4a34-A0CF-86267E845D53</uml:id>
+        <uml:id>_9C44FAD9-C465-4c6b-A403-E6F1E66D9BE1</uml:id>
+        <rdfs:comment>(if applicable) Utilities often make use of external reference systems, such as those of the town-planner's department or surveyor general's mapping system, that allocate global reference codes to streets.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.floorIdentification">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_24B16BCA-4094-43e8-9867-BC2E9EDC5D04</uml:id>
+        <uml:id>_38E0BDEB-C212-4f1f-9A6E-A3705713D7C3</uml:id>
+        <rdfs:comment>The identification by name or number, expressed as text, of the floor in the building as part of this address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>floorIdentification</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_6CA2DF6A-138A-43d8-AAA3-7B31FAF757AA</uml:id>
+        <uml:id>_CFEA2CAE-B7AA-4efd-ADCA-844A71759BFD</uml:id>
+        <rdfs:comment>Name of the street.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.number">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_DF4B02A3-F827-403b-AF42-3EDF7C5AB26E</uml:id>
+        <uml:id>_E0CB4176-0B4A-483f-BF9F-526B1B43FB3B</uml:id>
+        <rdfs:comment>Designator of the specific location on the street.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.prefix">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_930BD7B7-39CC-49c9-91F6-57D2AEA69C1B</uml:id>
+        <uml:id>_C0D97DAC-BB35-430e-B7F4-8C9FFBBED05D</uml:id>
+        <rdfs:comment>Prefix to the street name. For example: North, South, East, West.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>prefix</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.suffix">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_DBCD6B0D-2B34-4ea3-95D4-EE2DAC4AFFEA</uml:id>
+        <uml:id>_E00200CA-8258-41be-8D82-475C894ECD59</uml:id>
+        <rdfs:comment>Suffix to the street name. For example: North, South, East, West.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>suffix</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.suiteNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_2292B0DB-9622-4f91-A86B-C8067BCB34DF</uml:id>
+        <uml:id>_319925D7-4055-4a89-931B-4635A7D9EA59</uml:id>
+        <rdfs:comment>Number of the apartment or suite.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>suiteNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_1FAFCEA4-0AC8-419e-912F-30046061BC3F</uml:id>
+        <uml:id>_C1813D47-8834-4076-8C7D-A2A86410A073</uml:id>
+        <rdfs:comment>Type of street. Examples include: street, circle, boulevard, avenue, road, drive, etc.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail.withinTownLimits">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#StreetDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_53B4B97B-66D7-4854-8993-0BD6AAAF2A1D</uml:id>
+        <uml:id>_9B131882-C1C7-4ecc-B52A-FC25C2AFFCC7</uml:id>
+        <rdfs:comment>True if this street is within the legal geographical boundaries of the specified town (default).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>withinTownLimits</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#TownDetail.code">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#TownDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_7018DAE9-18E5-4b6e-B07D-C7E22C450F4A</uml:id>
+        <uml:id>_7435FA35-FEF2-44b0-96AC-8F11789C1AF9</uml:id>
+        <rdfs:comment>Town code.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#TownDetail.country">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#TownDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_3D5CA7C9-0974-4765-BA72-937E155C1005</uml:id>
+        <uml:id>_ACD16500-AC2D-464f-AD2C-5F78BDB8C8A1</uml:id>
+        <rdfs:comment>Name of the country.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>country</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#TownDetail.name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#TownDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_88FE5365-3F6D-4c0e-872E-59767E17FF92</uml:id>
+        <uml:id>_D21D8A7E-6B52-42de-BBC4-5A334BE6FC3B</uml:id>
+        <rdfs:comment>Town name.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#TownDetail.section">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#TownDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_8ABFEBA4-F862-415f-B42A-8C8C5421FDA7</uml:id>
+        <uml:id>_D3BABCE4-BCC6-4352-838F-CE2D37898326</uml:id>
+        <rdfs:comment>Town section. For example, it is common for there to be 36 sections per township.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>section</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#TownDetail.stateOrProvince">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#TownDetail" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_54BE5603-B97E-4fa8-9398-1AE6FE1A7538</uml:id>
+        <uml:id>_74437190-52A0-4981-971D-ABC6F17C8801</uml:id>
+        <rdfs:comment>Name of the state or province.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>stateOrProvince</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#CoordinateSystem">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <uml:id>_A5B2A800-5D32-4cc3-9617-9182598BDF78</uml:id>
+        <uml:id>_D3B6F87F-97CC-4cbf-A14E-C851C839A167</uml:id>
+        <uml:id>_D7A22063-DBE9-467d-9E72-C32640FABCA0</uml:id>
+        <rdfs:comment>Coordinate reference system.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>CoordinateSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#GeographicalLocation-EU_Ontology">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Configuration_Dataset" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_109504BE-94CC-48ec-B90C-74070CFB97D1</uml:id>
+        <rdfs:comment>The class of ontologies.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>GeographicalLocation-EU_Ontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#ExtEuIdentifiedObject" />
+        <uml:id>_055C5806-E9D8-4a7a-9307-DAF7C31763C7</uml:id>
+        <uml:id>_076C613B-E034-4cb3-8067-99C88B70E4D9</uml:id>
+        <uml:id>_1686DE52-7AA6-465c-8B83-A9FE2F7DAFFC</uml:id>
+        <uml:id>_228BE4D9-7C31-4b9a-A2A9-C528834EDEDE</uml:id>
+        <uml:id>_23D8ED76-0FF3-46cb-AED1-0E9D7747072A</uml:id>
+        <uml:id>_257F5E87-0BDD-4d06-A426-865426F9B3DC</uml:id>
+        <uml:id>_2E7314DD-0167-4239-9496-93283E6DAA33</uml:id>
+        <uml:id>_48C46760-EC38-4c58-A10B-468A1DFD5A6E</uml:id>
+        <uml:id>_4E0C9206-45FA-47a6-A3FC-30E39187FF9F</uml:id>
+        <uml:id>_4F81CFF9-B903-4ed6-AAC8-A98DA7161C7B</uml:id>
+        <uml:id>_64A76D1F-367E-444b-BCCF-D885388FD5D2</uml:id>
+        <uml:id>_65B86E1B-A159-4155-B96C-DE64997D96C4</uml:id>
+        <uml:id>_6BFCFB5C-F4B9-4068-AE45-5A6B349FB92E</uml:id>
+        <uml:id>_73487929-BF22-4509-8138-82654C06DA2B</uml:id>
+        <uml:id>_7994668C-B9E3-4c76-BEF8-D1D4FD2A9B2B</uml:id>
+        <uml:id>_7C491B5D-9CC5-4bfb-979D-18D21A9667D5</uml:id>
+        <uml:id>_7C98020E-C03C-4105-93C3-EB6A8BB0B562</uml:id>
+        <uml:id>_7FE2D85F-3DA2-4e95-8B87-422781C225CF</uml:id>
+        <uml:id>_819FEA43-9C0F-459d-A83F-BBD8C3672FBC</uml:id>
+        <uml:id>_86B868CB-B356-469e-985A-A5A9FA68A05C</uml:id>
+        <uml:id>_96B005C3-187F-45ad-A8CF-3752488D7E85</uml:id>
+        <uml:id>_A09F3678-B5D6-41ab-B1FF-9753B3759866</uml:id>
+        <uml:id>_A1FEEBDC-1562-4b31-B0B2-A371619DC4CB</uml:id>
+        <uml:id>_A55AB23A-95B7-4852-B4C1-DBA98B747E41</uml:id>
+        <uml:id>_BABECDBD-D527-4d0d-966D-DA611AD08899</uml:id>
+        <uml:id>_D38A3953-2B54-45b6-8AFA-B6871A403558</uml:id>
+        <uml:id>_D6803A9B-1EF9-4311-B206-9ADD0D33553B</uml:id>
+        <uml:id>_E21D86CD-8879-410c-B361-EAFA3CA049F9</uml:id>
+        <uml:id>_E95C74A3-EA64-4ca1-9618-408A22FD33DB</uml:id>
+        <uml:id>_EE233964-5AD5-44bf-8A13-6AB7068CF6F6</uml:id>
+        <uml:id>_EFEA738C-E4D6-49bf-BDD0-2C9710284CC4</uml:id>
+        <uml:id>_F3197D0B-03CC-4fba-9E87-495CCF48E3F2</uml:id>
+        <uml:id>_F56A9616-524E-4d17-AB85-EDB31E40B72F</uml:id>
+        <uml:id>_F83F8C06-4CAB-4cbc-909B-9E7BA541BD03</uml:id>
+        <uml:id>_FAA4D758-59C4-4665-AF33-0183D252016A</uml:id>
+        <uml:id>_FD172EB7-8FAA-483c-8C6F-748E5D269698</uml:id>
+        <rdfs:comment>This is a root class to provide common identification for all classes needing identification and naming attributes.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>IdentifiedObject</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#Location">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Thing" />
+        <uml:id>_290E271B-B1D9-45d6-AA53-01C4302822B8</uml:id>
+        <uml:id>_402673F4-3449-4562-A4A3-1BD200236EE4</uml:id>
+        <uml:id>_671B9EF5-A0CB-467e-ADAC-FBEA4156EEBB</uml:id>
+        <uml:id>_d86f8bf7-9a93-4d82-bdf2-7e0d91604e26</uml:id>
+        <rdfs:comment>The place, scene, or point of something where someone or something has been, is, and/or will be at a given moment in time. It can be defined with one or more position points (coordinates) in a given coordinate system.</rdfs:comment>
+        <rdfs:comment>rdfs:isDefinedBy : http://www.w3.org/ns/prov-o#
+
+&lt;http://www.w3.org/ns/prov#n&gt; : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-attribute"^^xsd:anyURI
+
+&lt;http://www.w3.org/ns/prov#category&gt; : "expanded"^^xsd:string
+
+rdfs:seeAlso : http://www.w3.org/ns/prov#atLocation
+
+rdfs:label : "Location"^^xsd:string
+
+&lt;http://www.w3.org/ns/prov#dm&gt; : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-attribute-location"^^xsd:anyURI
+
+&lt;http://www.w3.org/ns/prov#definition&gt; : "A location can be an identifiable geographic place (ISO 19112), but it can also be a non-geographic place such as a directory, row, or column. As such, there are numerous ways in which location can be expressed, such as by a coordinate, address, landmark, and so forth."@en</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_prov" />
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#PositionPoint">
+        <uml:id>_17847D7C-A86C-43c9-B8AA-522B70002D29</uml:id>
+        <uml:id>_EF85055A-B753-4eb9-9FD7-FE577C68685D</uml:id>
+        <uml:id>_F239B8D1-7822-49ce-B280-1012B6DCC1CA</uml:id>
+        <rdfs:comment>Set of spatial coordinates that determine a point, defined in the coordinate system specified in 'Location.CoordinateSystem'. Use a single position point instance to describe a point-oriented location. Use a sequence of position points to describe a line-oriented object (physical location of non-point oriented objects like cables or lines), or area of an object (like a substation or a geographical zone - in this case, have first and last position point with the same values).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:label>PositionPoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#PowerSystemResource">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <uml:id>_0340C084-3759-40cc-AAF2-386101DE842F</uml:id>
+        <uml:id>_1431182A-1135-4c22-86AD-3AC9643E4147</uml:id>
+        <uml:id>_1DFB38C1-B07E-495b-95C3-B8CD23EBD897</uml:id>
+        <uml:id>_26F6BFEB-A880-41c4-AEC9-8405EDA850C9</uml:id>
+        <uml:id>_2AA29740-99B2-4c6a-B0F5-449E207286F8</uml:id>
+        <uml:id>_39BC940D-E120-48e7-8306-EBE1A7A35B0A</uml:id>
+        <uml:id>_4B5E0ECC-649A-4d6a-8516-80CCB0435787</uml:id>
+        <uml:id>_5931418C-377D-4b3a-A555-B59E0219AA53</uml:id>
+        <uml:id>_5F6B5AEB-CB2D-45a9-BE70-DFF1C4CBA834</uml:id>
+        <uml:id>_63FAD9F7-602D-4066-AD63-3C4C292A987A</uml:id>
+        <uml:id>_6FE7D640-CED0-4e52-850D-0BB12078D57D</uml:id>
+        <uml:id>_B424C1F9-C91C-46bd-97FE-687282EB14EE</uml:id>
+        <uml:id>_BC2566D6-70C7-47fc-BDFA-2A84A024A45C</uml:id>
+        <uml:id>_C2DD674F-BE55-4260-B32A-A0B8A5CF0D13</uml:id>
+        <uml:id>_CB33D079-51FB-45e8-8AD3-D7BB92AE9FBB</uml:id>
+        <uml:id>_DF6965B8-8BB4-415e-A8E4-9D2ED8542DB1</uml:id>
+        <uml:id>_EFA39F88-1A4B-4924-B899-0607C3E01C9D</uml:id>
+        <rdfs:comment>A power system resource (PSR) can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:label>PowerSystemResource</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#ServiceLocation">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#WorkLocation" />
+        <uml:id>_55562AD1-33AE-4bf5-8912-06D643F0255C</uml:id>
+        <uml:id>_90D00036-1728-473a-9966-26BADB297110</uml:id>
+        <rdfs:comment>A real estate location, commonly referred to as premises.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Customers" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>ServiceLocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#Status">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#compound" />
+        <uml:id>_9EF7B157-4B24-45ee-A340-2CFB8F049D68</uml:id>
+        <uml:id>_D1882D47-BD6F-4ef3-A5E6-2E2E30D98D43</uml:id>
+        <rdfs:comment>Current status information relevant to an entity.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#StreetAddress">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#compound" />
+        <uml:id>_7BCBC751-7F78-45b6-B2AF-A9B36A32279D</uml:id>
+        <uml:id>_90007399-BB87-4f28-9898-853DAB696115</uml:id>
+        <rdfs:comment>General purpose street and postal address information.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>StreetAddress</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#StreetDetail">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#compound" />
+        <uml:id>_8F00DFEC-EB66-415b-94E5-E084FE988056</uml:id>
+        <uml:id>_A4198329-7F25-4e72-8E8D-C4B4D37288F8</uml:id>
+        <rdfs:comment>Street details, in the context of address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>StreetDetail</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#TownDetail">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#compound" />
+        <uml:id>_26275F22-BDC6-4a76-ABE7-AC797CFE35D9</uml:id>
+        <uml:id>_E6164797-EA5C-4280-ACA2-1B5F6A71C405</uml:id>
+        <rdfs:comment>Town details, in the context of address.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Common" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:label>TownDetail</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#WorkLocation">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Location" />
+        <uml:id>_48422BBB-3B33-45f5-AFFA-487A7EFBBF33</uml:id>
+        <uml:id>_CFEB5DD5-B1F3-4dc1-8312-174824017CC9</uml:id>
+        <rdfs:comment>Information about a particular location for various forms of work.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Work" />
+        <rdfs:label>WorkLocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    
+
+    </rdf:RDF>

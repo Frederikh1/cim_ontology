@@ -1,0 +1,1548 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:uml="http://langdale.com.au/2005/UML#"><rdfs:Datatype rdf:about="http://iec.ch/TC57/CIM-generic#PerCent">
+        <uml:hasMultiplier>none</uml:hasMultiplier>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#cimdatatype" />
+        <uml:hasUnits>none</uml:hasUnits>
+        <uml:id>_0F9CB945-9B22-4fc9-B48A-AAE1969AB7ED</uml:id>
+        <uml:id>_2CEEDEA3-5B6E-4367-95D2-33587266F815</uml:id>
+        <uml:id>_359009B9-7EE4-43b1-B62B-85F2F7FD9A28</uml:id>
+        <uml:id>_5816B1F9-A473-424f-A962-6FB1ECB5897B</uml:id>
+        <uml:id>_59DFD58E-6206-40c7-81F4-79ADAB990B44</uml:id>
+        <uml:id>_67A8A45D-ABBB-4a6c-8FDF-0C82E02D9B35</uml:id>
+        <uml:id>_68012EE9-0431-4aa5-B68C-77D8BE54DD36</uml:id>
+        <uml:id>_6EB673D1-7A83-4b2d-9881-F655BC76515B</uml:id>
+        <uml:id>_7A9256C3-9702-4833-8771-90C8D7A574A5</uml:id>
+        <uml:id>_8345A4E0-E4BB-45d6-894B-983BB43C4B4F</uml:id>
+        <uml:id>_8CE81892-F2C5-461d-A30F-DC08645C2486</uml:id>
+        <uml:id>_904F7EF1-9068-4798-A774-31DC46971A73</uml:id>
+        <uml:id>_A06C48A3-EE93-4ea0-AE86-ABB6B40C3E6E</uml:id>
+        <uml:id>_D564A894-0676-4c45-A267-14ECF1445D21</uml:id>
+        <uml:id>_DEEE0A3B-6237-4cbb-8E2A-61BF43DA20DC</uml:id>
+        <uml:id>_EA3001D2-DC7A-44ac-B970-07989335390F</uml:id>
+        <rdfs:comment>Percentage on a defined base.   For example, specify as 100 to indicate at the defined base.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Domain" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsDatatypes" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SecurityAnalysisResultProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>PerCent</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float" />
+    </rdfs:Datatype>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency.ContingencyElement">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyElement.Contingency" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyElement" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#aggregateOf" />
+        <uml:id>_C45CA017-3619-4ad9-B4BB-65A3C430639B-B</uml:id>
+        <uml:id>_ECBE41B9-75BF-40d8-9CA1-A82CBFC4FAC1-A</uml:id>
+        <rdfs:comment>A contingency can have any number of contingency elements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>ContingencyElement</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency.EquipmentOperator">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#SystemOperator.Contingency" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#SystemOperator" />
+        <uml:id>_1775D522-FA21-407f-AD54-2C5E844CE2A0-A</uml:id>
+        <uml:id>_B4EFB4E8-1BAB-4afc-9BC3-EA705A2BEF31-B</uml:id>
+        <rdfs:comment>System operator that is operating the equipment that is being run a contingency on.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>EquipmentOperator</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency.SimulationEvents">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#SimulationEvents.Contingency" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#SimulationEvents" />
+        <uml:id>_7A6A12EF-7846-45d8-BAFD-6B00934E0A59-B</uml:id>
+        <uml:id>_E9CE909B-9311-49d6-A280-2E05883E8D8D-B</uml:id>
+        <rdfs:comment>Simulation event for a contingency.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>SimulationEvents</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyElement.Contingency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyElement" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#ofAggregate" />
+        <uml:id>_C45CA017-3619-4ad9-B4BB-65A3C430639B-A</uml:id>
+        <uml:id>_ECBE41B9-75BF-40d8-9CA1-A82CBFC4FAC1-B</uml:id>
+        <rdfs:comment>A contingency element belongs to one contingency.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>Contingency</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyEquipment.Equipment">
+        <owl:inverseOf rdf:resource="http://iec.ch/TC57/CIM-generic#Equipment.ContingencyEquipment" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyEquipment" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemResource" />
+        <uml:id>_52D76E25-FD46-4d2e-9B20-432E52754A69-A</uml:id>
+        <uml:id>_90FE687B-C58C-4b05-856E-6D576F7CADBE-A</uml:id>
+        <rdfs:comment>The single piece of equipment to which to apply the contingency.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>Equipment</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyEquipment.contingentStatus">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyEquipment" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyEquipmentStatusKind" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_42D6A08F-A396-453a-809E-B4AA454760B1</uml:id>
+        <uml:id>_AD281283-F48F-4f62-AA91-7039DDA80DCF</uml:id>
+        <rdfs:comment>The status for the associated equipment when in the contingency state.   This status is independent of the case to which the contingency is originally applied, but defines the equipment status when the contingency is applied.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>contingentStatus</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#Equipment.ContingencyEquipment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Equipment" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyEquipment" />
+        <uml:id>_52D76E25-FD46-4d2e-9B20-432E52754A69-B</uml:id>
+        <uml:id>_90FE687B-C58C-4b05-856E-6D576F7CADBE-B</uml:id>
+        <rdfs:comment>The contingency equipments in which this equipment participates.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:label>ContingencyEquipment</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#ExceptionalContingency.kind">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#ExceptionalContingency" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_319319F3-A149-492d-98F7-C1C10C8208CE</uml:id>
+        <uml:id>_A0FB6691-E702-4cc2-AE86-994C00EA0EFE</uml:id>
+        <rdfs:comment>Defines the kind of relevance and criteria of application of the exceptional contingency.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>kind</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#SimulationEvents.Contingency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#SimulationEvents" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <uml:id>_7A6A12EF-7846-45d8-BAFD-6B00934E0A59-A</uml:id>
+        <uml:id>_E9CE909B-9311-49d6-A280-2E05883E8D8D-A</uml:id>
+        <rdfs:comment>Contingency which has simulation events.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResult" />
+        <rdfs:label>Contingency</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:ObjectProperty rdf:about="http://iec.ch/TC57/CIM-generic#SystemOperator.Contingency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#SystemOperator" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <uml:id>_1775D522-FA21-407f-AD54-2C5E844CE2A0-B</uml:id>
+        <uml:id>_B4EFB4E8-1BAB-4afc-9BC3-EA705A2BEF31-A</uml:id>
+        <rdfs:comment>Contingency for the equipment that is operated by the system operator.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtRole" />
+        <rdfs:label>Contingency</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.backwardCompatibleWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#IRI" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_1FDFE5E8-FF16-4ea5-A405-CAAAB29DBF95</uml:id>
+        <rdfs:comment>The annotation property that indicates that a given ontology is backward compatible with another ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>backwardCompatibleWith</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.conformsTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#StringIRI" />
+        <uml:hasInitialValue>urn:iso:std:iec:61970-600-2:ed-1|urn:iso:std:iec:61970-301:ed-7:amd1|file://iec61970cim17v40_iec61968cim13v13a_iec62325cim03v17a.eap|urn:iso:std:iec:61970-401:draft:ed-1|urn:iso:std:iec:61970-501:draft:ed-2|file://CIM100_CGMES31v01_501-20v02_NC23v62_MM10v01.eap</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_19515195-2776-4ed4-8AB9-888DEAB60A10</uml:id>
+        <rdfs:comment>An established standard to which the described resource conforms.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>conformsTo</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.creator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>ENTSO-E CIM WG NC project</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_4D87A2C2-B73E-4750-B995-287FDB99D63F</uml:id>
+        <rdfs:comment>An entity responsible for making the resource.
+Recommended practice is to identify the creator with a URI. If this is not possible or feasible, a literal value that identifies the creator may be provided.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>creator</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.description">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>This vocabulary is describing the contingency profile.</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_48729FDB-169C-4a5f-85F5-41B98A5091B9</uml:id>
+        <rdfs:comment>An account of the resource.
+Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.identifier">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#StringIRI" />
+        <uml:hasInitialValue>urn:uuid:8947de1c-6e53-4f1f-82c3-99ef118db9eb</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_F3677529-574C-4fd9-AF8A-0AE2D166E4CE</uml:id>
+        <rdfs:comment>An unambiguous reference to the resource within a given context.
+Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN). Persistent identifiers should be provided as HTTP URIs.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>identifier</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.imports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#IRI" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_E0A6FE7C-92AC-49ae-9F19-BF8EF51B984C</uml:id>
+        <rdfs:comment>The property that is used for importing other ontologies into a given ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>imports</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.incompatibleWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#IRI" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_C5AA8546-7804-44bb-BBA9-814279790FAA</uml:id>
+        <rdfs:comment>The annotation property that indicates that a given ontology is incompatible with another ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>incompatibleWith</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.issued">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_BF68B316-A74A-4d00-BB67-72BB716299B5</uml:id>
+        <rdfs:comment>Date of formal issuance of the resource.
+Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>issued</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.keyword">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#StringFixedLanguage" />
+        <uml:hasInitialValue>CO</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcat" />
+        <uml:id>_70CA0E2E-EF23-49cf-AEB8-BA6B48CE13C5</uml:id>
+        <rdfs:comment>A keyword or tag describing a resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>keyword</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.landingPage">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#URL" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcat" />
+        <uml:id>_6690DC72-1D7C-4b48-9CFC-D9FD2DF39A76</uml:id>
+        <rdfs:comment>A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.
+
+If the distribution(s) are accessible only through a landing page (i.e. direct download URLs are not known), then the landing page link should be duplicated as accessURL on a distribution.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>landingPage</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.language">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#StringFixedLanguage" />
+        <uml:hasInitialValue>en-GB</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_5D248DAE-6696-483e-A111-B9ECE74D4682</uml:id>
+        <rdfs:comment>A language of the item. This refers to the natural language used for textual metadata (i.e. titles, descriptions, etc) of a cataloged resource (i.e. dataset or service) or the textual values of a dataset distribution.
+Recommended practice is to use either a non-literal value representing a language from a controlled vocabulary such as ISO 639-2 or ISO 639-3, or a literal value consisting of an IETF Best Current Practice 47 [IETF-BCP47] language tag.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>language</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.license">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>https://www.apache.org/licenses/LICENSE-2.0</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_908C3C4E-9E0A-4287-AD4C-23E32B90B267</uml:id>
+        <rdfs:comment>A legal document giving official permission to do something with the resource.
+Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>license</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.modified">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date" />
+        <uml:hasInitialValue>2024-03-20</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_9F020F97-F479-4492-A1A2-3EBE8DEB26C1</uml:id>
+        <rdfs:comment>Most recent date on which the item was changed, updated or modified.
+Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>modified</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.priorVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#IRI" />
+        <uml:hasInitialValue>http://entsoe.eu/ns/CIM/Contingency-EU/2.2</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_0F456707-3420-404e-B9C6-3E4D81DC546C</uml:id>
+        <rdfs:comment>The annotation property that indicates the predecessor ontology of a given ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>priorVersion</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.publisher">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>ENTSO-E</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_B337A584-CE39-4216-8C78-22B187431139</uml:id>
+        <rdfs:comment>An entity responsible for making the resource available.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>publisher</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.rights">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>Copyright</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_B2C98B49-F1C3-4c38-BD27-EDB64F8D3F5B</uml:id>
+        <rdfs:comment>A statement that concerns all rights not addressed with dct:license or dct:accessRights, such as copyright statements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>rights</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.rightsHolder">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>ENTSO-E</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_D794A4FE-7E2C-4242-A82E-476459115DFD</uml:id>
+        <rdfs:comment>Information about rights held in and over the resource.
+Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights. Recommended practice is to refer to a rights statement with a URI. If this is not possible or feasible, a literal value (name, label, or short text) may be provided.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>rightsHolder</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.theme">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>vocabulary</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcat" />
+        <uml:id>_013C5FEF-EF0A-4ee8-977E-4E4BC9F97AF5</uml:id>
+        <rdfs:comment>A main category of the resource. A resource can have multiple themes.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>theme</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.title">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>Contingency Vocabulary</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#dcterms" />
+        <uml:id>_F6B6ACDC-29A6-402a-9025-1CCFEE38D46D</uml:id>
+        <rdfs:comment>A name given to the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>title</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.versionIRI">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#IRI" />
+        <uml:hasInitialValue>https://ap.cim4.eu/Contingency/2.3</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_6FF23049-5A02-4409-B9E0-219BBE1BF36A</uml:id>
+        <rdfs:comment>The property that identifies the version IRI of an ontology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>versionIRI</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology.versionInfo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasInitialValue>2.3.0</uml:hasInitialValue>
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_8CEA5729-708C-4fce-99E6-F50F3CDF5437</uml:id>
+        <rdfs:comment>The annotation property that provides version information for an ontology or another OWL construct.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>versionInfo</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency.normalMustStudy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_8EABB8EF-C926-4632-9163-3A15B82CB153</uml:id>
+        <rdfs:comment>Specifies the requirement of study the contingency under normal operating conditions. True means the contingency must be study in a normal scenario. False means that the contingency does not need to be included in the scenario. This is the default value if mustStudy is missing.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>normalMustStudy</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#Contingency.normalProbability">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <rdfs:range rdf:resource="http://iec.ch/TC57/CIM-generic#PerCent" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_0F888C6B-9585-465b-A8F7-45B64A8D0540</uml:id>
+        <rdfs:comment>Normal probability of the occurrence of the contingency based on normal operational condition. The value is used as the default if the probability is missing.
+The allowed value range is [0,100].</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>normalProbability</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject.description">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_06221E7F-204F-4a9f-8921-4D61E2174C94</uml:id>
+        <uml:id>_0CD2E89A-D809-4a0f-9AFC-C5EA1317945B</uml:id>
+        <uml:id>_121C90D3-A7B8-4658-85D7-BAA3E2700A72</uml:id>
+        <uml:id>_13104BE9-CB1E-4dde-9A52-D7EE95DF7B65</uml:id>
+        <uml:id>_13D607F0-1CB6-4bb5-9FA0-66FE99C7052C</uml:id>
+        <uml:id>_1C945701-87E6-44ae-A2C4-FC291A660A7E</uml:id>
+        <uml:id>_2C9F41FB-8597-4e30-BDDD-4903934049CA</uml:id>
+        <uml:id>_3F4EA028-092E-41ef-9BE4-EE2242621ADF</uml:id>
+        <uml:id>_45D43BC9-3318-49f1-911C-8CE4BEFD840C</uml:id>
+        <uml:id>_462A4FCE-4739-46fd-A221-4824653587E8</uml:id>
+        <uml:id>_4EA6822F-6537-40a8-B9A7-D5E446D0356F</uml:id>
+        <uml:id>_58C2A922-DACA-4d7f-97EC-17A8C9378386</uml:id>
+        <uml:id>_62837A39-874F-43dd-9871-98B8CDA176B8</uml:id>
+        <uml:id>_6EBFAE32-B093-4005-9DF0-20A778E2E0BC</uml:id>
+        <uml:id>_709C0D99-C642-4f26-9CFA-903387304313</uml:id>
+        <uml:id>_72E90791-0AE5-4adb-B824-EE1D3CABCB13</uml:id>
+        <uml:id>_8071D224-9D6C-4d00-8BEA-F1A0D675CD5D</uml:id>
+        <uml:id>_85F05E7E-6D73-4701-8EA8-A1925190A805</uml:id>
+        <uml:id>_8B201E77-AA6D-4e80-B5D2-5DE3D99070E8</uml:id>
+        <uml:id>_8D317F03-1F92-4d7e-8C72-01F8E94889D5</uml:id>
+        <uml:id>_96386CA0-845E-45bf-AD42-710E6ADB7927</uml:id>
+        <uml:id>_AD6C584F-86A8-4337-B842-EA33CC817675</uml:id>
+        <uml:id>_AF644248-5B05-4bbc-9B42-AB6A39B4EE40</uml:id>
+        <uml:id>_AFB15BB4-22F5-480b-B1F9-EDAA476FE401</uml:id>
+        <uml:id>_B4979C94-8425-46d2-9C4F-C286803389EB</uml:id>
+        <uml:id>_CB641981-399A-44fa-A4BE-6C22280C8FE2</uml:id>
+        <uml:id>_CFF6E0F0-63E4-49cb-B665-F69F6FF2F554</uml:id>
+        <uml:id>_D41F0349-BE88-42d8-896B-273A9ACA5917</uml:id>
+        <uml:id>_DF07BC53-F37D-4c24-9FA8-A896DF566B6E</uml:id>
+        <uml:id>_EA6801A8-E01F-4876-9807-F4047832C8C3</uml:id>
+        <uml:id>_EC3952B8-6B24-43f9-AE19-82E55540AE07</uml:id>
+        <uml:id>_F969A04C-8D16-4510-ADBB-40D8992A6CCE</uml:id>
+        <rdfs:comment>The description is a free human readable text describing or naming the object. It may be non unique and may not correlate to a naming hierarchy.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject.mRID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_1976A5C8-B53B-46e7-997E-D8D57F1CE4B0</uml:id>
+        <uml:id>_40A590C5-5AE7-40ce-BE75-459301C31A38</uml:id>
+        <uml:id>_51C18198-054B-4f6d-A43F-A03D1F1EBBF0</uml:id>
+        <uml:id>_58327049-C02F-4d18-899B-9DAC37A13AF4</uml:id>
+        <uml:id>_59AA2F2E-91FB-46e0-80F2-28059AC5C893</uml:id>
+        <uml:id>_5B79DC03-4B42-44c3-81B6-B70AB06BD3C6</uml:id>
+        <uml:id>_5F2EC550-2969-48a1-8300-94D6EDEB80B8</uml:id>
+        <uml:id>_6A4168F2-A16D-40b8-97BD-266F0774EF68</uml:id>
+        <uml:id>_80DB144A-ADEF-424c-A9EB-3A7A4BBC84BC</uml:id>
+        <uml:id>_84E140F2-5238-4b45-B70A-1AF20A146DA9</uml:id>
+        <uml:id>_8710349A-D2AC-4270-8CD4-7FC3EAB5FB66</uml:id>
+        <uml:id>_8A9AA8F2-7D6E-4956-A55C-E9F15D2689DA</uml:id>
+        <uml:id>_8D8774C1-B9EF-4333-BEA8-BBD55E64E52D</uml:id>
+        <uml:id>_946CEB1A-0F91-4c2b-A6BE-BCC235247D88</uml:id>
+        <uml:id>_9B91875F-6F18-4d9f-B43B-B55109597DF4</uml:id>
+        <uml:id>_9F975B97-59FC-4536-AE25-5F9CF6568193</uml:id>
+        <uml:id>_A21B2109-7518-457a-8AD6-8784A68EE275</uml:id>
+        <uml:id>_A505F4CC-B344-4c00-91BB-7938F806CD64</uml:id>
+        <uml:id>_A5974044-7858-47fc-A386-39F79EF6B2D8</uml:id>
+        <uml:id>_A9506B70-2040-4813-83B1-238C01C4A607</uml:id>
+        <uml:id>_B3E0D5E6-BE0A-4a85-B09F-853B1C15F478</uml:id>
+        <uml:id>_B9C90CD6-5C25-40e5-9571-377C9B6D3836</uml:id>
+        <uml:id>_BA920D29-C59C-491e-B544-9F6A05C971D2</uml:id>
+        <uml:id>_BFAFA6F0-A5F4-4e97-81AB-F29A2729C996</uml:id>
+        <uml:id>_C30067BB-60D9-4fdd-B365-404B5416EA6D</uml:id>
+        <uml:id>_C4457618-6F40-47de-A383-6A49B89D0CC0</uml:id>
+        <uml:id>_C775F80A-A23D-4f38-AB9D-49D1FA882337</uml:id>
+        <uml:id>_C782EE14-B5A0-444e-AAD9-9EFBE56CBC52</uml:id>
+        <uml:id>_C8E3453C-9E40-47a4-BB02-AC3559F2BDA6</uml:id>
+        <uml:id>_D96FAB71-6AFE-4c76-82EA-508D7592B6AF</uml:id>
+        <uml:id>_DA4425B5-398C-485b-84E8-D7317B3FFCB3</uml:id>
+        <uml:id>_DA4A4438-D1DF-41c2-8D50-4D4CC60F69D3</uml:id>
+        <uml:id>_DBFCCBEE-0CEC-4a54-A939-652C9855765A</uml:id>
+        <uml:id>_E167928A-EAA3-4aa7-991A-67F1B152BC74</uml:id>
+        <uml:id>_F56664AF-7A7E-40a1-8606-199538EBC88C</uml:id>
+        <uml:id>_F7DC41D4-A0F8-4f20-8395-778F867B8526</uml:id>
+        <rdfs:comment>Master resource identifier issued by a model authority. The mRID is unique within an exchange context. Global uniqueness is easily achieved by using a UUID, as specified in RFC 4122, for the mRID. The use of UUID is strongly recommended.
+For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>mRID</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:DatatypeProperty rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject.name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdfs:domain rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
+        <uml:id>_175A04D0-6271-44bf-AB22-C6FD94FF3E87</uml:id>
+        <uml:id>_1EDCF6A3-D648-4de6-9714-9FF15A15553F</uml:id>
+        <uml:id>_1FF76FAC-4E6F-4cf6-AF3B-3A6213F67258</uml:id>
+        <uml:id>_3C34DAC2-F031-4ab6-AB33-07C2346E7FBC</uml:id>
+        <uml:id>_54CA5FC6-C425-4c0f-8268-34B584F00AE7</uml:id>
+        <uml:id>_5666A30F-FC4D-4c75-9D28-5B530BE89B96</uml:id>
+        <uml:id>_5AE55158-D97D-437e-AEA6-D1837386E01D</uml:id>
+        <uml:id>_71EB558E-48CA-4665-8854-F896EF0C921B</uml:id>
+        <uml:id>_7237D113-5AAB-4535-9965-FBDFEA8BDA7D</uml:id>
+        <uml:id>_74DA03EF-5D5C-4b8c-96CE-CD537680BD8F</uml:id>
+        <uml:id>_76DA4957-1315-43da-9865-79E566425582</uml:id>
+        <uml:id>_789E7CD0-A2B5-43a9-966B-E5577F3A3E1F</uml:id>
+        <uml:id>_7B806CDA-E477-4aa4-B5E4-840711EDF70C</uml:id>
+        <uml:id>_7FD7681C-CB7D-4e14-95F8-39C0FC53B1F4</uml:id>
+        <uml:id>_870F033B-EDA6-4a32-A5AD-47DCBBFE2997</uml:id>
+        <uml:id>_89C350C0-018A-4225-8F35-754BD05D0B4A</uml:id>
+        <uml:id>_8CE5611D-3765-4b7d-A6EA-83A7A76F944C</uml:id>
+        <uml:id>_8F503B3C-496C-4bfa-A974-FA2EE35F9AA0</uml:id>
+        <uml:id>_9305CAAA-65C5-4a40-8762-E734B79FE487</uml:id>
+        <uml:id>_A175B0A1-B7B1-44dd-9847-BE8D94593F21</uml:id>
+        <uml:id>_A4060B06-F259-45b7-8688-025F60494189</uml:id>
+        <uml:id>_A5201EC6-6564-406c-8C0A-CE02657D725D</uml:id>
+        <uml:id>_AA6CCFF9-D057-414d-ACBA-98D2E141B55A</uml:id>
+        <uml:id>_B46B3D3E-4499-4d09-9D61-109FD3480798</uml:id>
+        <uml:id>_B69E3D2E-E790-4571-AA5D-62BF338309FE</uml:id>
+        <uml:id>_BA0F0F7F-94A0-4e5f-8217-5D752795DB59</uml:id>
+        <uml:id>_C928603C-2624-4566-92E6-D44710C53AEE</uml:id>
+        <uml:id>_CE283742-E1D1-4926-8C7A-EAAACB3E6F92</uml:id>
+        <uml:id>_D3BE7EB1-F9C2-45c2-8ECE-21A81FD6ECA1</uml:id>
+        <uml:id>_DBC85ECC-63DA-4db5-9141-4CBF4AA488BA</uml:id>
+        <uml:id>_EABB189D-DA06-4e03-B67A-63C896F1DC51</uml:id>
+        <uml:id>_ED172492-DE80-492f-9A17-D5B71FBF3CCB</uml:id>
+        <uml:id>_FBE662C7-BFDB-43bb-8402-4235A07F2B1D</uml:id>
+        <uml:id>_FEE5CD62-6C33-4596-9EF2-C08B3873EB98</uml:id>
+        <rdfs:comment>The name is any free human readable and possibly non unique text naming the object.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#Contingency">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#ExtContingency" />
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#description" />
+        <uml:id>_07DC6E89-2AC3-4214-8077-DA0575FC7049</uml:id>
+        <uml:id>_1EB361B6-88E4-4150-BF4B-DF62E3B87EFE</uml:id>
+        <uml:id>_3EC9FF55-3057-407c-A0B1-844DD5BFD7C6</uml:id>
+        <uml:id>_59E66284-A133-41d8-908F-DC6F74DF6426</uml:id>
+        <uml:id>_675F08D9-353A-4add-A711-6EDA7367727C</uml:id>
+        <uml:id>_82EC6385-9727-404a-8D39-27583261D4F7</uml:id>
+        <uml:id>_9ADD39DF-0040-4679-B857-1BE2BAF7D373</uml:id>
+        <uml:id>_BF789D20-8421-495b-9781-F0A3940CCAE8</uml:id>
+        <uml:id>_E01E587C-7A15-4efd-AAEA-DA081468A9A0</uml:id>
+        <rdfs:comment>An event threatening system reliability, consisting of one or more contingency elements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SecurityAnalysisResultProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>Contingency</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#Contingency-EU_Ontology">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Configuration_Dataset" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#owl" />
+        <uml:id>_AF7A5B63-1FD3-4520-8DC0-256AC3A07D6B</uml:id>
+        <rdfs:comment>The class of ontologies.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>Contingency-EU_Ontology</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_63682932-E9CF-46d2-A70B-86EED1C66204</uml:id>
+        <uml:id>_9501812B-CE4A-4e6b-B0B6-12652D862A5C</uml:id>
+        <rdfs:comment>Kinds of occurrence criteria of application.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>ContingencyConditionKind</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyElement">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <uml:id>_4C828893-4086-47a4-BB34-580A32250435</uml:id>
+        <uml:id>_53A27FB9-542A-4e43-B614-65F89F3AAD6A</uml:id>
+        <rdfs:comment>An element of a system event to be studied by contingency analysis, representing a change in status of a single piece of equipment.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>ContingencyElement</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyEquipment">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyElement" />
+        <uml:id>_1ED472A0-8419-4547-A0B3-86DBCB9831B4</uml:id>
+        <uml:id>_262B3BD7-C170-41c1-A1F2-F466F2B4A514</uml:id>
+        <rdfs:comment>Equipment whose in service status is to change, such as a power transformer or AC line segment.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>ContingencyEquipment</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyEquipmentStatusKind">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration" />
+        <uml:id>_917EFA87-9645-4d66-8128-64B0FFCCAC62</uml:id>
+        <uml:id>_CFCD4106-3B7F-4dac-8553-B06D8CB19117</uml:id>
+        <rdfs:comment>Indicates the state which the contingency equipment is to be in when the contingency is applied.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>ContingencyEquipmentStatusKind</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#Equipment">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemResource" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#description" />
+        <uml:id>_05CAED71-7A5E-4b37-A184-9417E1159BAE</uml:id>
+        <uml:id>_0CC74368-1AE4-4630-AE47-02EF12188953</uml:id>
+        <uml:id>_22426170-6120-4c03-9626-8363DBFC7D31</uml:id>
+        <uml:id>_2AD8859A-EB67-465e-B0A5-B4164381EF1D</uml:id>
+        <uml:id>_2FFBD519-8FBC-482f-8F76-5C8F9D3C69A3</uml:id>
+        <uml:id>_5D53E6CB-921C-47b5-BB74-CEC6465A6C3F</uml:id>
+        <uml:id>_69AB1161-CCE7-4080-B842-77E1FD67F215</uml:id>
+        <uml:id>_7A860E65-6B5F-4ded-ABCA-4E63A73C9ACA</uml:id>
+        <uml:id>_7C72F827-BF36-4fac-8F51-2F6ED73C06C7</uml:id>
+        <uml:id>_8078E42E-9D6F-4ff9-B927-130C1723BD7A</uml:id>
+        <uml:id>_96CD755B-0F50-4746-BD73-6C4D8CA232B2</uml:id>
+        <uml:id>_98EB07B9-C60F-40af-83AF-63E32295F329</uml:id>
+        <uml:id>_C6A91DE7-E71A-436a-AEE4-E4E395490644</uml:id>
+        <uml:id>_E48C1757-3C4F-4fa8-A620-A2E94213EDF4</uml:id>
+        <uml:id>_F30BEF28-20A3-4931-A09F-7778E53E90F8</uml:id>
+        <uml:id>_F7AA86DD-D34C-4fdf-A59F-D0D58A82CBAB</uml:id>
+        <uml:id>_F8DD8DAC-3545-4660-9CA5-794881CC6591</uml:id>
+        <rdfs:comment>The parts of a power system that are physical devices, electronic or mechanical.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>Equipment</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#ExceptionalContingency">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_103248B3-04A9-4e30-971E-503F47D1FBC3</uml:id>
+        <uml:id>_B49F7658-C719-4753-BC60-7088437E4F2F</uml:id>
+        <rdfs:comment>Exceptional contingency means the simultaneous occurrence of multiple contingencies with a common cause.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>ExceptionalContingency</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#IdentifiedObject">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#ExtEuIdentifiedObject" />
+        <uml:id>_055C5806-E9D8-4a7a-9307-DAF7C31763C7</uml:id>
+        <uml:id>_076C613B-E034-4cb3-8067-99C88B70E4D9</uml:id>
+        <uml:id>_1686DE52-7AA6-465c-8B83-A9FE2F7DAFFC</uml:id>
+        <uml:id>_228BE4D9-7C31-4b9a-A2A9-C528834EDEDE</uml:id>
+        <uml:id>_23D8ED76-0FF3-46cb-AED1-0E9D7747072A</uml:id>
+        <uml:id>_257F5E87-0BDD-4d06-A426-865426F9B3DC</uml:id>
+        <uml:id>_2E7314DD-0167-4239-9496-93283E6DAA33</uml:id>
+        <uml:id>_48C46760-EC38-4c58-A10B-468A1DFD5A6E</uml:id>
+        <uml:id>_4E0C9206-45FA-47a6-A3FC-30E39187FF9F</uml:id>
+        <uml:id>_4F81CFF9-B903-4ed6-AAC8-A98DA7161C7B</uml:id>
+        <uml:id>_64A76D1F-367E-444b-BCCF-D885388FD5D2</uml:id>
+        <uml:id>_65B86E1B-A159-4155-B96C-DE64997D96C4</uml:id>
+        <uml:id>_6BFCFB5C-F4B9-4068-AE45-5A6B349FB92E</uml:id>
+        <uml:id>_73487929-BF22-4509-8138-82654C06DA2B</uml:id>
+        <uml:id>_7994668C-B9E3-4c76-BEF8-D1D4FD2A9B2B</uml:id>
+        <uml:id>_7C491B5D-9CC5-4bfb-979D-18D21A9667D5</uml:id>
+        <uml:id>_7C98020E-C03C-4105-93C3-EB6A8BB0B562</uml:id>
+        <uml:id>_7FE2D85F-3DA2-4e95-8B87-422781C225CF</uml:id>
+        <uml:id>_819FEA43-9C0F-459d-A83F-BBD8C3672FBC</uml:id>
+        <uml:id>_86B868CB-B356-469e-985A-A5A9FA68A05C</uml:id>
+        <uml:id>_96B005C3-187F-45ad-A8CF-3752488D7E85</uml:id>
+        <uml:id>_A09F3678-B5D6-41ab-B1FF-9753B3759866</uml:id>
+        <uml:id>_A1FEEBDC-1562-4b31-B0B2-A371619DC4CB</uml:id>
+        <uml:id>_A55AB23A-95B7-4852-B4C1-DBA98B747E41</uml:id>
+        <uml:id>_BABECDBD-D527-4d0d-966D-DA611AD08899</uml:id>
+        <uml:id>_D38A3953-2B54-45b6-8AFA-B6871A403558</uml:id>
+        <uml:id>_D6803A9B-1EF9-4311-B206-9ADD0D33553B</uml:id>
+        <uml:id>_E21D86CD-8879-410c-B361-EAFA3CA049F9</uml:id>
+        <uml:id>_E95C74A3-EA64-4ca1-9618-408A22FD33DB</uml:id>
+        <uml:id>_EE233964-5AD5-44bf-8A13-6AB7068CF6F6</uml:id>
+        <uml:id>_EFEA738C-E4D6-49bf-BDD0-2C9710284CC4</uml:id>
+        <uml:id>_F3197D0B-03CC-4fba-9E87-495CCF48E3F2</uml:id>
+        <uml:id>_F56A9616-524E-4d17-AB85-EDB31E40B72F</uml:id>
+        <uml:id>_F83F8C06-4CAB-4cbc-909B-9E7BA541BD03</uml:id>
+        <uml:id>_FAA4D758-59C4-4665-AF33-0183D252016A</uml:id>
+        <uml:id>_FD172EB7-8FAA-483c-8C6F-748E5D269698</uml:id>
+        <rdfs:comment>This is a root class to provide common identification for all classes needing identification and naming attributes.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CapacityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Core" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelConfigurationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DetailedModelParameterisationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsBase" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GeographicalLocationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ObjectRegistryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OverlappingZoneProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PTDFMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ReportingProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SensitivityMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_TopologyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_VoltageFactorMatrixProfile" />
+        <rdfs:label>IdentifiedObject</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#OrdinaryContingency">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_4884F590-589B-43f2-B6CB-9411D8A37E8F</uml:id>
+        <uml:id>_CD953FC9-3924-4e29-A597-19C7E1329389</uml:id>
+        <rdfs:comment>Ordinary contingency means the occurrence of a contingency of a single branch or injection.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>OrdinaryContingency</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#OutOfRangeContingency">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Contingency" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_584C9C76-BA53-4f29-B326-95043194A9FC</uml:id>
+        <uml:id>_C85B3B92-604B-483a-B0C2-977014C02208</uml:id>
+        <rdfs:comment>Out of range means the simultaneous occurrence of multiple contingencies without a common cause, or a loss of power generating modules with a total loss of generation capacity exceeding the reference incident.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>OutOfRangeContingency</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#SimulationEvents">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject" />
+        <uml:id>_0C405FC0-CDC0-48a2-A567-540FB78142F5</uml:id>
+        <uml:id>_2F06D374-5FD6-4b12-94C0-FEC1D8A5D5A2</uml:id>
+        <uml:id>_964428EC-7F22-4357-B0FB-5AC6438CFCD1</uml:id>
+        <uml:id>_965911DD-4BEA-4ccf-9DB6-58ED66D65908</uml:id>
+        <rdfs:comment>A configuration or a set of events executed during a simulation.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResult" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:label>SimulationEvents</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#SystemOperator">
+        <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemOrganisationRole" />
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#nc" />
+        <uml:id>_03B79B3A-02F3-490d-87DC-934EB27C6214</uml:id>
+        <uml:id>_2103BF8A-540C-418d-ACDE-C665D63400BC</uml:id>
+        <uml:id>_21FFB9C5-D20B-4a5b-8D17-B31CEF054FCC</uml:id>
+        <uml:id>_372E6D6B-1906-4dd9-9A8A-743F68570747</uml:id>
+        <uml:id>_55AAD0DC-C1A2-4c8d-8CA3-430FA04001C5</uml:id>
+        <uml:id>_63B585B0-1605-47ba-8338-0036CB78B7F6</uml:id>
+        <uml:id>_711CE9E5-BA76-4296-AE6F-62A3EAF920C2</uml:id>
+        <uml:id>_9333E602-C7C2-4bcf-91BC-5F77167A7A41</uml:id>
+        <uml:id>_FE72BED1-31F0-46a2-8F76-EC91B06F4688</uml:id>
+        <rdfs:comment>System operator.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtRole" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ImpactAssessmentMatrixProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:label>SystemOperator</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#UnitMultiplier">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration" />
+        <uml:id>_006D6FF0-9B3E-4112-AAED-D21D9895A142</uml:id>
+        <uml:id>_055608D3-E5CE-4e6c-B2D8-4B532AD0B899</uml:id>
+        <uml:id>_081ADBAA-57EC-465b-A18B-DF697DDA7548</uml:id>
+        <uml:id>_0D794366-459F-4887-928F-AA10C3A692BE</uml:id>
+        <uml:id>_0F6AD0D5-A01E-4031-BC97-01ED630C57AE</uml:id>
+        <uml:id>_1BF70115-4034-424b-98DB-32153D2DD9A5</uml:id>
+        <uml:id>_285A288E-1640-4664-823E-F412873B327A</uml:id>
+        <uml:id>_2BCABAD4-F2C4-42c4-8D79-1D0C9CE3B6DA</uml:id>
+        <uml:id>_2EF4564C-9690-424c-9D4F-312EA2D56168</uml:id>
+        <uml:id>_3056D5DC-B608-4600-A1D5-C92F827D0AA3</uml:id>
+        <uml:id>_3C0E4302-6AE7-490b-A0B5-9AF68C8F2615</uml:id>
+        <uml:id>_436B62CF-17A1-4323-A432-6696D9D8CF68</uml:id>
+        <uml:id>_54CB0119-2481-4051-9592-F00AD9413B05</uml:id>
+        <uml:id>_668A3BF9-ECAE-4203-8094-DFD9D5749C09</uml:id>
+        <uml:id>_751C235F-189D-4a8a-A6F3-10324BE51774</uml:id>
+        <uml:id>_89F40049-4D1B-4f85-9E48-06F2D53840D9</uml:id>
+        <uml:id>_997C0F1B-9B87-4d4f-AFE4-A06C0EC8F10A</uml:id>
+        <uml:id>_A37B52F1-E43A-4c1e-86F2-BFD5E153CE2F</uml:id>
+        <uml:id>_A9F4D3F2-A186-4fc2-AF96-AB2E30CE3EAD</uml:id>
+        <uml:id>_ACB3AF11-536B-4e7f-A4F3-BC6AFA9681AD</uml:id>
+        <uml:id>_B35DBF20-FD58-4b93-A4F5-7C68993D96FF</uml:id>
+        <uml:id>_B57F1AFA-2BBC-497c-8CDB-F6DB0827957E</uml:id>
+        <uml:id>_C7E3491B-B04D-4ec6-AFA0-69E98BCB8C22</uml:id>
+        <uml:id>_DC62CC93-2E3F-4b9c-9C81-C84C30A6C67D</uml:id>
+        <uml:id>_E44E9488-60A1-4755-B795-BBB8EE109FE3</uml:id>
+        <uml:id>_F8A88C02-9258-4261-81A8-371769FA9F9A</uml:id>
+        <uml:id>_FD3542BD-B39C-422f-89F2-2560EB9044B6</uml:id>
+        <rdfs:comment>The unit multipliers defined for the CIM.  When applied to unit symbols, the unit symbol is treated as a derived unit. Regardless of the contents of the unit symbol text, the unit symbol shall be treated as if it were a single-character unit symbol. Unit symbols should not contain multipliers, and it should be left to the multiplier to define the multiple for an entire data type.
+
+For example, if a unit symbol is "m2Pers" and the multiplier is "k", then the value is k(m**2/s), and the multiplier applies to the entire final value, not to any individual part of the value. This can be conceptualized by substituting a derived unit symbol for the unit type. If one imagines that the symbol "?" represents the derived unit "m2Pers", then applying the multiplier "k" can be conceptualized simply as "k?".
+
+For example, the SI unit for mass is "kg" and not "g".  If the unit symbol is defined as "kg", then the multiplier is applied to "kg" as a whole and does not replace the "k" in front of the "g". In this case, the multiplier of "m" would be used with the unit symbol of "kg" to represent one gram.  As a text string, this violates the instructions in IEC 80000-1. However, because the unit symbol in CIM is treated as a derived unit instead of as an SI unit, it makes more sense to conceptualize the "kg" as if it were replaced by one of the proposed replacements for the SI mass symbol. If one imagines that the "kg" were replaced by a symbol "?", then it is easier to conceptualize the multiplier "m" as creating the proper unit "m?", and not the forbidden unit "mkg".</rdfs:comment>
+        <rdfs:comment>The unit multipliers defined for the CIM.  When applied to unit symbols, the unit symbol is treated as a derived unit. Regardless of the contents of the unit symbol text, the unit symbol shall be treated as if it were a single-character unit symbol. Unit symbols should not contain multipliers, and it should be left to the multiplier to define the multiple for an entire data type.
+
+For example, if a unit symbol is "m2Pers" and the multiplier is "k", then the value is k(m**2/s), and the multiplier applies to the entire final value, not to any individual part of the value. This can be conceptualized by substituting a derived unit symbol for the unit type. If one imagines that the symbol "�" represents the derived unit "m2Pers", then applying the multiplier "k" can be conceptualized simply as "k�".
+
+For example, the SI unit for mass is "kg" and not "g".  If the unit symbol is defined as "kg", then the multiplier is applied to "kg" as a whole and does not replace the "k" in front of the "g". In this case, the multiplier of "m" would be used with the unit symbol of "kg" to represent one gram.  As a text string, this violates the instructions in IEC 80000-1. However, because the unit symbol in CIM is treated as a derived unit instead of as an SI unit, it makes more sense to conceptualize the "kg" as if it were replaced by one of the proposed replacements for the SI mass symbol. If one imagines that the "kg" were replaced by a symbol "�", then it is easier to conceptualize the multiplier "m" as creating the proper unit "m�", and not the forbidden unit "mkg".</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Domain" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsDatatypes" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SecurityAnalysisResultProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>UnitMultiplier</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="http://iec.ch/TC57/CIM-generic#UnitSymbol">
+        <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration" />
+        <uml:id>_08802BDF-0323-458d-B0C9-1990C956CAEC</uml:id>
+        <uml:id>_0D7F98BD-E21D-45ed-A171-4F551FCB7E5C</uml:id>
+        <uml:id>_1174767D-6549-4d19-A96F-4D4112A4148E</uml:id>
+        <uml:id>_19E11F07-C99D-44ab-84A8-3312A2F94A7E</uml:id>
+        <uml:id>_1ADB459A-3749-44b2-9A85-A6DE250EF686</uml:id>
+        <uml:id>_1AF3D234-ED02-4230-9A08-60A18B34BE31</uml:id>
+        <uml:id>_1F65B59E-5F70-460b-B5D0-982B6F4DBCCC</uml:id>
+        <uml:id>_232FAD27-CAA5-455d-BB65-DCD298A94DF8</uml:id>
+        <uml:id>_298F390E-BB5C-4d82-A0C3-1539AE6960A7</uml:id>
+        <uml:id>_305CB83C-3015-402f-B712-4F82D8F0BDE8</uml:id>
+        <uml:id>_49D98FF4-AFCD-4ce4-AB3F-B7DDA916D648</uml:id>
+        <uml:id>_4F02BD77-9E99-4586-8566-552860CF0261</uml:id>
+        <uml:id>_53157E35-D2F2-4924-8130-7CDB0CBE120B</uml:id>
+        <uml:id>_6869DD3B-F2EA-41ec-95D0-F135B910A650</uml:id>
+        <uml:id>_75177DD8-30B9-4688-9642-B403E64E75F5</uml:id>
+        <uml:id>_7617BDD1-A646-491c-965C-A09268ABD10B</uml:id>
+        <uml:id>_7CAF54D2-D002-42f1-A908-39D585EF79C7</uml:id>
+        <uml:id>_80012160-A038-43b5-BA6F-9862E525518C</uml:id>
+        <uml:id>_81E11CC5-6C01-4ea0-B0E1-7C0FCD3A1C09</uml:id>
+        <uml:id>_931480F9-4284-49ef-8B19-7371A2F85A1F</uml:id>
+        <uml:id>_9F5B9769-2E6F-4bce-9A7A-1493BF59FB01</uml:id>
+        <uml:id>_A747B8F4-980C-4559-BE3F-2C1E282381D4</uml:id>
+        <uml:id>_A7E9C48B-E564-4ab4-81B3-7FAB41B9CA97</uml:id>
+        <uml:id>_B09A79D2-4B7D-4587-A09F-6E09F7ECCA26</uml:id>
+        <uml:id>_B3DD4AC9-4172-41e6-919F-055D97CEB483</uml:id>
+        <uml:id>_B649693A-2A6F-4afb-A12C-47AC593745E3</uml:id>
+        <uml:id>_E2272729-A84D-45ce-B46A-0F2FEF301110</uml:id>
+        <rdfs:comment>The derived units defined for usage in the CIM. In some cases, the derived unit is equal to an SI unit. Whenever possible, the standard derived symbol is used instead of the formula for the derived unit. For example, the unit symbol Farad is defined as "F" instead of "CPerV". In cases where a standard symbol does not exist for a derived unit, the formula for the unit is used as the unit symbol. For example, density does not have a standard symbol and so it is represented as "kgPerm3". With the exception of the "kg", which is an SI unit, the unit symbols do not contain multipliers and therefore represent the base derived unit to which a multiplier can be applied as a whole.
+
+Every unit symbol is treated as an unparseable text as if it were a single-letter symbol. The meaning of each unit symbol is defined by the accompanying descriptive text and not by the text contents of the unit symbol.
+
+To allow the widest possible range of serializations without requiring special character handling, several substitutions are made which deviate from the format described in IEC 80000-1. The division symbol "/" is replaced by the letters "Per". Exponents are written in plain text after the unit as "m3" instead of being formatted as in "m&lt;sup&gt;3&lt;/sup&gt;" or introducing a symbol as in "m^3". The degree symbol "?" is replaced with the letters "deg". Any clarification of the meaning for a substitution is included in the description for the unit symbol.
+
+Non-SI units are included in list of unit symbols to allow sources of data to be correctly labelled with their non-SI units (for example, a GPS sensor that is reporting numbers that represent feet instead of meters). This allows software to use the unit symbol information correctly convert and scale the raw data of those sources into SI-based units.</rdfs:comment>
+        <rdfs:comment>The derived units defined for usage in the CIM. In some cases, the derived unit is equal to an SI unit. Whenever possible, the standard derived symbol is used instead of the formula for the derived unit. For example, the unit symbol Farad is defined as "F" instead of "CPerV". In cases where a standard symbol does not exist for a derived unit, the formula for the unit is used as the unit symbol. For example, density does not have a standard symbol and so it is represented as "kgPerm3". With the exception of the "kg", which is an SI unit, the unit symbols do not contain multipliers and therefore represent the base derived unit to which a multiplier can be applied as a whole.
+Every unit symbol is treated as an unparseable text as if it were a single-letter symbol. The meaning of each unit symbol is defined by the accompanying descriptive text and not by the text contents of the unit symbol.
+To allow the widest possible range of serializations without requiring special character handling, several substitutions are made which deviate from the format described in IEC 80000-1. The division symbol "/" is replaced by the letters "Per". Exponents are written in plain text after the unit as "m3" instead of being formatted as "m" with a superscript of 3  or introducing a symbol as in "m^3". The degree symbol "�" is replaced with the letters "deg". Any clarification of the meaning for a substitution is included in the description for the unit symbol.
+Non-SI units are included in list of unit symbols to allow sources of data to be correctly labelled with their non-SI units (for example, a GPS sensor that is reporting numbers that represent feet instead of meters). This allows software to use the unit symbol information correctly convert and scale the raw data of those sources into SI-based units.
+The integer values are used for harmonization with IEC 61850.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Domain" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsDatatypes" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_GridDisturbanceProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_PowerScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SecurityAnalysisResultProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>UnitSymbol</rdfs:label>
+    </owl:Class>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind.design">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind" />
+        <uml:id>_0ED3FAC7-B472-4e59-8003-C049C7C2721D</uml:id>
+        <uml:id>_FBFB9834-F5A7-4035-9C2A-E44968B43E92</uml:id>
+        <rdfs:comment>Permanent occurrence factor which is design condition.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>design</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind.environmental">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind" />
+        <uml:id>_C5D21A0C-1F56-4205-9A49-608B92C89D7A</uml:id>
+        <uml:id>_D6A6401C-D3C4-452c-A35E-BD155DA29F70</uml:id>
+        <rdfs:comment>Temporary occurrence factor which is weather or environmental condition (e.g. storm).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>environmental</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind.geographicalLocation">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind" />
+        <uml:id>_112A3BFB-8DC8-41ec-B1E4-6118F35D5AE8</uml:id>
+        <uml:id>_21BD5EC0-CEA4-4998-8A22-40617A29D295</uml:id>
+        <rdfs:comment>Permanent occurrence factor which is specific geographical location.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>geographicalLocation</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind.malfunction">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind" />
+        <uml:id>_9967AEEA-D999-45a4-816C-ADC866A80158</uml:id>
+        <uml:id>_CE008A07-0116-44c8-A67E-EB095A5162DC</uml:id>
+        <rdfs:comment>Temporary occurrence factor which is life time or generic malfunction affecting the risk of failure condition.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>malfunction</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind.operational">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyConditionKind" />
+        <uml:id>_22D59769-BB6A-4e05-A18E-CC55E6C7BF2A</uml:id>
+        <uml:id>_6364968B-BF1F-4681-B846-A040C33E397F</uml:id>
+        <rdfs:comment>Temporary occurrence factor which is operational condition.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ExtContingency" />
+        <rdfs:label>operational</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyEquipmentStatusKind.inService">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyEquipmentStatusKind" />
+        <uml:id>_173314E8-A9DF-432b-82EF-D47E14AA4B76</uml:id>
+        <uml:id>_52DCF9EB-B100-4dc2-B0BE-82ADA309922E</uml:id>
+        <rdfs:comment>The equipment is to be put into service.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>inService</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#ContingencyEquipmentStatusKind.outOfService">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#ContingencyEquipmentStatusKind" />
+        <uml:id>_F00B7314-52F9-4e9f-BDE6-F66BE237540E</uml:id>
+        <uml:id>_F296EA90-0E39-4a44-8E31-D31EE6106CB6</uml:id>
+        <rdfs:comment>The equipment is to be taken out of service.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Contingency" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>outOfService</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#Package_DocContingencyProfile">
+        <rdf:type rdf:resource="http://langdale.com.au/2005/UML#Package" />
+        <uml:id>_5BED2B06-5BDA-4af9-8EA5-D0D8D94B5F4D</uml:id>
+        <rdfs:comment>This package contains datatypes used only in the RDFS header.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:label>DocContingencyProfile</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#UnitMultiplier.none">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#UnitMultiplier" />
+        <uml:hasInitialValue>0</uml:hasInitialValue>
+        <uml:id>_05A03E8D-602E-4e5a-A228-0437466C2888</uml:id>
+        <uml:id>_084B8EB0-AD2F-41e7-BB97-E96301982EF3</uml:id>
+        <uml:id>_0A8E1B00-40DA-476b-A7E5-FC7BB22EF699</uml:id>
+        <uml:id>_258C70A3-0591-488f-B441-6E1AA142309D</uml:id>
+        <uml:id>_28E60A65-52E1-4c46-9CEA-9060F0F12BDA</uml:id>
+        <uml:id>_363C7029-606E-452e-935A-8186AD2A405E</uml:id>
+        <uml:id>_4F437B3B-83B4-43bd-932C-9F6929188588</uml:id>
+        <uml:id>_58365E81-A424-4b5b-9CEC-9E197F15BE36</uml:id>
+        <uml:id>_5BB57604-2296-42be-B728-4D4DA4C79149</uml:id>
+        <uml:id>_6005A628-8DE4-4f86-9FCD-E392D3DC55D8</uml:id>
+        <uml:id>_6C3C110E-B03D-463e-9C0B-27F292775AFF</uml:id>
+        <uml:id>_77C1B7A6-0354-4697-B8A7-48EA4551C27F</uml:id>
+        <uml:id>_7E8DEA92-987A-411e-8EF6-C5A5B9B6BE7D</uml:id>
+        <uml:id>_8369A8A9-601D-4c63-A8DB-C155645853CD</uml:id>
+        <uml:id>_8422C1E0-B178-429e-8DB7-7700AF85D9DD</uml:id>
+        <uml:id>_94A2236C-4899-4d07-9642-6DB365477971</uml:id>
+        <uml:id>_A1AC035D-E730-44c9-8DC1-B84DA054EFF3</uml:id>
+        <uml:id>_A2027796-1812-417d-9F30-D8FDD4FB695B</uml:id>
+        <uml:id>_B44E04A8-E379-4848-BE03-D06B3C3A5A37</uml:id>
+        <uml:id>_B54D8222-ADDC-4e26-B839-846820842380</uml:id>
+        <uml:id>_BDF47E3F-679C-4cc6-ADCF-B082EBA30098</uml:id>
+        <uml:id>_C352D73C-B9DC-4e7d-B1DB-5BE6D4BAE868</uml:id>
+        <uml:id>_D27EF7CE-61B4-48d2-BD7B-F2AFD739A2E3</uml:id>
+        <uml:id>_D9CCC6D6-99A7-4512-A461-D7A03D83072C</uml:id>
+        <uml:id>_FE37FB42-F1AE-4200-9283-2D8EE3A6C5D3</uml:id>
+        <rdfs:comment>No multiplier or equivalently multiply by 1.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AvailabilityScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Domain" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsDatatypes" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SecurityAnalysisResultProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>none</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <owl:NamedIndividual rdf:about="http://iec.ch/TC57/CIM-generic#UnitSymbol.none">
+        <rdf:type rdf:resource="http://iec.ch/TC57/CIM-generic#UnitSymbol" />
+        <uml:hasInitialValue>0</uml:hasInitialValue>
+        <uml:id>_00B629D8-1EF2-4664-B3D8-E7823A83E15C</uml:id>
+        <uml:id>_015E1D88-FE2B-4889-BF2B-D26EE3BDC0E3</uml:id>
+        <uml:id>_06D537D4-4151-4309-B377-416383FFA8B9</uml:id>
+        <uml:id>_0EC53992-EB25-4e1c-8F14-74108770D3C1</uml:id>
+        <uml:id>_15D585AF-C11D-4ff3-9FFC-16BD9F47EAAA</uml:id>
+        <uml:id>_1734DC17-09BD-497c-BC50-8378B0D50BB4</uml:id>
+        <uml:id>_33340A6B-5FCE-4a7c-9A47-42FBF2622F0A</uml:id>
+        <uml:id>_5D8E6363-6E62-4f3b-AABF-1F7B0C0D4806</uml:id>
+        <uml:id>_61FBB4DD-955C-4ee3-AB44-8951F520938D</uml:id>
+        <uml:id>_813D9A20-AAC6-4361-BA57-AD5BFBDD2579</uml:id>
+        <uml:id>_85DBB49E-3CD9-4290-A0BB-83CC7237253C</uml:id>
+        <uml:id>_89DCBEA8-D12E-4ff2-B211-1E1F1FADEBBE</uml:id>
+        <uml:id>_9145DBA9-604C-454d-9AC3-444025F84EA4</uml:id>
+        <uml:id>_94C5AD80-3718-4025-86CB-59B4E39C590B</uml:id>
+        <uml:id>_AC13C266-AEB7-45c5-9863-1168B3BB46B5</uml:id>
+        <uml:id>_ADA9F628-F833-4373-B0AD-911A144C695F</uml:id>
+        <uml:id>_B3298993-C552-4338-9CAA-A05FB2A17696</uml:id>
+        <uml:id>_B9574518-FFE5-4a77-AF74-B5A7B93EF666</uml:id>
+        <uml:id>_BE193E89-17AD-4071-88DC-27A9A392A755</uml:id>
+        <uml:id>_CB5EE088-FC81-49b4-909A-134FCC1B0D33</uml:id>
+        <uml:id>_DC938DF7-E022-4419-88C8-014EF691EF6D</uml:id>
+        <uml:id>_F14E9D40-A805-4840-B04C-34CD7BD279CC</uml:id>
+        <uml:id>_F440D8B9-6BA9-4d48-868F-C1574D52EDF2</uml:id>
+        <rdfs:comment>Dimension less quantity, e.g. count, per unit, etc.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_AssessedElementProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ContingencyProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentMMProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_CoreEquipmentProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DiagramLayoutProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_Domain" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_DynamicsDatatypes" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentBoundaryProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_EquipmentReliabilityProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MarketScenariosSchedulesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_MonitoringAreaProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_OperationProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_RemedialActionProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SecurityAnalysisResultProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_ShortCircuitProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationResultsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SimulationSettingsProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateInstructionScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_StateVariablesProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateHypothesisScheduleProfile" />
+        <rdfs:isDefinedBy rdf:resource="http://iec.ch/TC57/CIM-generic#Package_SteadyStateInstructionProfile" />
+        <rdfs:label>none</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+
+
+    </rdf:RDF>
